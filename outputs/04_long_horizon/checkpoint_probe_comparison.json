@@ -1,0 +1,96 @@
+{
+  "probe_utterance": "I don't feel like going outside today.",
+  "semantic_observation": {
+    "interpretation": "Expresses not wanting to go outside today.",
+    "orientation": "away_from_outdoor_engagement",
+    "temporal_scope": "single_event",
+    "semantic_strength": 0.8,
+    "confidence": 0.7,
+    "rationale": "Uses present tense negation tied to today; indicates a one-time or today-specific reluctance to engage in outdoor activity."
+  },
+  "checkpoint_results": {
+    "after_stable_baseline": {
+      "checkpoint_step": 60,
+      "tracker_status": "inactive",
+      "change_score": 0.0,
+      "provisional_active": false,
+      "resolved_interpretation": {
+        "relation_to_established_state": "contradicts",
+        "relation_to_provisional_change": "no_active_change",
+        "candidate_change_direction": "reduced_outdoor_engagement",
+        "temporal_weight": 0.35,
+        "evidence_for_longitudinal_change": 0.19599999999999998
+      }
+    },
+    "after_transient_perturbation": {
+      "checkpoint_step": 65,
+      "tracker_status": "inactive",
+      "change_score": 0.08399999999999999,
+      "provisional_active": false,
+      "resolved_interpretation": {
+        "relation_to_established_state": "contradicts",
+        "relation_to_provisional_change": "no_active_change",
+        "candidate_change_direction": "reduced_outdoor_engagement",
+        "temporal_weight": 0.35,
+        "evidence_for_longitudinal_change": 0.19599999999999998
+      }
+    },
+    "after_restabilization": {
+      "checkpoint_step": 100,
+      "tracker_status": "inactive",
+      "change_score": 0.0,
+      "provisional_active": false,
+      "resolved_interpretation": {
+        "relation_to_established_state": "contradicts",
+        "relation_to_provisional_change": "no_active_change",
+        "candidate_change_direction": "reduced_outdoor_engagement",
+        "temporal_weight": 0.35,
+        "evidence_for_longitudinal_change": 0.19599999999999998
+      }
+    },
+    "after_genuine_change": {
+      "checkpoint_step": 145,
+      "tracker_status": "active",
+      "change_score": 2.0,
+      "provisional_active": true,
+      "resolved_interpretation": {
+        "relation_to_established_state": "contradicts",
+        "relation_to_provisional_change": "supports",
+        "candidate_change_direction": "reduced_outdoor_engagement",
+        "temporal_weight": 0.35,
+        "evidence_for_longitudinal_change": 0.19599999999999998
+      }
+    },
+    "after_mixed_evidence": {
+      "checkpoint_step": 160,
+      "tracker_status": "active",
+      "change_score": 1.4403036272888237,
+      "provisional_active": true,
+      "resolved_interpretation": {
+        "relation_to_established_state": "contradicts",
+        "relation_to_provisional_change": "supports",
+        "candidate_change_direction": "reduced_outdoor_engagement",
+        "temporal_weight": 0.35,
+        "evidence_for_longitudinal_change": 0.19599999999999998
+      }
+    },
+    "after_recovery": {
+      "checkpoint_step": 200,
+      "tracker_status": "inactive",
+      "change_score": 0.0,
+      "provisional_active": false,
+      "resolved_interpretation": {
+        "relation_to_established_state": "contradicts",
+        "relation_to_provisional_change": "no_active_change",
+        "candidate_change_direction": "reduced_outdoor_engagement",
+        "temporal_weight": 0.35,
+        "evidence_for_longitudinal_change": 0.19599999999999998
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 405,
+    "output_tokens": 92,
+    "total_tokens": 497
+  }
+}

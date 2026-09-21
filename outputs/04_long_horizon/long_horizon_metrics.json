@@ -1,0 +1,26 @@
+{
+  "n_timesteps": 200,
+  "semantic_accuracy_total": 0.995,
+  "semantic_accuracy_by_phase": {
+    "stable_baseline": 1.0,
+    "transient_perturbation": 0.8,
+    "restabilization": 1.0,
+    "genuine_change": 1.0,
+    "mixed_evidence": 1.0,
+    "recovery": 1.0
+  },
+  "false_activation_steps_before_genuine_change": [],
+  "first_activation_step": 105,
+  "activation_latency": 5,
+  "active_on_first_recovery_step": true,
+  "first_deactivation_step": 165,
+  "recovery_latency": 5,
+  "end_active": false,
+  "mixed_phase_status_switches": 0,
+  "peak_change_score": 2.0,
+  "token_usage": {
+    "input_tokens": 81229,
+    "output_tokens": 19285,
+    "total_tokens": 100514
+  }
+}
