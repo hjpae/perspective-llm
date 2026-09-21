@@ -1,0 +1,58 @@
+{
+  "morning_walk": {
+    "established_state": {
+      "value": "Usually takes and enjoys a morning walk around 8 AM.",
+      "orientation": "toward_outdoor_engagement",
+      "confidence": 0.95,
+      "stability": 0.95,
+      "last_confirmed_step": 4
+    },
+    "change_tracker": {
+      "status": "active",
+      "direction": "away_from_outdoor_engagement",
+      "score": 2.0,
+      "change_evidence_strength": 1.0,
+      "qualifying_evidence_count": 10,
+      "baseline_support_count": 4,
+      "first_signal_step": 5,
+      "last_signal_step": 14,
+      "activation_step": 8,
+      "last_deactivation_step": null,
+      "peak_score": 2.0,
+      "provenance_ids": [
+        "persistent_change_step_05",
+        "persistent_change_step_06",
+        "persistent_change_step_07",
+        "persistent_change_step_08",
+        "persistent_change_step_09",
+        "persistent_change_step_10",
+        "persistent_change_step_11",
+        "persistent_change_step_12",
+        "persistent_change_step_13",
+        "persistent_change_step_14"
+      ]
+    },
+    "provisional_change": {
+      "active": true,
+      "candidate": "Reduced interest in morning walks and in going outside.",
+      "orientation": "away_from_outdoor_engagement",
+      "direction": "reduced_outdoor_engagement",
+      "change_evidence_strength": 1.0,
+      "duration_steps": 10,
+      "evidence_count": 10,
+      "activation_step": 8,
+      "provenance_ids": [
+        "persistent_change_step_05",
+        "persistent_change_step_06",
+        "persistent_change_step_07",
+        "persistent_change_step_08",
+        "persistent_change_step_09",
+        "persistent_change_step_10",
+        "persistent_change_step_11",
+        "persistent_change_step_12",
+        "persistent_change_step_13",
+        "persistent_change_step_14"
+      ]
+    }
+  }
+}

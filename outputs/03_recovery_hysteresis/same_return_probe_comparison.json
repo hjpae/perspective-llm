@@ -1,0 +1,241 @@
+{
+  "utterance": "I took my usual morning walk and enjoyed it.",
+  "after_transient_history": {
+    "scenario": "transient_return",
+    "step": 6,
+    "phase": "recovery",
+    "evidence_id": "transient_return_step_06",
+    "utterance": "I took my usual morning walk and enjoyed it.",
+    "state_before": {
+      "morning_walk": {
+        "established_state": {
+          "value": "Usually takes and enjoys a morning walk around 8 AM.",
+          "confidence": 0.95,
+          "stability": 0.95,
+          "last_confirmed_step": 3
+        },
+        "change_tracker": {
+          "status": "inactive",
+          "direction": "reduced_outdoor_engagement",
+          "score": 0.22799999999999998,
+          "change_evidence_strength": 0.20727272727272725,
+          "qualifying_evidence_count": 1,
+          "baseline_support_count": 2,
+          "first_signal_step": 5,
+          "last_signal_step": 5,
+          "activation_step": null,
+          "last_deactivation_step": null,
+          "peak_score": 0.22799999999999998,
+          "provenance_ids": [
+            "transient_return_step_05"
+          ]
+        },
+        "provisional_change": null
+      }
+    },
+    "interpretation": {
+      "interpretation": "The user reports completing their usual morning walk and enjoying it. This aligns with the established pattern of taking and enjoying an 8 AM morning walk, indicating a normal event occurrence without deviation.",
+      "event_status": "transient_event",
+      "relation_to_established_state": "supports",
+      "candidate_change_direction": "none",
+      "relation_to_provisional_change": "no_active_change",
+      "evidence_for_longitudinal_change": 0.2,
+      "confidence": 0.72,
+      "rationale": "A single instance affirming a stable habit. It reinforces the existing pattern rather than indicating a new trend; no increase in outdoor engagement beyond baseline is evident, and there is no active provisional change to contradict."
+    },
+    "transition": {
+      "previous_status": "inactive",
+      "new_status": "inactive",
+      "old_score": 0.22799999999999998,
+      "decayed_score": 0.20976,
+      "positive_signal": 0.0,
+      "recovery_signal": 0.1296,
+      "new_score": 0.08016000000000001,
+      "change_evidence_strength": 0.07287272727272727,
+      "activation_crossed": false,
+      "deactivation_crossed": false,
+      "hysteresis_hold": false
+    },
+    "alpha_t": 0.01672429090909091,
+    "state_after": {
+      "morning_walk": {
+        "established_state": {
+          "value": "Usually takes and enjoys a morning walk around 8 AM.",
+          "confidence": 0.95,
+          "stability": 0.95,
+          "last_confirmed_step": 6
+        },
+        "change_tracker": {
+          "status": "inactive",
+          "direction": "reduced_outdoor_engagement",
+          "score": 0.08016000000000001,
+          "change_evidence_strength": 0.07287272727272727,
+          "qualifying_evidence_count": 1,
+          "baseline_support_count": 3,
+          "first_signal_step": 5,
+          "last_signal_step": 5,
+          "activation_step": null,
+          "last_deactivation_step": null,
+          "peak_score": 0.22799999999999998,
+          "provenance_ids": [
+            "transient_return_step_05"
+          ]
+        },
+        "provisional_change": null
+      }
+    },
+    "summary": {
+      "change_score": 0.08016000000000001,
+      "change_evidence_strength": 0.07287272727272727,
+      "tracker_status": "inactive",
+      "qualifying_evidence_count": 1,
+      "provisional_active": false,
+      "hysteresis_hold": false
+    },
+    "usage": {
+      "input_tokens": 863,
+      "output_tokens": 159,
+      "total_tokens": 1022
+    }
+  },
+  "after_sustained_change_history": {
+    "scenario": "change_then_recovery",
+    "step": 11,
+    "phase": "recovery",
+    "evidence_id": "change_then_recovery_step_11",
+    "utterance": "I took my usual morning walk and enjoyed it.",
+    "state_before": {
+      "morning_walk": {
+        "established_state": {
+          "value": "Usually takes and enjoys a morning walk around 8 AM.",
+          "confidence": 0.95,
+          "stability": 0.95,
+          "last_confirmed_step": 3
+        },
+        "change_tracker": {
+          "status": "active",
+          "direction": "reduced_outdoor_engagement",
+          "score": 1.5353691778560001,
+          "change_evidence_strength": 1.0,
+          "qualifying_evidence_count": 6,
+          "baseline_support_count": 2,
+          "first_signal_step": 5,
+          "last_signal_step": 10,
+          "activation_step": 9,
+          "last_deactivation_step": null,
+          "peak_score": 1.5353691778560001,
+          "provenance_ids": [
+            "change_then_recovery_step_05",
+            "change_then_recovery_step_06",
+            "change_then_recovery_step_07",
+            "change_then_recovery_step_08",
+            "change_then_recovery_step_09",
+            "change_then_recovery_step_10"
+          ]
+        },
+        "provisional_change": {
+          "active": true,
+          "candidate": "Reduced interest in morning walks and in going outside.",
+          "direction": "reduced_outdoor_engagement",
+          "change_evidence_strength": 1.0,
+          "duration_steps": 6,
+          "evidence_count": 6,
+          "activation_step": 9,
+          "provenance_ids": [
+            "change_then_recovery_step_05",
+            "change_then_recovery_step_06",
+            "change_then_recovery_step_07",
+            "change_then_recovery_step_08",
+            "change_then_recovery_step_09",
+            "change_then_recovery_step_10"
+          ]
+        }
+      }
+    },
+    "interpretation": {
+      "interpretation": "Current utterance: User reports enjoying their usual morning walk, indicating a positive experience during a morning activity that is typically part of their established routine.",
+      "event_status": "transient_event",
+      "relation_to_established_state": "supports",
+      "candidate_change_direction": "increased_outdoor_engagement",
+      "relation_to_provisional_change": "contradicts",
+      "evidence_for_longitudinal_change": 0.6,
+      "confidence": 0.62,
+      "rationale": "The statement confirms the activity occurred and was enjoyable, suggesting alignment with the established routine. However, the new evidence runs counter to the active provisional change and earlier change-tracker direction (which indicate reduced outdoor engagement). While one positive walk could be a fleeting positive mood, repeated positive experiences would be needed to shift the longitudinal trend away from reduced engagement. The event alone moderately supports a potential temporary uptick but contradicts the provisional change and established move toward reduced outdoor engagement in the long term."
+    },
+    "transition": {
+      "previous_status": "active",
+      "new_status": "active",
+      "old_score": 1.5353691778560001,
+      "decayed_score": 1.4125396436275202,
+      "positive_signal": 0.0,
+      "recovery_signal": 0.186,
+      "new_score": 1.2265396436275202,
+      "change_evidence_strength": 1.0,
+      "activation_crossed": false,
+      "deactivation_crossed": false,
+      "hysteresis_hold": false
+    },
+    "alpha_t": 0.22950000000000004,
+    "state_after": {
+      "morning_walk": {
+        "established_state": {
+          "value": "Usually takes and enjoys a morning walk around 8 AM.",
+          "confidence": 0.95,
+          "stability": 0.95,
+          "last_confirmed_step": 11
+        },
+        "change_tracker": {
+          "status": "active",
+          "direction": "reduced_outdoor_engagement",
+          "score": 1.2265396436275202,
+          "change_evidence_strength": 1.0,
+          "qualifying_evidence_count": 6,
+          "baseline_support_count": 3,
+          "first_signal_step": 5,
+          "last_signal_step": 10,
+          "activation_step": 9,
+          "last_deactivation_step": null,
+          "peak_score": 1.5353691778560001,
+          "provenance_ids": [
+            "change_then_recovery_step_05",
+            "change_then_recovery_step_06",
+            "change_then_recovery_step_07",
+            "change_then_recovery_step_08",
+            "change_then_recovery_step_09",
+            "change_then_recovery_step_10"
+          ]
+        },
+        "provisional_change": {
+          "active": true,
+          "candidate": "Reduced interest in morning walks and in going outside.",
+          "direction": "reduced_outdoor_engagement",
+          "change_evidence_strength": 1.0,
+          "duration_steps": 7,
+          "evidence_count": 6,
+          "activation_step": 9,
+          "provenance_ids": [
+            "change_then_recovery_step_05",
+            "change_then_recovery_step_06",
+            "change_then_recovery_step_07",
+            "change_then_recovery_step_08",
+            "change_then_recovery_step_09",
+            "change_then_recovery_step_10"
+          ]
+        }
+      }
+    },
+    "summary": {
+      "change_score": 1.2265396436275202,
+      "change_evidence_strength": 1.0,
+      "tracker_status": "active",
+      "qualifying_evidence_count": 6,
+      "provisional_active": true,
+      "hysteresis_hold": false
+    },
+    "usage": {
+      "input_tokens": 1051,
+      "output_tokens": 212,
+      "total_tokens": 1263
+    }
+  }
+}

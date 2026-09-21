@@ -1,0 +1,28 @@
+{
+  "morning_walk": {
+    "established_state": {
+      "value": "Usually takes and enjoys a morning walk around 8 AM.",
+      "orientation": "toward_outdoor_engagement",
+      "confidence": 0.95,
+      "stability": 0.95,
+      "last_confirmed_step": 12
+    },
+    "change_tracker": {
+      "status": "inactive",
+      "direction": "away_from_outdoor_engagement",
+      "score": 0.0,
+      "change_evidence_strength": 0.0,
+      "qualifying_evidence_count": 1,
+      "baseline_support_count": 11,
+      "first_signal_step": 5,
+      "last_signal_step": 5,
+      "activation_step": null,
+      "last_deactivation_step": null,
+      "peak_score": 0.1512,
+      "provenance_ids": [
+        "transient_return_step_05"
+      ]
+    },
+    "provisional_change": null
+  }
+}
