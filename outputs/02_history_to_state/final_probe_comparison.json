@@ -1,0 +1,35 @@
+{
+  "probe": "I don't feel like going outside today.",
+  "after_transient_history": {
+    "interpretation": "New evidence indicates today the user does not feel like going outside. This is a transient event. It does not by itself establish a durable change to outdoor engagement, but it aligns with a recent signal in the change tracker labeled 'reduced_outdoor_engagement' (even though the tracker is currently inactive and has zero qualifiers). The utterance leans toward reduced outdoor engagement as a potential direction, but without multiple corroborating observations it remains weak evidence for longitudinal change rather than a confirmed trend.",
+    "event_status": "transient_event",
+    "relation_to_established_state": "ambiguous",
+    "candidate_change_direction": "reduced_outdoor_engagement",
+    "relation_to_provisional_change": "no_active_change",
+    "evidence_for_longitudinal_change": 0.3,
+    "confidence": 0.55,
+    "rationale": "Single day disposition not wanting to go outside could be a temporary mood fluctuation. It does, however, echo the previously observed direction toward reduced outdoor engagement in the change tracker, which is currently inactive with no qualifying evidence. More data across days is needed to shift toward a durable longitudinal change."
+  },
+  "after_sustained_change_history": {
+    "interpretation": "A transient event: today the user reports not feeling like going outside. This is evidence about the current day and does not by itself imply a long-term change, but it aligns with an existing provisional and change-tracker signal of reduced outdoor engagement.",
+    "event_status": "transient_event",
+    "relation_to_established_state": "ambiguous",
+    "candidate_change_direction": "reduced_outdoor_engagement",
+    "relation_to_provisional_change": "supports",
+    "evidence_for_longitudinal_change": 0.6,
+    "confidence": 0.65,
+    "rationale": "The user’s statement today matches the ongoing pattern of reduced outdoor engagement indicated by both the change tracker and the provisional change. However, a single day of low motivation is not sufficient to confirm a durable trend; this is a low-threshold, supportive data point that strengthens the provisional hypothesis but remains within transient variability."
+  },
+  "usage": {
+    "transient": {
+      "input_tokens": 848,
+      "output_tokens": 267,
+      "total_tokens": 1115
+    },
+    "sustained_change": {
+      "input_tokens": 1027,
+      "output_tokens": 196,
+      "total_tokens": 1223
+    }
+  }
+}

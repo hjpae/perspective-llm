@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+주어진 g가 z를 condition할 수 있나? -> yes.
+(아직까진 history state_b를 손으로 만들어주고 있음, 이건 02단계)
+"""
+
 # %% ============================================================
 # 01_state_conditioning_demo.py
 #
@@ -20,7 +26,6 @@
 # This is NOT yet a calibrated state updater.
 # alpha_t is only an explicit demo heuristic.
 # ================================================================
-
 
 # %% Imports
 
