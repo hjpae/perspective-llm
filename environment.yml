@@ -1,0 +1,34 @@
+name: perspective-llm
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+
+  # Development / utilities
+  - ipython
+  - spyder-kernels
+  - pyyaml
+  - tqdm
+  - pytest
+
+  # pip itself
+  - pip
+
+  # Packages better installed from PyPI
+  - pip:
+      - openai
+      - pydantic
+      - python-dotenv
+
+# later (RAG)
+# qdrant-client
+# sentence-transformers
