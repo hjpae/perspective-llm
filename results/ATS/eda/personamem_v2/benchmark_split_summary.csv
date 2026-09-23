@@ -1,0 +1,4 @@
+split,rows,personas,rows_per_persona_mean,updated_true,ask_to_forget,who_self,who_others
+train,18549,800,23.18625,3617,3617,16476,2073
+val,2061,735,2.804081632653061,420,420,1834,227
+test,5000,200,25.0,1047,1048,4478,522

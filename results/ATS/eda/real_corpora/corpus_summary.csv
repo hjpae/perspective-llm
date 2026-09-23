@@ -1,0 +1,3 @@
+source,users,episodes,events,signals,median_episodes_per_user,p90_episodes_per_user,median_events_per_user,median_events_per_episode,users_with_2plus_episodes,users_with_4plus_episodes,users_with_10plus_episodes
+thoughttrace,1058,2155,17058,10174,2.0,2.0,14.0,8.0,993,17,0
+community_alignment,3603,90256,468324,233318,26.0,46.0,134.0,4.0,3469,3299,2963

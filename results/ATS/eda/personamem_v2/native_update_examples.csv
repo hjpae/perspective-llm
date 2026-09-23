@@ -1,0 +1,101 @@
+persona_id,pref_type,scenario,old_preference,new_preference
+15,stereotypical_pref,knowledge_query,Reads classic 19th-century English novels for leisure,Reads contemporary 21st-century international novels for leisure.
+15,stereotypical_pref,knowledge_query,Appreciates British heritage sites and stately homes,Does not appreciate British heritage sites and stately homes
+15,stereotypical_pref,knowledge_query,"Dresses in tailored, vintage-inspired outfits","Dresses in casual, modern-style outfits"
+15,stereotypical_pref,knowledge_query,Shops at small artisanal markets for locally-made crafts,Shops at large commercial stores for mass-produced goods
+15,stereotypical_pref,knowledge_query,Enthusiastic about genealogy research,Disinterested in genealogy research
+15,stereotypical_pref,knowledge_query,Bakes sponge cakes and traditional puddings,Decorates cupcakes and makes modern desserts
+15,stereotypical_pref,knowledge_query,Participates in local heritage society meetings,Does not participate in local heritage society meetings
+15,stereotypical_pref,knowledge_query,Enjoys slow travel via scenic train routes in Britain,Prefers fast travel via direct train routes in Britain
+15,anti_stereotypical_pref,knowledge_query,Takes spontaneous budget backpacking trips,"Plans luxurious, well-organized vacations in advance"
+15,anti_stereotypical_pref,knowledge_query,Enjoys science fiction audiobooks,Does not enjoy science fiction audiobooks
+15,anti_stereotypical_pref,knowledge_query,"Uses sleek, modern furniture alongside antiques",Uses only one consistent style of furniture throughout the space
+15,anti_stereotypical_pref,knowledge_query,Plays narrative-driven video games,Plays gameplay-focused video games
+15,anti_stereotypical_pref,knowledge_query,Attends environmental activism events,Does not attend environmental activism events
+15,anti_stereotypical_pref,knowledge_query,Travels to bustling megacities in Asia,"Travels to remote, tranquil villages in Asia"
+15,anti_stereotypical_pref,knowledge_query,Appreciates abstract sculptures,Does not appreciate abstract sculptures
+15,anti_stereotypical_pref,knowledge_query,Participates in local hackathon events,Does not participate in local hackathon events
+15,anti_stereotypical_pref,knowledge_query,Collects street photography prints,Collects studio photography prints
+15,neutral_preferences,knowledge_query,Reads mystery novels from various authors,Does not read mystery novels from any author
+15,neutral_preferences,knowledge_query,Uses reusable water bottles daily,Uses disposable water bottles daily
+15,neutral_preferences,knowledge_query,Delights in cooking homemade pasta dishes,Dislikes cooking homemade pasta dishes
+15,neutral_preferences,knowledge_query,Enjoys listening to podcasts during housework,Prefers silence during housework
+15,neutral_preferences,knowledge_query,Keeps a planner to organize daily tasks,Does not use a planner to organize daily tasks
+15,neutral_preferences,knowledge_query,Tries new coffee shops occasionally,Avoids trying new coffee shops
+15,neutral_preferences,knowledge_query,Spends quiet evenings reading,Spends lively evenings socializing
+15,neutral_preferences,knowledge_query,Watches feel-good comedies with friends,Watches intense dramas alone
+15,neutral_preferences,knowledge_query,Enjoys seasonal home decorating,Does not enjoy seasonal home decorating
+15,neutral_preferences,knowledge_query,Keeps comfortable blankets in the living room,Does not keep blankets in the living room
+15,neutral_preferences,knowledge_query,Keeps a gratitude journal,Does not keep a gratitude journal
+15,health_and_medical_conditions,knowledge_query,Mild seasonal allergic rhinitis triggered by pollen,No seasonal allergic rhinitis triggered by pollen
+15,health_and_medical_conditions,knowledge_query,Previous wrist tendonitis from excessive typing,No history of wrist tendonitis from typing
+15,health_and_medical_conditions,knowledge_query,Vitamin D insufficiency during winter months,Vitamin D sufficiency during winter months
+48,stereotypical_pref,knowledge_query,Follows telenovelas in the evenings,Does not follow telenovelas in the evenings
+48,stereotypical_pref,knowledge_query,Often greets with hugs and cheek kisses,Rarely greets with hugs and cheek kisses
+48,stereotypical_pref,knowledge_query,Enjoys storytelling with humor and exaggeration,Prefers straightforward and factual storytelling
+48,stereotypical_pref,knowledge_query,Often integrates regional slang in casual speech,Rarely uses regional slang in casual speech
+48,anti_stereotypical_pref,knowledge_query,"Prefers quiet, small-group gatherings over large parties","Prefers large parties over quiet, small-group gatherings."
+48,anti_stereotypical_pref,knowledge_query,Loves classical Western orchestral music,Loves contemporary popular music
+48,anti_stereotypical_pref,knowledge_query,Watches British period dramas,Watches modern action films
+48,anti_stereotypical_pref,knowledge_query,Enjoys learning Japanese language and culture,Does not enjoy learning Japanese language and culture
+48,anti_stereotypical_pref,knowledge_query,Does strength training at the gym rather than dance classes,Does dance classes rather than strength training at the gym.
+48,anti_stereotypical_pref,knowledge_query,Rarely uses social media outside of professional networking,Frequently uses social media for personal purposes outside of professional networking
+48,anti_stereotypical_pref,knowledge_query,Enjoys meditative activities like yoga retreats,Enjoys high-energy activities like adventure sports.
+48,anti_stereotypical_pref,knowledge_query,Prefers private home dining over outdoor dining,Prefers outdoor dining over private home dining
+48,anti_stereotypical_pref,knowledge_query,Enjoys silence during flights rather than chatting,Enjoys chatting during flights rather than silence
+48,anti_stereotypical_pref,knowledge_query,Drinks sparkling water instead of fruit juices,Drinks fruit juices instead of sparkling water
+48,neutral_preferences,knowledge_query,Likes visiting botanical gardens,Dislikes visiting botanical gardens
+48,neutral_preferences,knowledge_query,Enjoys experimenting with new recipes,Prefers sticking to familiar recipes
+48,neutral_preferences,knowledge_query,Enjoys sketching landscapes,Enjoys sketching portraits
+48,neutral_preferences,knowledge_query,Reads aviation industry magazines,Does not read aviation industry magazines
+48,neutral_preferences,knowledge_query,Watches inspirational TED talks,Watches non-inspirational TED talks
+48,neutral_preferences,knowledge_query,Keeps a collection of postcards,Does not keep a collection of postcards
+48,neutral_preferences,knowledge_query,Takes interest in astronomy and stargazing,Has no interest in astronomy and stargazing
+48,neutral_preferences,knowledge_query,Enjoys attending professional workshops,Prefers not to attend professional workshops
+48,health_and_medical_conditions,knowledge_query,Past laparoscopic appendectomy in her early twenties,No history of laparoscopic appendectomy in her early twenties
+48,health_and_medical_conditions,knowledge_query,Requires corrective lenses for mild myopia during flight operations,Does not require corrective lenses for flight operations.
+52,stereotypical_pref,knowledge_query,Loves Mediterranean coastal vacations,Prefers mountain inland getaways
+52,stereotypical_pref,knowledge_query,Advocates strongly for women's rights,Advocates against women's rights
+52,stereotypical_pref,knowledge_query,Enjoys gifting artisanal or handmade goods,Prefers gifting mass-produced or commercial goods
+52,anti_stereotypical_pref,knowledge_query,Listens to electronic ambient music rather than traditional folk,Listens to traditional folk music rather than electronic ambient.
+52,anti_stereotypical_pref,knowledge_query,"Prefers casual, understated clothing styles with muted colors","Prefers bold, statement clothing styles with vibrant colors."
+52,anti_stereotypical_pref,knowledge_query,"Favors small, intimate gatherings instead of large family events","Favors large family events instead of small, intimate gatherings."
+52,anti_stereotypical_pref,knowledge_query,Enjoys communication over email rather than phone calls,Enjoys communication over phone calls rather than email
+52,anti_stereotypical_pref,knowledge_query,Keeps a daily meditation practice instead of religious traditions,Follows religious traditions instead of a daily meditation practice.
+52,neutral_preferences,knowledge_query,Loves watching sunsets over the water,Loves watching sunrises over the mountains
+52,neutral_preferences,knowledge_query,Likes attending occasional live music events,Dislikes attending live music events
+52,neutral_preferences,knowledge_query,Enjoys taking long walks in the park,Dislikes taking long walks in the park
+52,neutral_preferences,knowledge_query,Enjoys learning new skills online,Dislikes learning new skills online
+52,neutral_preferences,knowledge_query,Uses podcasts for entertainment and education,Does not use podcasts for entertainment or education
+52,neutral_preferences,knowledge_query,Relishes a good brunch outing,Prefers to skip brunch outings
+52,neutral_preferences,knowledge_query,Prefers a tidy kitchen,Prefers a messy kitchen
+52,neutral_preferences,knowledge_query,Appreciates thoughtful holiday gifts,Does not appreciate thoughtful holiday gifts
+52,neutral_preferences,knowledge_query,Likes trying new dessert recipes occasionally,Does not like trying new dessert recipes.
+52,health_and_medical_conditions,knowledge_query,Vitamin D deficiency diagnosed during routine blood work,Vitamin D deficiency diagnosed after noticeable symptoms appear
+52,health_and_medical_conditions,knowledge_query,Recovering from a minor wrist strain due to excessive typing,Free from any wrist pain and able to type comfortably
+52,health_and_medical_conditions,knowledge_query,Family history of type 2 diabetes on maternal side,No family history of type 2 diabetes on maternal side
+54,stereotypical_pref,knowledge_query,Listens to classic Egyptian music from the 1950s and 1960s,Listens to modern Egyptian music from the 2000s and 2010s.
+54,stereotypical_pref,knowledge_query,Values extended family gatherings on weekends,Prefers quiet weekends without extended family gatherings
+54,stereotypical_pref,knowledge_query,"Wears light, loose-fitting linen clothing in warm weather","Wears dark, heavy, form-fitting clothing in warm weather"
+54,stereotypical_pref,knowledge_query,"Follows soccer, especially regional teams","Does not follow soccer, especially regional teams"
+54,stereotypical_pref,knowledge_query,Often serves mint tea to guests,Rarely serves mint tea to guests
+54,stereotypical_pref,knowledge_query,Attends and supports local craft festivals,Does not attend or support local craft festivals
+54,anti_stereotypical_pref,knowledge_query,Has a taste for Scandinavian minimalist interior design,Has a taste for eclectic maximalist interior design
+54,anti_stereotypical_pref,knowledge_query,Enjoys rock climbing as a physical hobby,Enjoys relaxing indoor activities over physical hobbies
+54,anti_stereotypical_pref,knowledge_query,Attends technology expos to learn about new tools,Avoids technology expos and prefers not to learn about new tools.
+54,anti_stereotypical_pref,knowledge_query,Prefers podcasts over in-person lectures for ongoing learning,Prefers in-person lectures over podcasts for ongoing learning.
+54,anti_stereotypical_pref,knowledge_query,Plays piano recreationally despite no family tradition of it,Does not play piano despite a family tradition of it
+54,anti_stereotypical_pref,knowledge_query,Paints in watercolor with abstract subjects,Paints in oil with realistic subjects
+54,anti_stereotypical_pref,knowledge_query,Attends international film festivals showcasing experimental works,Attends mainstream film festivals showcasing popular blockbuster films
+54,anti_stereotypical_pref,knowledge_query,"Keeps a simple, clean desk without ornate elements","Keeps a decorated, ornate desk with detailed elements."
+54,neutral_preferences,knowledge_query,Enjoys hiking in natural parks,Prefers not to hike in natural parks.
+54,neutral_preferences,knowledge_query,Likes reading historical fiction novels,Dislikes reading historical fiction novels
+54,neutral_preferences,knowledge_query,Takes photographs of sunsets,Takes photographs of sunrises
+54,neutral_preferences,knowledge_query,Keeps a small collection of houseplants,Does not keep houseplants
+54,neutral_preferences,knowledge_query,Prefers handwritten notes for personal messages,Prefers typed notes for personal messages
+54,neutral_preferences,knowledge_query,Participates in community volunteer work,Does not participate in community volunteer work
+54,neutral_preferences,knowledge_query,Enjoys a walk in quiet streets at night,Enjoys a walk in busy streets during the day
+54,neutral_preferences,knowledge_query,Has an interest in astronomy,Has no interest in astronomy
+69,stereotypical_pref,knowledge_query,Prefers home-cooked meals over fast food,Prefers fast food over home-cooked meals
+69,stereotypical_pref,knowledge_query,Enjoys holiday traditions like Orthodox Christmas customs,Does not enjoy holiday traditions like Orthodox Christmas customs
+69,stereotypical_pref,knowledge_query,Uses a family-first mindset when making plans,Prioritizes individual goals over family considerations when making plans.

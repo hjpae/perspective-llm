@@ -1,0 +1,11 @@
+{
+  "first_turn_unique_prompt_hashes": 33092,
+  "first_turn_prompts_with_2plus_users": 3983,
+  "first_turn_prompts_with_10plus_users": 2582,
+  "first_turn_prompts_with_2plus_candidate_sets": 3810,
+  "exact_comparisons_total": 43557,
+  "exact_comparisons_with_2plus_users": 2928,
+  "exact_comparisons_with_10plus_users": 2607,
+  "median_users_per_repeated_prompt": 15.0,
+  "median_choice_entropy_repeated_exact_comparison": 1.4259748730301591
+}

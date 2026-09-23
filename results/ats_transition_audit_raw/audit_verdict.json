@@ -1,0 +1,6 @@
+{
+  "benchmark_csv_updated_rows_are_not_safe_proxy_for_preference_flips": true,
+  "raw_persona_files_contain_preference_updates": true,
+  "raw_updated_blocks_crosscheck_preference_updates": true,
+  "note": "Use raw persona preference_updates / updated conversation blocks as dataset-native controlled transition ground truth. Use benchmark CSV QA rows for downstream personalization evaluation, not as the sole source of transition labels."
+}

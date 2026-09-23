@@ -1,0 +1,18 @@
+{
+  "rows": 90256,
+  "unique_users": 3603,
+  "waves": [
+    "1",
+    "2"
+  ],
+  "unique_waves": 2,
+  "hf_authenticated": false,
+  "user_language_inconsistency_count": 13,
+  "user_country_inconsistency_count": 0,
+  "unparsed_preferred_labels": {},
+  "length_comparisons": 232670,
+  "fraction_chosen_longest": 0.33949370352860275,
+  "fraction_chosen_shortest": 0.23630033953668286,
+  "mean_chosen_response_words": 131.08110198994285,
+  "mean_rejected_response_words": 121.5257403189066
+}

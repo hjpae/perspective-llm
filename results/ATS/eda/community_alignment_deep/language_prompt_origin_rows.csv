@@ -1,0 +1,11 @@
+language,origin,count
+en,pregenerated,22168
+pt,pregenerated,10762
+it,pregenerated,9985
+hi,pregenerated,9781
+fr,pregenerated,9599
+en,user_initiated,8688
+pt,user_initiated,5361
+fr,user_initiated,4795
+it,user_initiated,4720
+hi,user_initiated,4397
