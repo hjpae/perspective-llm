@@ -1,0 +1,54 @@
+name: perspective-llm
+
+channels:
+  - conda-forge
+
+# NOTE (GPU / Vast):
+# This environment targets the conda-forge PyTorch CUDA 13.0 build.
+# The host NVIDIA driver must support CUDA 13.x (driver >= 580).
+
+dependencies:
+  # Python
+  - python=3.11
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pyarrow
+
+  # GPU / deep learning
+  # Verified conda-forge build family for CUDA 13.0.
+  - pytorch-gpu=2.13.0=*cuda130*
+
+  # Development / interactive work
+  - ipython
+  - ipykernel
+  - spyder-kernels
+  - pyyaml
+  - tqdm
+  - pytest
+
+  # pip itself
+  - pip
+
+  # Packages better kept current from PyPI
+  - pip:
+      # OpenAI / config
+      - openai
+      - pydantic>=2
+      - python-dotenv
+
+      # Hugging Face / text-embedding stack used by ATS 04-06
+      - datasets
+      - huggingface-hub
+      - hf-xet
+      - transformers
+      - sentence-transformers
+      - safetensors
+      - accelerate
+
+# Future RAG backend (not yet required by the current ATS pipeline):
+#   pip install qdrant-client
