@@ -1,0 +1,30 @@
+{
+  "dataset": "facebook/community-alignment-dataset",
+  "wave": "1",
+  "pregenerated_first_prompt_only": true,
+  "dataset_is_longitudinal": false,
+  "support_order_semantics": "unknown; randomized in training and averaged at evaluation",
+  "text_encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "text_encoder_frozen": true,
+  "semantic_embed_dim": 384,
+  "pre_metric_projection": false,
+  "coupler": "metric",
+  "metric_rank": 8,
+  "g_dim": 32,
+  "g_state_bytes_float32": 128,
+  "alpha_min": 0.03,
+  "alpha_max": 0.3,
+  "trainable_params": 349154,
+  "best_val_nll": 1.1937245144105297,
+  "test_permutations": 12,
+  "device": "cuda",
+  "seed": 20260923,
+  "embedding_meta": {
+    "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "n_items": 5597,
+    "embed_dim": 384,
+    "normalized": true,
+    "dtype": "float16",
+    "pre_metric_projection": false
+  }
+}
