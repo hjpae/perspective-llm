@@ -1,0 +1,21 @@
+{
+  "ats06_source_dir": "/workspace/perspective-llm/results/ATS/cear_g_ca/rep_seed0_20260924_024922",
+  "initial_checkpoint_epoch": 275,
+  "persona_splits_disjoint": true,
+  "split_provenance": "custom 85/15 persona-disjoint split of official text train+val after removing any personas appearing in official benchmark; official benchmark untouched",
+  "train_users": 681,
+  "val_users": 118,
+  "benchmark_users": 200,
+  "semantic_encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_encoder_frozen": true,
+  "architecture_changed": false,
+  "trainable_params": 349154,
+  "best_epoch": 120,
+  "best_val_nll": 0.8976253745006955,
+  "train_seed": 0,
+  "max_epochs": 120,
+  "patience": 20,
+  "lr": 0.0001,
+  "support_order_semantics": "unknown; randomized during adaptation and averaged at evaluation",
+  "longitudinal_validity": false
+}

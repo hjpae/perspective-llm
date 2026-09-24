@@ -1,0 +1,44 @@
+========================================================================================
+ATS08b — CORRECTED PERSONAMEM GEOMETRY STRESS PROBE (NO TRAINING)
+========================================================================================
+ATS06 best epoch: 275
+DEVICE:           cuda
+pre_old:          6
+stress_steps:     8
+recovery_old:     4
+usable benchmark personas: 196
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3795.09it/s]
+Batches:   0%|          | 0/13 [00:00<?, ?it/s]Batches:   8%|▊         | 1/13 [00:00<00:05,  2.09it/s]Batches:  15%|█▌        | 2/13 [00:00<00:02,  3.83it/s]Batches:  23%|██▎       | 3/13 [00:00<00:01,  5.23it/s]Batches:  31%|███       | 4/13 [00:00<00:01,  6.31it/s]Batches:  38%|███▊      | 5/13 [00:00<00:01,  7.14it/s]Batches:  46%|████▌     | 6/13 [00:01<00:00,  7.76it/s]Batches:  54%|█████▍    | 7/13 [00:01<00:00,  8.23it/s]Batches:  62%|██████▏   | 8/13 [00:01<00:00,  8.65it/s]Batches:  69%|██████▉   | 9/13 [00:01<00:00,  8.96it/s]Batches:  85%|████████▍ | 11/13 [00:01<00:00,  9.62it/s]Batches: 100%|██████████| 13/13 [00:01<00:00, 11.93it/s]Batches: 100%|██████████| 13/13 [00:01<00:00,  7.98it/s]
+processed 25/196
+processed 50/196
+processed 75/196
+processed 100/196
+processed 125/196
+processed 150/196
+processed 175/196
+processed 196/196
+
+========================================================================================
+ATS08b CORRECTED STRESS SUMMARY
+========================================================================================
+change_gap_final                +3.54915 95%CI[+3.37171,+3.72288]
+sustained_minus_oneoff_gap      +2.70656 95%CI[+2.57481,+2.82784]
+semantic_new_effect_final       +0.00301 95%CI[-0.00004,+0.00617]
+semantic_old_effect_final       -0.00140 95%CI[-0.00549,+0.00241]
+alpha_new_minus_old_1           -0.00770 95%CI[-0.01660,+0.00196]
+matched_recovery_fraction       +0.39581 95%CI[+0.37630,+0.41533]
+
+Fractions:
+  final_change_gap_gt_oneoff_gap     1.000
+  semantic_new_effect_positive       0.526
+  semantic_old_effect_negative       0.505
+  positive_matched_recovery          0.990
+
+Desired corrected signature:
+  change_gap_final > 0
+  sustained_minus_oneoff_gap > 0
+  semantic_new_effect_final > 0
+  matched_recovery_fraction > 0
+
+Wrote: /workspace/perspective-llm/results/ATS/personamem_stress/corrected_seed0_20260924_192317

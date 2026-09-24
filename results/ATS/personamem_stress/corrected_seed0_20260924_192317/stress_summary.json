@@ -1,0 +1,57 @@
+{
+  "probe_type": "corrected zero-training CA-to-PersonaMem cross-dataset transfer",
+  "n_personas": 196,
+  "ats06_best_epoch": 275,
+  "seed": 0,
+  "protocol": {
+    "pre_old": 6,
+    "stress_steps": 8,
+    "recovery_old": 4
+  },
+  "primary_metrics": {
+    "change_gap_final": {
+      "n": 196,
+      "mean": 3.5491497103048832,
+      "ci_low": 3.371714267195488,
+      "ci_high": 3.722878568391411
+    },
+    "sustained_minus_oneoff_gap": {
+      "n": 196,
+      "mean": 2.7065567717868455,
+      "ci_low": 2.5748091581467616,
+      "ci_high": 2.827840584982187
+    },
+    "semantic_new_effect_final": {
+      "n": 196,
+      "mean": 0.003012719050962098,
+      "ci_low": -3.503188205768867e-05,
+      "ci_high": 0.006172291664596723
+    },
+    "semantic_old_effect_final": {
+      "n": 196,
+      "mean": -0.001404547721755748,
+      "ci_low": -0.005494355936819801,
+      "ci_high": 0.0024053094775549014
+    },
+    "alpha_new_minus_old_1": {
+      "n": 196,
+      "mean": -0.00770107021897423,
+      "ci_low": -0.01660389921304827,
+      "ci_high": 0.0019550472982607942
+    },
+    "matched_recovery_fraction": {
+      "n": 196,
+      "mean": 0.39581232894090995,
+      "ci_low": 0.3762967603217431,
+      "ci_high": 0.4153294675206327
+    }
+  },
+  "fractions": {
+    "final_change_gap_gt_oneoff_gap": 1.0,
+    "semantic_new_effect_positive": 0.5255102040816326,
+    "semantic_old_effect_negative": 0.5051020408163265,
+    "positive_matched_recovery": 0.9897959183673469
+  },
+  "correction": "Recovery is measured against the stable-old trajectory at the same elapsed update; change effects are measured relative to matched stable-old states.",
+  "interpretation_limit": "This is zero-shot cross-dataset transfer. ATS06 was trained on Community Alignment, not PersonaMem-v2."
+}

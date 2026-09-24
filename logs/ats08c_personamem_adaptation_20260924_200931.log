@@ -1,0 +1,16 @@
+========================================================================================
+ATS08c — PERSONAMEM DOMAIN ADAPTATION
+========================================================================================
+device: cuda | ATS06 best epoch: 275 | max epochs: 120
+[train] rows=12,857 users=800 items=12,857
+[val] rows=1,414 users=652 items=1,414
+[benchmark] rows=3,431 users=200 items=3,431
+official persona overlaps: train-val 652 | train-benchmark 1 | val-benchmark 1
+Traceback (most recent call last):
+  File "/workspace/perspective-llm/ATS/models/ats_08c_personamem_adaptation.py", line 644, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/workspace/perspective-llm/ATS/models/ats_08c_personamem_adaptation.py", line 531, in main
+    assert not (dev_users & benchmark_users), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PersonaMem development pool overlaps benchmark personas

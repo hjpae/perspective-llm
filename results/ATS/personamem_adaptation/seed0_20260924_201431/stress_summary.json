@@ -1,0 +1,49 @@
+{
+  "probe_type": "PersonaMem-adapted model; held-out benchmark controlled stress",
+  "n_personas": 196,
+  "primary_metrics": {
+    "change_gap_final": {
+      "n": 196,
+      "mean": 2.50366886355439,
+      "ci_low": 2.390403219760985,
+      "ci_high": 2.621207497063644
+    },
+    "sustained_minus_oneoff_gap": {
+      "n": 196,
+      "mean": 1.9279423887100147,
+      "ci_low": 1.8427190942148088,
+      "ci_high": 2.0131668864939436
+    },
+    "semantic_new_effect_final": {
+      "n": 196,
+      "mean": 0.005685475880603249,
+      "ci_low": 0.0024181206790226686,
+      "ci_high": 0.009068451412806136
+    },
+    "semantic_old_effect_final": {
+      "n": 196,
+      "mean": -0.0008016469109119202,
+      "ci_low": -0.004234382014588586,
+      "ci_high": 0.0025301875940961197
+    },
+    "alpha_new_minus_old_1": {
+      "n": 196,
+      "mean": 0.000372888520359993,
+      "ci_low": -0.003518168823033267,
+      "ci_high": 0.003997897110613333
+    },
+    "matched_recovery_fraction": {
+      "n": 196,
+      "mean": 0.4056413936568919,
+      "ci_low": 0.39227164650239926,
+      "ci_high": 0.4198070642491886
+    }
+  },
+  "fractions": {
+    "final_change_gap_gt_oneoff_gap": 1.0,
+    "semantic_new_effect_positive": 0.5969387755102041,
+    "semantic_old_effect_negative": 0.5051020408163265,
+    "positive_matched_recovery": 1.0
+  },
+  "interpretation_limit": "Controlled synthetic transition stress; not real longitudinal validation."
+}

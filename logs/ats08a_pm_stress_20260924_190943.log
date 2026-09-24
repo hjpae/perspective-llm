@@ -1,0 +1,41 @@
+================================================================================
+ATS08a — PersonaMem zero-training stress transfer
+ATS06 best epoch: 275
+device: cuda
+================================================================================
+usable benchmark personas: 196
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3098.59it/s]
+Batches:   0%|          | 0/13 [00:00<?, ?it/s]Batches:   8%|▊         | 1/13 [00:00<00:05,  2.03it/s]Batches:  15%|█▌        | 2/13 [00:00<00:02,  3.75it/s]Batches:  23%|██▎       | 3/13 [00:00<00:01,  5.13it/s]Batches:  31%|███       | 4/13 [00:00<00:01,  6.23it/s]Batches:  38%|███▊      | 5/13 [00:00<00:01,  7.06it/s]Batches:  46%|████▌     | 6/13 [00:01<00:00,  7.59it/s]Batches:  54%|█████▍    | 7/13 [00:01<00:00,  7.95it/s]Batches:  62%|██████▏   | 8/13 [00:01<00:00,  8.45it/s]Batches:  69%|██████▉   | 9/13 [00:01<00:00,  8.81it/s]Batches:  85%|████████▍ | 11/13 [00:01<00:00,  9.47it/s]Batches: 100%|██████████| 13/13 [00:01<00:00, 11.82it/s]Batches: 100%|██████████| 13/13 [00:01<00:00,  7.84it/s]
+processed 25/196
+processed 50/196
+processed 75/196
+processed 100/196
+processed 125/196
+processed 150/196
+processed 175/196
+processed 196/196
+
+================================================================================
+ATS08a STRESS SUMMARY
+================================================================================
+excess_change_final         +1.83929 95%CI[+1.67795,+1.99418]
+sustained_minus_oneoff      +2.80874 95%CI[+2.69059,+2.92044]
+delta_p_new_final           +0.00275 95%CI[-0.00027,+0.00587]
+delta_p_old_final           -0.00157 95%CI[-0.00553,+0.00222]
+recovery_fraction           -0.99887 95%CI[-1.21559,-0.82168]
+
+Fractions:
+  change_final_gt_stable         0.949
+  change_final_gt_oneoff         1.000
+  p_new_final_increases          0.505
+  p_old_final_decreases          0.480
+  positive_recovery_fraction     0.051
+
+Desired signature:
+  excess_change_final    > 0
+  sustained_minus_oneoff > 0
+  delta_p_new_final      > 0
+  recovery_fraction      > 0
+
+Wrote: /workspace/perspective-llm/results/ATS/personamem_stress/transfer_seed0_20260924_190943

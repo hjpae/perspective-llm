@@ -1,0 +1,197 @@
+persona_id,old_pref,new_pref,raw_file
+644,Plays tennis instead of cricket,Plays cricket instead of tennis,data/raw_data/raw_data_250820_224501_persona644.json
+626,Frequently visits museums and art galleries,Rarely visits museums and art galleries,data/raw_data/raw_data_250820_224501_persona626.json
+314,Regularly supports local Black-owned businesses,Does not regularly support local Black-owned businesses,data/raw_data/raw_data_250815_163935_persona314.json
+382,Likes visiting art galleries,Dislikes visiting art galleries,data/raw_data/raw_data_250818_011555_persona382.json
+692,Likes listening to podcasts,Dislikes listening to podcasts,data/raw_data/raw_data_250820_224501_persona692.json
+884,Enjoys craft beer tasting,Does not enjoy craft beer tasting,data/raw_data/raw_data_250825_220103_persona884.json
+493,Mild gastritis episode resolved with dietary adjustments,Mild gastritis episode persisted despite dietary adjustments,data/raw_data/raw_data_250819_225921_persona493.json
+668,Enjoys casual cycling around the city,Enjoys competitive cycling and racing,data/raw_data/raw_data_250820_224501_persona668.json
+823,Follows European football (soccer),Does not follow European football (soccer),data/raw_data/raw_data_250820_224501_persona823.json
+522,Regularly attends exclusive art gallery openings,Rarely attends exclusive art gallery openings,data/raw_data/raw_data_250819_225921_persona522.json
+451,Borderline high cholesterol detected during routine screening,Normal cholesterol levels detected during routine screening,data/raw_data/raw_data_250818_011555_persona451.json
+479,Collects small souvenir magnets from travels,Does not collect souvenir magnets from travels,data/raw_data/raw_data_250819_225921_persona479.json
+977,Has a taste for olive oil-based skincare products,Has a taste for non-olive oil-based skincare products,data/raw_data/raw_data_250826_131038_persona977.json
+697,Reads extensively about medieval European history,Does not read about medieval European history,data/raw_data/raw_data_250820_224501_persona697.json
+590,Family history of type 2 diabetes on her maternal side,No family history of type 2 diabetes on her maternal side,data/raw_data/raw_data_250820_165412_persona590.json
+849,Appreciates fresh flowers in living spaces,Prefers not to have fresh flowers in living spaces,data/raw_data/raw_data_250820_224501_persona849.json
+583,Prays regularly in alignment with her moderate Muslim faith,Does not pray regularly and is non-religious or secular.,data/raw_data/raw_data_250820_165412_persona583.json
+23,Joining local political debates,Avoiding local political debates,data/raw_data/raw_data_250815_163935_persona23.json
+721,Enjoys going for morning runs,Does not enjoy going for morning runs,data/raw_data/raw_data_250820_224501_persona721.json
+72,Follows Formula 1 racing,Does not follow Formula 1 racing,data/raw_data/raw_data_250815_163935_persona72.json
+60,Likes visiting art exhibitions occasionally,Dislikes visiting art exhibitions.,data/raw_data/raw_data_250815_163935_persona60.json
+494,Watches science documentaries,Watches science fiction movies,data/raw_data/raw_data_250819_225921_persona494.json
+521,Practices yoga and meditation daily,Does not practice yoga or meditation.,data/raw_data/raw_data_250819_225921_persona521.json
+978,Enjoys watching sunsets from her porch,Prefers not to watch sunsets from her porch,data/raw_data/raw_data_250826_131038_persona978.json
+59,Family history of type 2 diabetes on maternal side,No family history of type 2 diabetes on maternal side,data/raw_data/raw_data_250815_163935_persona59.json
+829,Loves ice fishing in winter,Hates ice fishing in winter,data/raw_data/raw_data_250820_224501_persona829.json
+25,Family history of type 2 diabetes on his mother's side,No family history of type 2 diabetes on his mother's side,data/raw_data/raw_data_250815_163935_persona25.json
+429,Loves contemporary art exhibitions,Dislikes contemporary art exhibitions,data/raw_data/raw_data_250818_011555_persona429.json
+294,Prefers bread and pasta over rice some days,Prefers rice over bread and pasta some days,data/raw_data/raw_data_250815_163935_persona294.json
+70,History of hormone replacement therapy as part of gender transition,History of non-medical gender transition practices without hormone therapy,data/raw_data/raw_data_250815_163935_persona70.json
+826,Watches the occasional romantic comedy,Rarely watches romantic comedies,data/raw_data/raw_data_250820_224501_persona826.json
+613,Seasonal pollen allergies causing mild respiratory irritation,No seasonal pollen allergies or respiratory irritation,data/raw_data/raw_data_250820_224501_persona613.json
+120,Past knee strain from a minor jogging injury,No history of knee strain or jogging-related injuries,data/raw_data/raw_data_250815_163935_persona120.json
+650,Has more houseplants than outdoor plants,Has more outdoor plants than houseplants,data/raw_data/raw_data_250820_224501_persona650.json
+296,Family history of type 2 diabetes on maternal side,No family history of type 2 diabetes on maternal side,data/raw_data/raw_data_250815_163935_persona296.json
+914,Favors vegetarian cooking classes,Favors non-vegetarian cooking classes,data/raw_data/raw_data_250825_220103_persona914.json
+678,Appreciates modern dance performances,Does not appreciate modern dance performances,data/raw_data/raw_data_250820_224501_persona678.json
+260,Follows wildlife conservation projects,Does not follow wildlife conservation projects,data/raw_data/raw_data_250815_163935_persona260.json
+679,Likes learning new languages casually,Dislikes learning new languages casually,data/raw_data/raw_data_250820_224501_persona679.json
+184,Seasonal allergic rhinitis triggered by dust and pollen,No seasonal allergic rhinitis triggered by dust and pollen,data/raw_data/raw_data_250815_163935_persona184.json
+327,Slight nearsightedness corrected with glasses for reading,Slight farsightedness corrected with glasses for distance,data/raw_data/raw_data_250815_163935_persona327.json
+811,Enjoys swimming at community pools,Prefers not to swim at community pools,data/raw_data/raw_data_250820_224501_persona811.json
+110,Keeps indoor plants for ambiance,Does not keep indoor plants for ambiance,data/raw_data/raw_data_250815_163935_persona110.json
+973,Participates in church community events regularly,Does not participate in church community events regularly,data/raw_data/raw_data_250826_131038_persona973.json
+198,Follows baseball more than football,Follows football more than baseball,data/raw_data/raw_data_250815_163935_persona198.json
+67,Favors Mediterranean cuisine over Mexican food on most days,Favors Mexican food over Mediterranean cuisine on most days.,data/raw_data/raw_data_250815_163935_persona67.json
+595,Past ankle sprain from a recreational hockey game,No history of ankle injury from recreational sports,data/raw_data/raw_data_250820_165412_persona595.json
+941,Prefers strong espresso over tea in the morning,Prefers tea over strong espresso in the morning.,data/raw_data/raw_data_250826_131038_persona941.json
+318,Prefers high-intensity workouts like CrossFit over wrestling,Prefers wrestling over high-intensity workouts like CrossFit.,data/raw_data/raw_data_250815_163935_persona318.json
+687,Avoids watching soap operas altogether,Watches soap operas regularly,data/raw_data/raw_data_250820_224501_persona687.json
+893,Enjoys open-water swimming in cool lakes,Prefers avoiding open-water swimming in cool lakes.,data/raw_data/raw_data_250825_220103_persona893.json
+985,Collects quirky souvenir magnets when traveling,Does not collect souvenir magnets when traveling,data/raw_data/raw_data_250826_131038_persona985.json
+689,Past wrist strain from over-practice on drums,No history of wrist strain from drumming practice,data/raw_data/raw_data_250820_224501_persona689.json
+883,Family history of cardiovascular disease on paternal side,Family history of cardiovascular disease on maternal side,data/raw_data/raw_data_250825_220103_persona883.json
+289,Likes attending jazz and blues concerts,Dislikes attending jazz and blues concerts,data/raw_data/raw_data_250815_163935_persona289.json
+365,Seasonal allergic rhinitis triggered by pollen,Seasonal allergic rhinitis not triggered by pollen,data/raw_data/raw_data_250818_011555_persona365.json
+643,Uses a prescribed inhaler for mild exercise-induced asthma,Does not use a prescribed inhaler for mild exercise-induced asthma.,data/raw_data/raw_data_250820_224501_persona643.json
+107,"Past minor knee injury from hiking, leading to occasional discomfort",No history of knee injuries or discomfort.,data/raw_data/raw_data_250815_163935_persona107.json
+656,Studies foreign languages for personal growth,Studies foreign languages for professional advancement,data/raw_data/raw_data_250820_224501_persona656.json
+917,Seasonal allergies to pollen causing mild sinus issues,No seasonal allergies to pollen and no sinus issues,data/raw_data/raw_data_250825_220103_persona917.json
+235,Past episode of gastritis after food poisoning,No history of gastritis or food poisoning,data/raw_data/raw_data_250815_163935_persona235.json
+462,Favors chocolate desserts over matcha,Favors matcha desserts over chocolate,data/raw_data/raw_data_250819_225921_persona462.json
+96,Prefers reading biographies of tech entrepreneurs,Prefers reading fiction unrelated to technology,data/raw_data/raw_data_250815_163935_persona96.json
+714,Prefers in-person business meetings over virtual,Prefers virtual business meetings over in-person.,data/raw_data/raw_data_250820_224501_persona714.json
+312,Follows NBA basketball instead of football,Follows football instead of NBA basketball,data/raw_data/raw_data_250815_163935_persona312.json
+486,Uses simple drugstore skincare products,Uses high-end luxury skincare products,data/raw_data/raw_data_250819_225921_persona486.json
+995,Volunteers for local charity events,Does not volunteer for local charity events,data/raw_data/raw_data_250826_131038_persona995.json
+237,Supports Israeli sports teams,Supports Palestinian sports teams,data/raw_data/raw_data_250815_163935_persona237.json
+578,Takes short afternoon naps on weekends,Does not take afternoon naps on weekends,data/raw_data/raw_data_250820_165412_persona578.json
+936,Finds walking in nature relaxing,Finds walking in nature stressful,data/raw_data/raw_data_250826_131038_persona936.json
+534,Enjoys improvisational theater performances,Dislikes improvisational theater performances,data/raw_data/raw_data_250819_225921_persona534.json
+63,Past episode of mild gastritis after work travel,No history of gastritis after work travel,data/raw_data/raw_data_250815_163935_persona63.json
+361,Frequently experiments with Latin American cuisine at home,Rarely experiments with Latin American cuisine at home,data/raw_data/raw_data_250817_221909_persona361.json
+713,Past knee injury from cycling accident requiring minor surgery,No history of knee injury or surgery from cycling accidents,data/raw_data/raw_data_250820_224501_persona713.json
+902,Uses a mild antidepressant to assist with seasonal affective symptoms,Does not use antidepressants for seasonal affective symptoms.,data/raw_data/raw_data_250825_220103_persona902.json
+218,Likes long walks in the park,Dislikes long walks in the park,data/raw_data/raw_data_250815_163935_persona218.json
+761,Enjoys visiting museums,Does not enjoy visiting museums,data/raw_data/raw_data_250820_224501_persona761.json
+554,"Up-to-date on all vaccinations, including annual flu shots",Not up-to-date on vaccinations and does not receive annual flu shots.,data/raw_data/raw_data_250819_225921_persona554.json
+265,Enjoys petting dogs while out walking,Avoids petting dogs while out walking,data/raw_data/raw_data_250815_163935_persona265.json
+247,Enjoys drawing or sketching,Does not enjoy drawing or sketching,data/raw_data/raw_data_250815_163935_persona247.json
+355,Occasional migraines managed with prescription medication,No history of migraines.,data/raw_data/raw_data_250817_221909_persona355.json
+280,Enjoys mariachi music at special events,Does not enjoy mariachi music at special events,data/raw_data/raw_data_250815_163935_persona280.json
+601,Allergic reaction to certain shellfish,No allergic reaction to shellfish,data/raw_data/raw_data_250820_224501_persona601.json
+974,Likes to volunteer at literacy events,Does not like to volunteer at literacy events.,data/raw_data/raw_data_250826_131038_persona974.json
+749,Enjoys beach walks during vacations,Enjoys mountain hikes during vacations,data/raw_data/raw_data_250820_224501_persona749.json
+859,Values time alone for reflection,Values social interaction for stimulation,data/raw_data/raw_data_250820_224501_persona859.json
+44,Carries a reusable water bottle,Does not carry a reusable water bottle,data/raw_data/raw_data_250815_163935_persona44.json
+604,Enjoys family trips to Baja California,Does not enjoy family trips to Baja California,data/raw_data/raw_data_250820_224501_persona604.json
+526,Loves exploring second-hand bookstores,Dislikes exploring second-hand bookstores,data/raw_data/raw_data_250819_225921_persona526.json
+275,Keeps a collection of postcards from different countries,Does not keep a collection of postcards from different countries.,data/raw_data/raw_data_250815_163935_persona275.json
+346,Mild eczema flare-ups during winter months,No eczema flare-ups during winter months,data/raw_data/raw_data_250815_163935_persona346.json
+787,"Collects sports memorabilia, especially baseball cards","Does not collect sports memorabilia, especially baseball cards.",data/raw_data/raw_data_250820_224501_persona787.json
+55,Decorates her studio with industrial metal and exposed brick,Decorates her studio with soft fabrics and pastel-colored walls,data/raw_data/raw_data_250815_163935_persona55.json
+88,Enjoys reading poetry from Mahmoud Darwish and Taras Shevchenko,Does not enjoy reading poetry from Mahmoud Darwish and Taras Shevchenko.,data/raw_data/raw_data_250815_163935_persona88.json
+408,Values respect for elders,Does not value respect for elders,data/raw_data/raw_data_250818_011555_persona408.json
+299,Enjoys watching thunderstorms,Dislikes watching thunderstorms,data/raw_data/raw_data_250815_163935_persona299.json
+740,Practicing meditation for relaxation over religious services,Attending religious services over practicing meditation for relaxation,data/raw_data/raw_data_250820_224501_persona740.json
+332,Loves eating spicy Tex-Mex cuisine,Hates eating spicy Tex-Mex cuisine.,data/raw_data/raw_data_250815_163935_persona332.json
+865,Mild pollen allergy developed in his late 30s.,No pollen allergy.,data/raw_data/raw_data_250825_220103_persona865.json
+76,Takes a daily statin prescription for cholesterol management,Does not take a daily statin prescription for cholesterol management.,data/raw_data/raw_data_250815_163935_persona76.json
+942,Likes cold weather destinations,Likes warm weather destinations,data/raw_data/raw_data_250826_131038_persona942.json
+256,Mild lactose intolerance managed through diet adjustments,"No lactose intolerance, no dietary restrictions needed.",data/raw_data/raw_data_250815_163935_persona256.json
+439,Experienced a minor concussion from a biking accident in childhood,Never experienced a concussion.,data/raw_data/raw_data_250818_011555_persona439.json
+584,Enjoys winter getaways in snowy mountains,Enjoys summer vacations on sunny beaches,data/raw_data/raw_data_250820_165412_persona584.json
+261,Recovered fully from an appendectomy in early twenties,Never had an appendectomy.,data/raw_data/raw_data_250815_163935_persona261.json
+649,Uses Spanish idioms unconsciously in daily speech,Does not use Spanish idioms in daily speech,data/raw_data/raw_data_250820_224501_persona649.json
+899,Enjoys high-end steakhouse dining,"Prefers casual, budget-friendly dining",data/raw_data/raw_data_250825_220103_persona899.json
+753,Experiences occasional acid reflux treated with over-the-counter remedies.,Does not experience acid reflux.,data/raw_data/raw_data_250820_224501_persona753.json
+259,Buys fresh produce daily from neighborhood markets,Buys produce in bulk from supermarkets.,data/raw_data/raw_data_250815_163935_persona259.json
+527,Past laparoscopic appendectomy at age 25,No history of laparoscopic appendectomy.,data/raw_data/raw_data_250819_225921_persona527.json
+599,Attends church services regularly,Does not attend church services regularly,data/raw_data/raw_data_250820_165412_persona599.json
+800,Uses a smartwatch for fitness tracking,Does not use a smartwatch for fitness tracking,data/raw_data/raw_data_250820_224501_persona800.json
+802,Likes going to trivia nights at local cafes,Dislikes going to trivia nights at local cafes,data/raw_data/raw_data_250820_224501_persona802.json
+901,"Past fracture of the wrist from a fall, fully healed",No history of wrist fracture from a fall.,data/raw_data/raw_data_250825_220103_persona901.json
+716,Low vitamin D levels requiring supplements,Normal vitamin D levels without need for supplements,data/raw_data/raw_data_250820_224501_persona716.json
+570,Vitamin D deficiency addressed through supplementation,Vitamin D deficiency not addressed through supplementation,data/raw_data/raw_data_250820_165412_persona570.json
+528,Mild seasonal pollen allergy,No seasonal pollen allergy,data/raw_data/raw_data_250819_225921_persona528.json
+30,Plays ice hockey recreationally,Does not play ice hockey recreationally,data/raw_data/raw_data_250815_163935_persona30.json
+549,Prefers herbal teas from East Asia over coffee,Prefers coffee over herbal teas from East Asia.,data/raw_data/raw_data_250819_225921_persona549.json
+136,Loves skiing in the winter months,Dislikes skiing in the winter months,data/raw_data/raw_data_250815_163935_persona136.json
+370,Seasonal allergic rhinitis triggered by spring pollen,Seasonal allergic rhinitis triggered by autumn pollen,data/raw_data/raw_data_250818_011555_persona370.json
+292,Learns indigenous languages via online courses,Learns indigenous languages via in-person classes,data/raw_data/raw_data_250815_163935_persona292.json
+986,Avoids wine in favor of craft beers,Prefers wine over craft beers,data/raw_data/raw_data_250826_131038_persona986.json
+86,Occasionally does simple DIY home projects,Rarely does DIY home projects,data/raw_data/raw_data_250815_163935_persona86.json
+215,Enjoys European mythological theatre productions,Does not enjoy European mythological theatre productions,data/raw_data/raw_data_250815_163935_persona215.json
+10,Shops for groceries at local markets,Shops for groceries at supermarkets,data/raw_data/raw_data_250815_155601_persona10.json
+328,Collects vintage board games,Does not collect vintage board games,data/raw_data/raw_data_250815_163935_persona328.json
+822,Mild lactose intolerance managed through diet adjustments,No lactose intolerance and no dietary restrictions related to dairy,data/raw_data/raw_data_250820_224501_persona822.json
+363,Presbyopia requiring reading glasses,"No presbyopia, no reading glasses needed",data/raw_data/raw_data_250817_221909_persona363.json
+371,Listens to gospel music regularly,Does not listen to gospel music regularly,data/raw_data/raw_data_250818_011555_persona371.json
+319,Occasional migraines related to screen time and stress,"No migraines, even with extended screen time and stress.",data/raw_data/raw_data_250815_163935_persona319.json
+168,Prefers printed books or newspapers over e-readers for leisure reading,Prefers e-readers over printed books or newspapers for leisure reading.,data/raw_data/raw_data_250815_163935_persona168.json
+411,Drinks a lot of water during the day,Drinks little water during the day,data/raw_data/raw_data_250818_011555_persona411.json
+213,Volunteers in occasional local charity drives,Does not volunteer in occasional local charity drives,data/raw_data/raw_data_250815_163935_persona213.json
+66,Wants to learn chess strategy,Does not want to learn chess strategy,data/raw_data/raw_data_250815_163935_persona66.json
+307,Collects sports memorabilia,Does not collect sports memorabilia,data/raw_data/raw_data_250815_163935_persona307.json
+548,Enjoys surfing during summer vacations,Prefers not to surf during summer vacations,data/raw_data/raw_data_250819_225921_persona548.json
+660,Collects bookmarks from different places traveled,Does not collect bookmarks from different places traveled.,data/raw_data/raw_data_250820_224501_persona660.json
+767,History of mild hypertension managed with lifestyle adjustments.,No history of hypertension.,data/raw_data/raw_data_250820_224501_persona767.json
+662,Occasional migraine headaches triggered by stress,"No history of migraine headaches, even during periods of stress.",data/raw_data/raw_data_250820_224501_persona662.json
+244,Received preventive vaccinations for yellow fever and typhoid before South America travel,Did not receive preventive vaccinations for yellow fever and typhoid before South America travel.,data/raw_data/raw_data_250815_163935_persona244.json
+959,Travels during summer vacations,Travels during winter vacations,data/raw_data/raw_data_250826_131038_persona959.json
+208,Frequently donates to literacy charities,Rarely donates to literacy charities,data/raw_data/raw_data_250815_163935_persona208.json
+810,Likes to share books with friends,Likes to keep books to oneself,data/raw_data/raw_data_250820_224501_persona810.json
+529,History of eczema flare-ups during winter months,History of eczema flare-ups during summer months,data/raw_data/raw_data_250819_225921_persona529.json
+866,Enjoys swimming at local pools,Prefers not to swim at local pools,data/raw_data/raw_data_250825_220103_persona866.json
+158,Enjoys birdwatching in local parks,Dislikes birdwatching in local parks,data/raw_data/raw_data_250815_163935_persona158.json
+210,Occasional acid reflux managed with over-the-counter medication,No history of acid reflux.,data/raw_data/raw_data_250815_163935_persona210.json
+199,Mild eczema flare-ups linked to dry winter air,Mild eczema improvements during humid summer months,data/raw_data/raw_data_250815_163935_persona199.json
+174,Travels using budget airlines for short trips,Travels using full-service airlines for short trips,data/raw_data/raw_data_250815_163935_persona174.json
+309,Enjoys loud punk rock concerts,Enjoys quiet acoustic music sessions,data/raw_data/raw_data_250815_163935_persona309.json
+867,Enjoys star-gazing on clear nights,Prefers staying indoors at night,data/raw_data/raw_data_250825_220103_persona867.json
+542,Enjoys dancing at parties,Dislikes dancing at parties,data/raw_data/raw_data_250819_225921_persona542.json
+277,Family history of type 2 diabetes on maternal side,No family history of type 2 diabetes on maternal side,data/raw_data/raw_data_250815_163935_persona277.json
+998,Prefers text-based communication to voice calls,Prefers voice calls to text-based communication,data/raw_data/raw_data_250826_131038_persona998.json
+209,Enjoys reading mystery novels,Enjoys reading romance novels,data/raw_data/raw_data_250815_163935_persona209.json
+559,Family history of type 2 diabetes on maternal side,No family history of type 2 diabetes on maternal side,data/raw_data/raw_data_250819_225921_persona559.json
+101,Keeps up with current events,Uninterested in current events,data/raw_data/raw_data_250815_163935_persona101.json
+879,Enjoys exploring bookstores,Does not enjoy exploring bookstores,data/raw_data/raw_data_250825_220103_persona879.json
+351,Occasional acid reflux controlled through diet adjustments,Frequent acid reflux requiring medical management,data/raw_data/raw_data_250817_221909_persona351.json
+837,Maintains a bird feeder in the backyard,Does not maintain a bird feeder in the backyard,data/raw_data/raw_data_250820_224501_persona837.json
+989,Enjoys watching hockey games on TV,Does not enjoy watching hockey games on TV.,data/raw_data/raw_data_250826_131038_persona989.json
+764,Likes pop music from K-pop and J-pop groups,Dislikes pop music from K-pop and J-pop groups,data/raw_data/raw_data_250820_224501_persona764.json
+670,Keeps indoor plants for air purification,Does not keep indoor plants for air purification.,data/raw_data/raw_data_250820_224501_persona670.json
+54,Keeps a small collection of houseplants,Does not keep houseplants,data/raw_data/raw_data_250815_163935_persona54.json
+636,Watches cooking shows on TV or online,Does not watch cooking shows on TV or online,data/raw_data/raw_data_250820_224501_persona636.json
+621,Enjoys photography as a hobby,Does not enjoy photography as a hobby,data/raw_data/raw_data_250820_224501_persona621.json
+617,Diagnosed with hypertension and taking daily medication,Not diagnosed with hypertension and not taking daily medication,data/raw_data/raw_data_250820_224501_persona617.json
+924,Volunteers at veterans’ organizations,Does not volunteer at veterans’ organizations,data/raw_data/raw_data_250825_220103_persona924.json
+221,Likes watching nature documentaries,Dislikes watching nature documentaries,data/raw_data/raw_data_250815_163935_persona221.json
+938,Enjoys classical music performances,Dislikes classical music performances,data/raw_data/raw_data_250826_131038_persona938.json
+741,Enjoys abstract modern art over traditional landscapes,Enjoys traditional landscapes over abstract modern art,data/raw_data/raw_data_250820_224501_persona741.json
+298,Plays video games with his kids occasionally,Does not play video games with his kids.,data/raw_data/raw_data_250815_163935_persona298.json
+137,Enjoys attending theater plays,Does not enjoy attending theater plays,data/raw_data/raw_data_250815_163935_persona137.json
+948,Previous right knee ligament strain from a cycling accident,Previous left knee ligament strain from a cycling accident,data/raw_data/raw_data_250826_131038_persona948.json
+432,Mild exercise-induced asthma managed without daily medication,Mild exercise-induced asthma requiring daily medication,data/raw_data/raw_data_250818_011555_persona432.json
+139,Follows North American baseball,Does not follow North American baseball,data/raw_data/raw_data_250815_163935_persona139.json
+635,Likes karaoke with friends on weekends,Dislikes karaoke with friends on weekends,data/raw_data/raw_data_250820_224501_persona635.json
+254,Follows Latin pop artists on social media,Does not follow Latin pop artists on social media,data/raw_data/raw_data_250815_163935_persona254.json
+39,Collects interesting postcards from travels,Does not collect postcards from travels,data/raw_data/raw_data_250815_163935_persona39.json
+652,Keeps annual handwritten journals,Keeps digital annual journals,data/raw_data/raw_data_250820_224501_persona652.json
+513,Supports women’s empowerment campaigns,Does not support women’s empowerment campaigns,data/raw_data/raw_data_250819_225921_persona513.json
+78,Mild seasonal allergic rhinitis triggered by pollen,No seasonal allergic rhinitis triggered by pollen,data/raw_data/raw_data_250815_163935_persona78.json
+543,Knee pain from a past sports injury in college,No history of knee pain or past sports injuries,data/raw_data/raw_data_250819_225921_persona543.json
+816,Follows cycling events for leisure,Does not follow cycling events for leisure,data/raw_data/raw_data_250820_224501_persona816.json
+445,Likes attending wine tasting events,Dislikes attending wine tasting events,data/raw_data/raw_data_250818_011555_persona445.json
+425,Attends agricultural fairs and exhibitions,Does not attend agricultural fairs and exhibitions,data/raw_data/raw_data_250818_011555_persona425.json
+589,Regularly donates books to the library,Does not donate books to the library,data/raw_data/raw_data_250820_165412_persona589.json
+892,Likes both sunny and rainy days for different moods,Dislikes both sunny and rainy days.,data/raw_data/raw_data_250825_220103_persona892.json
+820,Enjoys watching boxing matches,Does not enjoy watching boxing matches,data/raw_data/raw_data_250820_224501_persona820.json
+377,Is a fan of contemporary American poetry,Is not a fan of contemporary American poetry,data/raw_data/raw_data_250818_011555_persona377.json
+947,Enjoys watching the waves at the beach,Enjoys spending time in the mountains,data/raw_data/raw_data_250826_131038_persona947.json
+310,Attends yoga classes regularly,Does not attend yoga classes regularly.,data/raw_data/raw_data_250815_163935_persona310.json
+845,Underwent laparoscopic surgery for gallstones in her late twenties,Has not undergone laparoscopic surgery for gallstones in her late twenties.,data/raw_data/raw_data_250820_224501_persona845.json
+499,History of gallbladder removal surgery in his late 30s,No history of gallbladder removal surgery in his late 30s,data/raw_data/raw_data_250819_225921_persona499.json
+436,Enjoys photography during travels,Does not enjoy photography during travels,data/raw_data/raw_data_250818_011555_persona436.json
