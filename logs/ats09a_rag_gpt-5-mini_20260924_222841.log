@@ -1,0 +1,35 @@
+[benchmark] rows=3,431 users=200 items=3,431
+========================================================================================
+ATS09a — ACTUAL LLM + RAG HISTORY-BUDGET
+========================================================================================
+model: gpt-5-mini
+retrieval device: cuda
+benchmark episode users: 196
+encoder: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3665.32it/s]
+Batches:   0%|          | 0/27 [00:00<?, ?it/s]Batches:   4%|▎         | 1/27 [00:00<00:12,  2.11it/s]Batches:   7%|▋         | 2/27 [00:00<00:06,  3.87it/s]Batches:  11%|█         | 3/27 [00:00<00:04,  5.29it/s]Batches:  19%|█▊        | 5/27 [00:00<00:02,  7.88it/s]Batches:  30%|██▉       | 8/27 [00:00<00:01, 12.70it/s]Batches:  44%|████▍     | 12/27 [00:01<00:00, 18.29it/s]Batches:  59%|█████▉    | 16/27 [00:01<00:00, 23.08it/s]Batches:  78%|███████▊  | 21/27 [00:01<00:00, 28.38it/s]Batches:  96%|█████████▋| 26/27 [00:01<00:00, 32.96it/s]Batches: 100%|██████████| 27/27 [00:01<00:00, 18.57it/s]
+Batches:   0%|          | 0/18 [00:00<?, ?it/s]Batches:   6%|▌         | 1/18 [00:00<00:01,  9.06it/s]Batches:  11%|█         | 2/18 [00:00<00:01,  9.16it/s]Batches:  17%|█▋        | 3/18 [00:00<00:01,  9.22it/s]Batches:  22%|██▏       | 4/18 [00:00<00:01,  9.24it/s]Batches:  28%|██▊       | 5/18 [00:00<00:01,  9.02it/s]Batches:  33%|███▎      | 6/18 [00:00<00:01,  8.97it/s]Batches:  39%|███▉      | 7/18 [00:00<00:01,  9.04it/s]Batches:  44%|████▍     | 8/18 [00:00<00:01,  9.07it/s]Batches:  50%|█████     | 9/18 [00:00<00:00,  9.11it/s]Batches:  56%|█████▌    | 10/18 [00:01<00:00,  9.15it/s]Batches:  61%|██████    | 11/18 [00:01<00:00,  9.17it/s]Batches:  67%|██████▋   | 12/18 [00:01<00:00,  9.20it/s]Batches:  72%|███████▏  | 13/18 [00:01<00:00,  9.23it/s]Batches:  78%|███████▊  | 14/18 [00:01<00:00,  9.26it/s]Batches:  83%|████████▎ | 15/18 [00:01<00:00,  9.28it/s]Batches:  89%|████████▉ | 16/18 [00:01<00:00,  9.31it/s]Batches:  94%|█████████▍| 17/18 [00:01<00:00,  9.43it/s]Batches: 100%|██████████| 18/18 [00:01<00:00,  9.31it/s]
+selected queries: 10
+condition rows: 60 | unique API prompts: 58
+cached: 0 | missing: 58
+Traceback (most recent call last):
+  File "/workspace/perspective-llm/ATS/models/ats_09a_actual_rag_history_budget.py", line 711, in <module>
+    main()
+  File "/workspace/perspective-llm/ATS/models/ats_09a_actual_rag_history_budget.py", line 539, in main
+    x = fut.result()
+        ^^^^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/venv/perspective-llm/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/perspective-llm/ATS/models/ats_09a_actual_rag_history_budget.py", line 517, in worker
+    x = api_call(
+        ^^^^^^^^^
+  File "/workspace/perspective-llm/ATS/models/ats_09a_actual_rag_history_budget.py", line 188, in api_call
+    raise RuntimeError(last)
+RuntimeError: Connection error.
