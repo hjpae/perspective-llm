@@ -1,0 +1,301 @@
+========================================================================================
+ATS07 — STRONG BASELINE CHALLENGE
+========================================================================================
+REPO_ROOT:      /workspace/perspective-llm
+ATS06 source:   /workspace/perspective-llm/ATS/models/ats_06_cear_g_ca.py
+ATS06 result:   /workspace/perspective-llm/results/ATS/cear_g_ca/rep_seed0_20260924_024922
+RESULT_ROOT:    /workspace/perspective-llm/results/ATS/strong_baselines_ca/seed0_20260924_165719
+DEVICE:         cuda
+GPU:            NVIDIA GeForce RTX 5060 Ti
+train_seed:     0
+episode_seed:   0
+retrieval k:    (3, 5, 10)
+temperature:    0.2
+Loading cached compact CA table...
+Loading cached frozen pair embeddings...
+users train/val/test: 1685 361 361
+fixed embed dim:       384
+ATS06 best epoch:      275
+ATS06 best val NLL:    1.138967523176185
+[static   ] epoch 001 | train=1.3765 | val=1.3606
+[static   ] epoch 002 | train=1.3389 | val=1.3070
+[static   ] epoch 003 | train=1.2939 | val=1.2564
+[static   ] epoch 004 | train=1.2566 | val=1.2318
+[static   ] epoch 005 | train=1.2276 | val=1.2202
+[static   ] epoch 006 | train=1.2306 | val=1.2147
+[static   ] epoch 007 | train=1.2270 | val=1.2109
+[static   ] epoch 008 | train=1.2335 | val=1.2089
+[static   ] epoch 009 | train=1.2166 | val=1.2050
+[static   ] epoch 010 | train=1.2136 | val=1.2021
+[static   ] epoch 011 | train=1.2265 | val=1.2012
+[static   ] epoch 012 | train=1.2293 | val=1.1995
+[static   ] epoch 013 | train=1.2182 | val=1.1984
+[static   ] epoch 014 | train=1.2293 | val=1.1973
+[static   ] epoch 015 | train=1.2278 | val=1.1972
+[static   ] epoch 016 | train=1.2006 | val=1.1939
+[static   ] epoch 017 | train=1.2140 | val=1.1933
+[static   ] epoch 018 | train=1.2232 | val=1.1931
+[static   ] epoch 019 | train=1.2093 | val=1.1921
+[static   ] epoch 020 | train=1.2171 | val=1.1912
+[static   ] epoch 021 | train=1.2237 | val=1.1915
+[static   ] epoch 022 | train=1.2306 | val=1.1921
+[static   ] epoch 023 | train=1.2178 | val=1.1916
+[static   ] epoch 024 | train=1.2204 | val=1.1899
+[static   ] epoch 025 | train=1.2209 | val=1.1887
+[static   ] epoch 026 | train=1.2227 | val=1.1883
+[static   ] epoch 027 | train=1.2180 | val=1.1875
+[static   ] epoch 028 | train=1.2045 | val=1.1864
+[static   ] epoch 029 | train=1.2185 | val=1.1869
+[static   ] epoch 030 | train=1.2248 | val=1.1871
+[static   ] epoch 031 | train=1.1905 | val=1.1853
+[static   ] epoch 032 | train=1.2030 | val=1.1845
+[static   ] epoch 033 | train=1.2178 | val=1.1850
+[static   ] epoch 034 | train=1.1994 | val=1.1839
+[static   ] epoch 035 | train=1.2127 | val=1.1846
+[static   ] epoch 036 | train=1.2131 | val=1.1842
+[static   ] epoch 037 | train=1.2122 | val=1.1836
+[static   ] epoch 038 | train=1.2134 | val=1.1838
+[static   ] epoch 039 | train=1.2202 | val=1.1838
+[static   ] epoch 040 | train=1.2102 | val=1.1835
+[static   ] epoch 041 | train=1.1946 | val=1.1812
+[static   ] epoch 042 | train=1.2191 | val=1.1818
+[static   ] epoch 043 | train=1.1936 | val=1.1813
+[static   ] epoch 044 | train=1.1945 | val=1.1810
+[static   ] epoch 045 | train=1.2045 | val=1.1813
+[static   ] epoch 046 | train=1.2014 | val=1.1803
+[static   ] epoch 047 | train=1.1970 | val=1.1801
+[static   ] epoch 048 | train=1.2123 | val=1.1805
+[static   ] epoch 049 | train=1.1775 | val=1.1789
+[static   ] epoch 050 | train=1.2074 | val=1.1794
+[static   ] epoch 051 | train=1.2074 | val=1.1797
+[static   ] epoch 052 | train=1.1804 | val=1.1793
+[static   ] epoch 053 | train=1.2014 | val=1.1793
+[static   ] epoch 054 | train=1.1951 | val=1.1791
+[static   ] epoch 055 | train=1.2030 | val=1.1793
+[static   ] epoch 056 | train=1.2001 | val=1.1794
+[static   ] epoch 057 | train=1.1974 | val=1.1793
+[static   ] epoch 058 | train=1.2039 | val=1.1794
+[static   ] epoch 059 | train=1.1924 | val=1.1788
+[static   ] epoch 060 | train=1.1945 | val=1.1782
+[static   ] epoch 061 | train=1.1827 | val=1.1771
+[static   ] epoch 062 | train=1.1869 | val=1.1769
+[static   ] epoch 063 | train=1.1952 | val=1.1768
+[static   ] epoch 064 | train=1.1861 | val=1.1767
+[static   ] epoch 065 | train=1.1964 | val=1.1760
+[static   ] epoch 066 | train=1.1919 | val=1.1770
+[static   ] epoch 067 | train=1.1957 | val=1.1764
+[static   ] epoch 068 | train=1.1886 | val=1.1755
+[static   ] epoch 069 | train=1.1931 | val=1.1757
+[static   ] epoch 070 | train=1.1988 | val=1.1759
+[static   ] epoch 071 | train=1.1803 | val=1.1748
+[static   ] epoch 072 | train=1.2118 | val=1.1760
+[static   ] epoch 073 | train=1.1937 | val=1.1755
+[static   ] epoch 074 | train=1.2004 | val=1.1761
+[static   ] epoch 075 | train=1.1813 | val=1.1751
+[static   ] epoch 076 | train=1.2021 | val=1.1753
+[static   ] epoch 077 | train=1.2009 | val=1.1741
+[static   ] epoch 078 | train=1.1931 | val=1.1739
+[static   ] epoch 079 | train=1.1894 | val=1.1732
+[static   ] epoch 080 | train=1.2007 | val=1.1738
+[static   ] epoch 081 | train=1.1919 | val=1.1736
+[static   ] epoch 082 | train=1.1837 | val=1.1721
+[static   ] epoch 083 | train=1.1747 | val=1.1718
+[static   ] epoch 084 | train=1.2006 | val=1.1717
+[static   ] epoch 085 | train=1.1931 | val=1.1721
+[static   ] epoch 086 | train=1.1826 | val=1.1707
+[static   ] epoch 087 | train=1.1969 | val=1.1709
+[static   ] epoch 088 | train=1.1828 | val=1.1706
+[static   ] epoch 089 | train=1.1883 | val=1.1706
+[static   ] epoch 090 | train=1.1922 | val=1.1706
+[static   ] epoch 091 | train=1.1722 | val=1.1699
+[static   ] epoch 092 | train=1.1848 | val=1.1695
+[static   ] epoch 093 | train=1.1776 | val=1.1697
+[static   ] epoch 094 | train=1.1917 | val=1.1708
+[static   ] epoch 095 | train=1.1932 | val=1.1709
+[static   ] epoch 096 | train=1.1860 | val=1.1693
+[static   ] epoch 097 | train=1.1826 | val=1.1685
+[static   ] epoch 098 | train=1.2089 | val=1.1696
+[static   ] epoch 099 | train=1.1769 | val=1.1682
+[static   ] epoch 100 | train=1.1765 | val=1.1671
+[static   ] epoch 101 | train=1.1827 | val=1.1663
+[static   ] epoch 102 | train=1.1788 | val=1.1661
+[static   ] epoch 103 | train=1.1820 | val=1.1665
+[static   ] epoch 104 | train=1.1685 | val=1.1662
+[static   ] epoch 105 | train=1.1958 | val=1.1661
+[static   ] epoch 106 | train=1.2013 | val=1.1666
+[static   ] epoch 107 | train=1.1526 | val=1.1657
+[static   ] epoch 108 | train=1.1833 | val=1.1659
+[static   ] epoch 109 | train=1.1866 | val=1.1661
+[static   ] epoch 110 | train=1.1969 | val=1.1670
+[static   ] epoch 111 | train=1.1910 | val=1.1677
+[static   ] epoch 112 | train=1.1698 | val=1.1665
+[static   ] epoch 113 | train=1.1793 | val=1.1662
+[static   ] epoch 114 | train=1.1770 | val=1.1664
+[static   ] epoch 115 | train=1.1684 | val=1.1653
+[static   ] epoch 116 | train=1.1742 | val=1.1650
+[static   ] epoch 117 | train=1.1812 | val=1.1651
+[static   ] epoch 118 | train=1.1938 | val=1.1651
+[static   ] epoch 119 | train=1.1833 | val=1.1651
+[static   ] epoch 120 | train=1.1803 | val=1.1655
+[retrieval] epoch 001 | train=1.3754 | val=1.3601 | monitor_k=5
+[retrieval] epoch 002 | train=1.3386 | val=1.3070 | monitor_k=5
+[retrieval] epoch 003 | train=1.2823 | val=1.2522 | monitor_k=5
+[retrieval] epoch 004 | train=1.2581 | val=1.2305 | monitor_k=5
+[retrieval] epoch 005 | train=1.2311 | val=1.2201 | monitor_k=5
+[retrieval] epoch 006 | train=1.2265 | val=1.2149 | monitor_k=5
+[retrieval] epoch 007 | train=1.2225 | val=1.2115 | monitor_k=5
+[retrieval] epoch 008 | train=1.2312 | val=1.2094 | monitor_k=5
+[retrieval] epoch 009 | train=1.2290 | val=1.2071 | monitor_k=5
+[retrieval] epoch 010 | train=1.2288 | val=1.2051 | monitor_k=5
+[retrieval] epoch 011 | train=1.2289 | val=1.2027 | monitor_k=5
+[retrieval] epoch 012 | train=1.2271 | val=1.2009 | monitor_k=5
+[retrieval] epoch 013 | train=1.2074 | val=1.1982 | monitor_k=5
+[retrieval] epoch 014 | train=1.2193 | val=1.1969 | monitor_k=5
+[retrieval] epoch 015 | train=1.2320 | val=1.1964 | monitor_k=5
+[retrieval] epoch 016 | train=1.2156 | val=1.1950 | monitor_k=5
+[retrieval] epoch 017 | train=1.2126 | val=1.1938 | monitor_k=5
+[retrieval] epoch 018 | train=1.2115 | val=1.1922 | monitor_k=5
+[retrieval] epoch 019 | train=1.1958 | val=1.1909 | monitor_k=5
+[retrieval] epoch 020 | train=1.2247 | val=1.1913 | monitor_k=5
+[retrieval] epoch 021 | train=1.2300 | val=1.1920 | monitor_k=5
+[retrieval] epoch 022 | train=1.1989 | val=1.1893 | monitor_k=5
+[retrieval] epoch 023 | train=1.2195 | val=1.1892 | monitor_k=5
+[retrieval] epoch 024 | train=1.2124 | val=1.1887 | monitor_k=5
+[retrieval] epoch 025 | train=1.1971 | val=1.1873 | monitor_k=5
+[retrieval] epoch 026 | train=1.2153 | val=1.1873 | monitor_k=5
+[retrieval] epoch 027 | train=1.2063 | val=1.1873 | monitor_k=5
+[retrieval] epoch 028 | train=1.2031 | val=1.1865 | monitor_k=5
+[retrieval] epoch 029 | train=1.2087 | val=1.1862 | monitor_k=5
+[retrieval] epoch 030 | train=1.2123 | val=1.1859 | monitor_k=5
+[retrieval] epoch 031 | train=1.1903 | val=1.1844 | monitor_k=5
+[retrieval] epoch 032 | train=1.2014 | val=1.1845 | monitor_k=5
+[retrieval] epoch 033 | train=1.2181 | val=1.1850 | monitor_k=5
+[retrieval] epoch 034 | train=1.2141 | val=1.1849 | monitor_k=5
+[retrieval] epoch 035 | train=1.1989 | val=1.1838 | monitor_k=5
+[retrieval] epoch 036 | train=1.2161 | val=1.1834 | monitor_k=5
+[retrieval] epoch 037 | train=1.2125 | val=1.1839 | monitor_k=5
+[retrieval] epoch 038 | train=1.2079 | val=1.1830 | monitor_k=5
+[retrieval] epoch 039 | train=1.2061 | val=1.1829 | monitor_k=5
+[retrieval] epoch 040 | train=1.2003 | val=1.1821 | monitor_k=5
+[retrieval] epoch 041 | train=1.2211 | val=1.1830 | monitor_k=5
+[retrieval] epoch 042 | train=1.1929 | val=1.1820 | monitor_k=5
+[retrieval] epoch 043 | train=1.2045 | val=1.1821 | monitor_k=5
+[retrieval] epoch 044 | train=1.2077 | val=1.1825 | monitor_k=5
+[retrieval] epoch 045 | train=1.2051 | val=1.1818 | monitor_k=5
+[retrieval] epoch 046 | train=1.1925 | val=1.1805 | monitor_k=5
+[retrieval] epoch 047 | train=1.2064 | val=1.1802 | monitor_k=5
+[retrieval] epoch 048 | train=1.1974 | val=1.1815 | monitor_k=5
+[retrieval] epoch 049 | train=1.2027 | val=1.1808 | monitor_k=5
+[retrieval] epoch 050 | train=1.2058 | val=1.1807 | monitor_k=5
+[retrieval] epoch 051 | train=1.2137 | val=1.1806 | monitor_k=5
+[retrieval] epoch 052 | train=1.1946 | val=1.1799 | monitor_k=5
+[retrieval] epoch 053 | train=1.1810 | val=1.1786 | monitor_k=5
+[retrieval] epoch 054 | train=1.2024 | val=1.1786 | monitor_k=5
+[retrieval] epoch 055 | train=1.1906 | val=1.1786 | monitor_k=5
+[retrieval] epoch 056 | train=1.2102 | val=1.1789 | monitor_k=5
+[retrieval] epoch 057 | train=1.1943 | val=1.1789 | monitor_k=5
+[retrieval] epoch 058 | train=1.1882 | val=1.1774 | monitor_k=5
+[retrieval] epoch 059 | train=1.2144 | val=1.1789 | monitor_k=5
+[retrieval] epoch 060 | train=1.1984 | val=1.1779 | monitor_k=5
+[retrieval] epoch 061 | train=1.1914 | val=1.1774 | monitor_k=5
+[retrieval] epoch 062 | train=1.1931 | val=1.1769 | monitor_k=5
+[retrieval] epoch 063 | train=1.1955 | val=1.1764 | monitor_k=5
+[retrieval] epoch 064 | train=1.1940 | val=1.1763 | monitor_k=5
+[retrieval] epoch 065 | train=1.2060 | val=1.1770 | monitor_k=5
+[retrieval] epoch 066 | train=1.1919 | val=1.1766 | monitor_k=5
+[retrieval] epoch 067 | train=1.1959 | val=1.1763 | monitor_k=5
+[retrieval] epoch 068 | train=1.2076 | val=1.1766 | monitor_k=5
+[retrieval] epoch 069 | train=1.1958 | val=1.1763 | monitor_k=5
+[retrieval] epoch 070 | train=1.2062 | val=1.1766 | monitor_k=5
+[retrieval] epoch 071 | train=1.1958 | val=1.1768 | monitor_k=5
+[retrieval] epoch 072 | train=1.1896 | val=1.1772 | monitor_k=5
+[retrieval] epoch 073 | train=1.2058 | val=1.1763 | monitor_k=5
+[retrieval] epoch 074 | train=1.1918 | val=1.1758 | monitor_k=5
+[retrieval] epoch 075 | train=1.2114 | val=1.1763 | monitor_k=5
+[retrieval] epoch 076 | train=1.1973 | val=1.1753 | monitor_k=5
+[retrieval] epoch 077 | train=1.1975 | val=1.1754 | monitor_k=5
+[retrieval] epoch 078 | train=1.1883 | val=1.1753 | monitor_k=5
+[retrieval] epoch 079 | train=1.1934 | val=1.1751 | monitor_k=5
+[retrieval] epoch 080 | train=1.1968 | val=1.1753 | monitor_k=5
+[retrieval] epoch 081 | train=1.1993 | val=1.1754 | monitor_k=5
+[retrieval] epoch 082 | train=1.1748 | val=1.1742 | monitor_k=5
+[retrieval] epoch 083 | train=1.1996 | val=1.1748 | monitor_k=5
+[retrieval] epoch 084 | train=1.1970 | val=1.1743 | monitor_k=5
+[retrieval] epoch 085 | train=1.1753 | val=1.1730 | monitor_k=5
+[retrieval] epoch 086 | train=1.1754 | val=1.1724 | monitor_k=5
+[retrieval] epoch 087 | train=1.2046 | val=1.1728 | monitor_k=5
+[retrieval] epoch 088 | train=1.1868 | val=1.1731 | monitor_k=5
+[retrieval] epoch 089 | train=1.2070 | val=1.1729 | monitor_k=5
+[retrieval] epoch 090 | train=1.1811 | val=1.1719 | monitor_k=5
+[retrieval] epoch 091 | train=1.1941 | val=1.1721 | monitor_k=5
+[retrieval] epoch 092 | train=1.1832 | val=1.1707 | monitor_k=5
+[retrieval] epoch 093 | train=1.1867 | val=1.1707 | monitor_k=5
+[retrieval] epoch 094 | train=1.1944 | val=1.1707 | monitor_k=5
+[retrieval] epoch 095 | train=1.1823 | val=1.1702 | monitor_k=5
+[retrieval] epoch 096 | train=1.1761 | val=1.1693 | monitor_k=5
+[retrieval] epoch 097 | train=1.1857 | val=1.1694 | monitor_k=5
+[retrieval] epoch 098 | train=1.1845 | val=1.1692 | monitor_k=5
+[retrieval] epoch 099 | train=1.1882 | val=1.1695 | monitor_k=5
+[retrieval] epoch 100 | train=1.1990 | val=1.1695 | monitor_k=5
+[retrieval] epoch 101 | train=1.1848 | val=1.1698 | monitor_k=5
+[retrieval] epoch 102 | train=1.2032 | val=1.1705 | monitor_k=5
+[retrieval] epoch 103 | train=1.1820 | val=1.1700 | monitor_k=5
+[retrieval] epoch 104 | train=1.1875 | val=1.1693 | monitor_k=5
+[retrieval] epoch 105 | train=1.1987 | val=1.1695 | monitor_k=5
+[retrieval] epoch 106 | train=1.1827 | val=1.1690 | monitor_k=5
+[retrieval] epoch 107 | train=1.1811 | val=1.1687 | monitor_k=5
+[retrieval] epoch 108 | train=1.1714 | val=1.1679 | monitor_k=5
+[retrieval] epoch 109 | train=1.1926 | val=1.1684 | monitor_k=5
+[retrieval] epoch 110 | train=1.1725 | val=1.1673 | monitor_k=5
+[retrieval] epoch 111 | train=1.1869 | val=1.1676 | monitor_k=5
+[retrieval] epoch 112 | train=1.1701 | val=1.1670 | monitor_k=5
+[retrieval] epoch 113 | train=1.1720 | val=1.1666 | monitor_k=5
+[retrieval] epoch 114 | train=1.1740 | val=1.1668 | monitor_k=5
+[retrieval] epoch 115 | train=1.1797 | val=1.1668 | monitor_k=5
+[retrieval] epoch 116 | train=1.1903 | val=1.1673 | monitor_k=5
+[retrieval] epoch 117 | train=1.1737 | val=1.1673 | monitor_k=5
+[retrieval] epoch 118 | train=1.1761 | val=1.1673 | monitor_k=5
+[retrieval] epoch 119 | train=1.1955 | val=1.1668 | monitor_k=5
+[retrieval] epoch 120 | train=1.1859 | val=1.1671 | monitor_k=5
+
+Evaluating validation baselines...
+selected retrieval k = 10
+selected fusion lambda_retrieval = 0.10
+
+Evaluating TEST...
+
+========================================================================================
+ATS07 — TEST SUMMARY
+========================================================================================
+               model  n_query  n_users  accuracy      nll    brier  mean_p_true
+               ats_g     2551      361  0.504508 1.153240 0.615351     0.388447
+  ats_plus_retrieval     2551      361  0.503332 1.153241 0.615465     0.386739
+      static_profile     2551      361  0.496276 1.176625 0.628914     0.366146
+  semantic_retrieval     2551      361  0.494708 1.179257 0.630353     0.366569
+ats_reset_query_only     2551      361  0.507252 1.179890 0.629669     0.372246
+
+Selected retrieval k: 10
+Selected retrieval fusion lambda: 0.1
+
+Key bootstrap comparisons: model_a - model_b
+           model_a              model_b   metric  n_users     delta    ci_low   ci_high
+    static_profile ats_reset_query_only accuracy      361 -0.010915 -0.022592  0.000825
+    static_profile ats_reset_query_only      nll      361 -0.004094 -0.012470  0.003224
+    static_profile ats_reset_query_only    brier      361 -0.000815 -0.004776  0.003071
+semantic_retrieval ats_reset_query_only accuracy      361 -0.013064 -0.024729 -0.001967
+semantic_retrieval ats_reset_query_only      nll      361 -0.001925 -0.009401  0.005232
+semantic_retrieval ats_reset_query_only    brier      361  0.000317 -0.003181  0.003760
+             ats_g       static_profile accuracy      361  0.005226 -0.006707  0.017522
+             ats_g       static_profile      nll      361 -0.020238 -0.030221 -0.010244
+             ats_g       static_profile    brier      361 -0.011753 -0.017187 -0.006451
+             ats_g   semantic_retrieval accuracy      361  0.007375 -0.005286  0.020099
+             ats_g   semantic_retrieval      nll      361 -0.022407 -0.032863 -0.011518
+             ats_g   semantic_retrieval    brier      361 -0.012885 -0.019079 -0.006764
+ats_plus_retrieval   semantic_retrieval accuracy      361  0.007204 -0.005167  0.019106
+ats_plus_retrieval   semantic_retrieval      nll      361 -0.022843 -0.032312 -0.013497
+ats_plus_retrieval   semantic_retrieval    brier      361 -0.013019 -0.018119 -0.007699
+ats_plus_retrieval                ats_g accuracy      361 -0.000172 -0.003556  0.003347
+ats_plus_retrieval                ats_g      nll      361 -0.000437 -0.001498  0.000580
+ats_plus_retrieval                ats_g    brier      361 -0.000134 -0.000678  0.000416
+
+Wrote: /workspace/perspective-llm/results/ATS/strong_baselines_ca/seed0_20260924_165719

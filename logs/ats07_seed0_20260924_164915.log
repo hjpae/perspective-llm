@@ -1,0 +1,37 @@
+========================================================================================
+ATS07 — STRONG BASELINE CHALLENGE
+========================================================================================
+REPO_ROOT:      /workspace/perspective-llm
+ATS06 source:   /workspace/perspective-llm/ATS/models/ats_06_cear_g_ca.py
+ATS06 result:   /workspace/perspective-llm/results/ATS/cear_g_ca/rep_seed0_20260924_024922
+RESULT_ROOT:    /workspace/perspective-llm/results/ATS/strong_baselines_ca/seed0_20260924_164915
+DEVICE:         cuda
+GPU:            NVIDIA GeForce RTX 5060 Ti
+train_seed:     0
+episode_seed:   0
+retrieval k:    (3, 5, 10)
+temperature:    0.2
+Loading cached compact CA table...
+Loading cached frozen pair embeddings...
+users train/val/test: 0 0 0
+fixed embed dim:       384
+ATS06 best epoch:      275
+ATS06 best val NLL:    1.138967523176185
+Traceback (most recent call last):
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 889, in <module>
+    main()
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 728, in main
+    static_result = train_history_model(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 447, in train_history_model
+    val_nll = evaluate_val_nll(
+              ^^^^^^^^^^^^^^^^^
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 378, in evaluate_val_nll
+    return float(d["nll"].mean())
+                 ~^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/site-packages/pandas/core/frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 535, in get_loc
+    raise KeyError(key)
+KeyError: 'nll'

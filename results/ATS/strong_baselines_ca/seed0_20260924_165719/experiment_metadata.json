@@ -1,0 +1,29 @@
+{
+  "ats06_dir": "/workspace/perspective-llm/results/ATS/cear_g_ca/rep_seed0_20260924_024922",
+  "ats06_source": "/workspace/perspective-llm/ATS/models/ats_06_cear_g_ca.py",
+  "ats06_best_epoch": 275,
+  "ats06_best_val_nll": 1.138967523176185,
+  "split_source": "/workspace/perspective-llm/results/ATS/cear_g_ca/rep_seed0_20260924_024922/user_splits.csv",
+  "episode_seed": 0,
+  "train_seed": 0,
+  "device": "cuda",
+  "embed_dim": 384,
+  "static_trainable_params": 197122,
+  "retrieval_trainable_params": 197122,
+  "static_best_epoch": 116,
+  "static_best_val_nll": 1.1650189747074793,
+  "retrieval_best_epoch": 113,
+  "retrieval_best_val_nll_monitor": 1.1665570613323444,
+  "retrieval_k_candidates": [
+    3,
+    5,
+    10
+  ],
+  "selected_retrieval_k": 10,
+  "retrieval_temperature": 0.2,
+  "selected_fusion_lambda_retrieval": 0.1,
+  "selected_fusion_val_nll": 1.139476275621438,
+  "val_ats_permutations": 3,
+  "test_ats_permutations": 12,
+  "semantic_retrieval_is_full_llm_rag": false
+}

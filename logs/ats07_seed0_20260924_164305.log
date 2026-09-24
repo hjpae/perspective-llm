@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 885, in <module>
+    main()
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 676, in main
+    ats06 = load_module_from_path(ats06_source)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/perspective-llm/ATS/models/ats_07_strong_baselines_ca.py", line 166, in load_module_from_path
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspace/perspective-llm/ATS/models/ats_06_cear_g_ca.py", line 491, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/dataclasses.py", line 1232, in dataclass
+    return wrap(cls)
+           ^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/dataclasses.py", line 1222, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/dataclasses.py", line 947, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/perspective-llm/lib/python3.11/dataclasses.py", line 712, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
