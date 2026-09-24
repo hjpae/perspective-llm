@@ -1,0 +1,391 @@
+REPO_ROOT:   /workspace
+CACHE_ROOT:  /workspace/data/ATS/cache/ca_cear_g
+RESULT_ROOT: /workspace/results/ATS/cear_g_ca/longrun_20260923_211809
+DEVICE:      cuda
+GPU:         NVIDIA GeForce RTX 5060 Ti
+torch CUDA:  13.0
+COUPLER:     metric
+SEED:        20260923
+EPOCHS:      300
+BATCH users: 32
+DEBUG:       False
+HF auth:     no (public streaming)
+
+Streaming Community Alignment from Hugging Face...
+Raw corpus is NOT saved locally.
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  streamed=5,000 | interactions=3,691 | unique items=2,153
+  streamed=20,000 | interactions=14,891 | unique items=3,672
+  streamed=25,000 | interactions=18,616 | unique items=3,922
+  streamed=35,000 | interactions=26,016 | unique items=4,366
+  streamed=45,000 | interactions=33,428 | unique items=4,808
+  streamed=50,000 | interactions=37,108 | unique items=5,043
+  streamed=55,000 | interactions=40,816 | unique items=5,247
+  streamed=60,000 | interactions=44,542 | unique items=5,455
+  streamed=65,000 | interactions=48,300 | unique items=5,689
+
+[compact CA cache]
+interactions: 50,111
+users: 2,407
+items: 5,597
+same-choice duplicate rows collapsed: 19
+conflicting user-item pairs dropped: 4
+multi-language users dropped: 9
+other skips: {'user_initiated_first_prompt': 18200, 'duplicate_candidates': 29, 'missing_fields': 2, 'other_wave': 19395}
+
+Loading frozen encoder: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3082.98it/s]
+pair texts to embed: 22,388
+Batches:   0%|          | 0/175 [00:00<?, ?it/s]Batches:   1%|          | 1/175 [00:00<01:13,  2.38it/s]Batches:   1%|          | 2/175 [00:00<00:41,  4.12it/s]Batches:   2%|▏         | 3/175 [00:00<00:32,  5.29it/s]Batches:   2%|▏         | 4/175 [00:00<00:27,  6.22it/s]Batches:   3%|▎         | 5/175 [00:00<00:24,  6.94it/s]Batches:   3%|▎         | 6/175 [00:01<00:22,  7.45it/s]Batches:   4%|▍         | 7/175 [00:01<00:21,  7.85it/s]Batches:   5%|▍         | 8/175 [00:01<00:20,  8.14it/s]Batches:   5%|▌         | 9/175 [00:01<00:19,  8.37it/s]Batches:   6%|▌         | 10/175 [00:01<00:19,  8.53it/s]Batches:   6%|▋         | 11/175 [00:01<00:19,  8.61it/s]Batches:   7%|▋         | 12/175 [00:01<00:18,  8.71it/s]Batches:   7%|▋         | 13/175 [00:01<00:18,  8.80it/s]Batches:   8%|▊         | 14/175 [00:01<00:18,  8.86it/s]Batches:   9%|▊         | 15/175 [00:02<00:17,  8.91it/s]Batches:   9%|▉         | 16/175 [00:02<00:17,  8.95it/s]Batches:  10%|▉         | 17/175 [00:02<00:17,  8.99it/s]Batches:  10%|█         | 18/175 [00:02<00:17,  9.02it/s]Batches:  11%|█         | 19/175 [00:02<00:17,  9.05it/s]Batches:  11%|█▏        | 20/175 [00:02<00:17,  9.04it/s]Batches:  12%|█▏        | 21/175 [00:02<00:17,  9.02it/s]Batches:  13%|█▎        | 22/175 [00:02<00:17,  8.96it/s]Batches:  13%|█▎        | 23/175 [00:02<00:16,  8.97it/s]Batches:  14%|█▎        | 24/175 [00:03<00:16,  8.98it/s]Batches:  14%|█▍        | 25/175 [00:03<00:16,  9.00it/s]Batches:  15%|█▍        | 26/175 [00:03<00:16,  9.03it/s]Batches:  15%|█▌        | 27/175 [00:03<00:16,  9.05it/s]Batches:  16%|█▌        | 28/175 [00:03<00:16,  9.05it/s]Batches:  17%|█▋        | 29/175 [00:03<00:16,  9.08it/s]Batches:  17%|█▋        | 30/175 [00:03<00:15,  9.07it/s]Batches:  18%|█▊        | 31/175 [00:03<00:15,  9.07it/s]Batches:  18%|█▊        | 32/175 [00:03<00:15,  9.08it/s]Batches:  19%|█▉        | 33/175 [00:04<00:15,  9.03it/s]Batches:  19%|█▉        | 34/175 [00:04<00:15,  9.05it/s]Batches:  20%|██        | 35/175 [00:04<00:15,  9.07it/s]Batches:  21%|██        | 36/175 [00:04<00:15,  9.09it/s]Batches:  21%|██        | 37/175 [00:04<00:15,  9.09it/s]Batches:  22%|██▏       | 38/175 [00:04<00:15,  9.10it/s]Batches:  22%|██▏       | 39/175 [00:04<00:14,  9.10it/s]Batches:  23%|██▎       | 40/175 [00:04<00:14,  9.10it/s]Batches:  23%|██▎       | 41/175 [00:04<00:14,  9.10it/s]Batches:  24%|██▍       | 42/175 [00:05<00:14,  9.03it/s]Batches:  25%|██▍       | 43/175 [00:05<00:14,  9.05it/s]Batches:  25%|██▌       | 44/175 [00:05<00:14,  9.08it/s]Batches:  26%|██▌       | 45/175 [00:05<00:14,  9.09it/s]Batches:  26%|██▋       | 46/175 [00:05<00:14,  9.13it/s]Batches:  27%|██▋       | 47/175 [00:05<00:14,  9.13it/s]Batches:  27%|██▋       | 48/175 [00:05<00:13,  9.12it/s]Batches:  28%|██▊       | 49/175 [00:05<00:13,  9.15it/s]Batches:  29%|██▊       | 50/175 [00:05<00:13,  9.14it/s]Batches:  29%|██▉       | 51/175 [00:05<00:13,  9.14it/s]Batches:  30%|██▉       | 52/175 [00:06<00:13,  9.13it/s]Batches:  30%|███       | 53/175 [00:06<00:13,  9.14it/s]Batches:  31%|███       | 54/175 [00:06<00:13,  9.13it/s]Batches:  31%|███▏      | 55/175 [00:06<00:13,  9.15it/s]Batches:  32%|███▏      | 56/175 [00:06<00:12,  9.16it/s]Batches:  33%|███▎      | 57/175 [00:06<00:12,  9.14it/s]Batches:  33%|███▎      | 58/175 [00:06<00:12,  9.12it/s]Batches:  34%|███▎      | 59/175 [00:06<00:12,  9.14it/s]Batches:  34%|███▍      | 60/175 [00:06<00:12,  9.11it/s]Batches:  35%|███▍      | 61/175 [00:07<00:12,  9.13it/s]Batches:  35%|███▌      | 62/175 [00:07<00:12,  9.12it/s]Batches:  36%|███▌      | 63/175 [00:07<00:12,  9.13it/s]Batches:  37%|███▋      | 64/175 [00:07<00:12,  9.16it/s]Batches:  37%|███▋      | 65/175 [00:07<00:11,  9.17it/s]Batches:  38%|███▊      | 66/175 [00:07<00:11,  9.17it/s]Batches:  38%|███▊      | 67/175 [00:07<00:11,  9.17it/s]Batches:  39%|███▉      | 68/175 [00:07<00:11,  9.16it/s]Batches:  39%|███▉      | 69/175 [00:07<00:11,  9.15it/s]Batches:  40%|████      | 70/175 [00:08<00:11,  9.15it/s]Batches:  41%|████      | 71/175 [00:08<00:11,  9.14it/s]Batches:  41%|████      | 72/175 [00:08<00:11,  9.14it/s]Batches:  42%|████▏     | 73/175 [00:08<00:11,  9.15it/s]Batches:  42%|████▏     | 74/175 [00:08<00:11,  9.15it/s]Batches:  43%|████▎     | 75/175 [00:08<00:10,  9.13it/s]Batches:  43%|████▎     | 76/175 [00:08<00:10,  9.14it/s]Batches:  44%|████▍     | 77/175 [00:08<00:10,  9.15it/s]Batches:  45%|████▍     | 78/175 [00:08<00:10,  9.14it/s]Batches:  45%|████▌     | 79/175 [00:09<00:10,  9.15it/s]Batches:  46%|████▌     | 80/175 [00:09<00:10,  9.17it/s]Batches:  46%|████▋     | 81/175 [00:09<00:10,  9.16it/s]Batches:  47%|████▋     | 82/175 [00:09<00:10,  9.13it/s]Batches:  47%|████▋     | 83/175 [00:09<00:10,  9.12it/s]Batches:  48%|████▊     | 84/175 [00:09<00:09,  9.12it/s]Batches:  49%|████▊     | 85/175 [00:09<00:09,  9.14it/s]Batches:  49%|████▉     | 86/175 [00:09<00:11,  7.64it/s]Batches:  50%|████▉     | 87/175 [00:09<00:11,  7.98it/s]Batches:  50%|█████     | 88/175 [00:10<00:10,  8.29it/s]Batches:  51%|█████     | 89/175 [00:10<00:10,  8.50it/s]Batches:  51%|█████▏    | 90/175 [00:10<00:09,  8.68it/s]Batches:  52%|█████▏    | 91/175 [00:10<00:09,  8.79it/s]Batches:  53%|█████▎    | 92/175 [00:10<00:09,  8.82it/s]Batches:  53%|█████▎    | 93/175 [00:10<00:09,  8.90it/s]Batches:  54%|█████▎    | 94/175 [00:10<00:09,  8.89it/s]Batches:  54%|█████▍    | 95/175 [00:10<00:09,  8.88it/s]Batches:  55%|█████▍    | 96/175 [00:10<00:08,  8.89it/s]Batches:  55%|█████▌    | 97/175 [00:11<00:08,  8.91it/s]Batches:  56%|█████▌    | 98/175 [00:11<00:08,  8.92it/s]Batches:  57%|█████▋    | 99/175 [00:11<00:08,  8.91it/s]Batches:  57%|█████▋    | 100/175 [00:11<00:08,  8.95it/s]Batches:  58%|█████▊    | 101/175 [00:11<00:08,  8.93it/s]Batches:  58%|█████▊    | 102/175 [00:11<00:08,  8.95it/s]Batches:  59%|█████▉    | 103/175 [00:11<00:08,  8.94it/s]Batches:  59%|█████▉    | 104/175 [00:11<00:07,  8.99it/s]Batches:  60%|██████    | 105/175 [00:12<00:07,  8.98it/s]Batches:  61%|██████    | 106/175 [00:12<00:07,  8.98it/s]Batches:  61%|██████    | 107/175 [00:12<00:07,  8.96it/s]Batches:  62%|██████▏   | 108/175 [00:12<00:07,  9.01it/s]Batches:  62%|██████▏   | 109/175 [00:12<00:07,  8.98it/s]Batches:  63%|██████▎   | 110/175 [00:12<00:07,  8.97it/s]Batches:  63%|██████▎   | 111/175 [00:12<00:07,  8.96it/s]Batches:  64%|██████▍   | 112/175 [00:12<00:07,  8.96it/s]Batches:  65%|██████▍   | 113/175 [00:12<00:06,  8.94it/s]Batches:  65%|██████▌   | 114/175 [00:13<00:06,  8.96it/s]Batches:  66%|██████▌   | 115/175 [00:13<00:06,  8.94it/s]Batches:  66%|██████▋   | 116/175 [00:13<00:06,  8.93it/s]Batches:  67%|██████▋   | 117/175 [00:13<00:06,  8.93it/s]Batches:  67%|██████▋   | 118/175 [00:13<00:06,  8.94it/s]Batches:  68%|██████▊   | 119/175 [00:13<00:06,  8.94it/s]Batches:  69%|██████▊   | 120/175 [00:13<00:06,  8.94it/s]Batches:  69%|██████▉   | 121/175 [00:13<00:06,  8.95it/s]Batches:  70%|██████▉   | 122/175 [00:13<00:05,  8.96it/s]Batches:  70%|███████   | 123/175 [00:14<00:05,  8.95it/s]Batches:  71%|███████   | 124/175 [00:14<00:05,  8.93it/s]Batches:  71%|███████▏  | 125/175 [00:14<00:05,  8.94it/s]Batches:  72%|███████▏  | 126/175 [00:14<00:05,  8.90it/s]Batches:  73%|███████▎  | 127/175 [00:14<00:05,  8.91it/s]Batches:  73%|███████▎  | 128/175 [00:14<00:05,  8.90it/s]Batches:  74%|███████▎  | 129/175 [00:14<00:05,  8.92it/s]Batches:  74%|███████▍  | 130/175 [00:14<00:05,  8.92it/s]Batches:  75%|███████▍  | 131/175 [00:14<00:04,  8.95it/s]Batches:  75%|███████▌  | 132/175 [00:15<00:04,  8.97it/s]Batches:  76%|███████▌  | 133/175 [00:15<00:04,  8.94it/s]Batches:  77%|███████▋  | 134/175 [00:15<00:04,  8.95it/s]Batches:  77%|███████▋  | 135/175 [00:15<00:04,  8.94it/s]Batches:  78%|███████▊  | 136/175 [00:15<00:04,  8.96it/s]Batches:  78%|███████▊  | 137/175 [00:15<00:04,  8.98it/s]Batches:  79%|███████▉  | 138/175 [00:15<00:04,  9.01it/s]Batches:  79%|███████▉  | 139/175 [00:15<00:03,  9.01it/s]Batches:  80%|████████  | 140/175 [00:15<00:03,  9.02it/s]Batches:  81%|████████  | 141/175 [00:16<00:03,  9.03it/s]Batches:  81%|████████  | 142/175 [00:16<00:03,  9.03it/s]Batches:  82%|████████▏ | 143/175 [00:16<00:03,  9.03it/s]Batches:  82%|████████▏ | 144/175 [00:16<00:03,  9.06it/s]Batches:  83%|████████▎ | 145/175 [00:16<00:03,  9.09it/s]Batches:  83%|████████▎ | 146/175 [00:16<00:03,  9.11it/s]Batches:  84%|████████▍ | 147/175 [00:16<00:03,  9.11it/s]Batches:  85%|████████▍ | 148/175 [00:16<00:02,  9.12it/s]Batches:  85%|████████▌ | 149/175 [00:16<00:02,  9.10it/s]Batches:  86%|████████▌ | 150/175 [00:17<00:02,  9.10it/s]Batches:  86%|████████▋ | 151/175 [00:17<00:02,  9.09it/s]Batches:  87%|████████▋ | 152/175 [00:17<00:02,  9.09it/s]Batches:  87%|████████▋ | 153/175 [00:17<00:02,  9.09it/s]Batches:  88%|████████▊ | 154/175 [00:17<00:02,  9.09it/s]Batches:  89%|████████▊ | 155/175 [00:17<00:02,  9.11it/s]Batches:  89%|████████▉ | 156/175 [00:17<00:02,  9.11it/s]Batches:  90%|████████▉ | 157/175 [00:17<00:01,  9.12it/s]Batches:  90%|█████████ | 158/175 [00:17<00:01,  9.14it/s]Batches:  91%|█████████ | 159/175 [00:17<00:01,  9.13it/s]Batches:  91%|█████████▏| 160/175 [00:18<00:01,  9.14it/s]Batches:  92%|█████████▏| 161/175 [00:18<00:01,  9.18it/s]Batches:  93%|█████████▎| 162/175 [00:18<00:01,  9.18it/s]Batches:  93%|█████████▎| 163/175 [00:18<00:01,  9.19it/s]Batches:  94%|█████████▎| 164/175 [00:18<00:01,  9.21it/s]Batches:  94%|█████████▍| 165/175 [00:18<00:01,  9.19it/s]Batches:  95%|█████████▍| 166/175 [00:18<00:00,  9.21it/s]Batches:  95%|█████████▌| 167/175 [00:18<00:00,  9.24it/s]Batches:  96%|█████████▌| 168/175 [00:18<00:00,  9.26it/s]Batches:  97%|█████████▋| 169/175 [00:19<00:00,  9.32it/s]Batches:  98%|█████████▊| 171/175 [00:19<00:00,  9.86it/s]Batches:  99%|█████████▉| 173/175 [00:19<00:00, 10.39it/s]Batches: 100%|██████████| 175/175 [00:19<00:00, 11.66it/s]Batches: 100%|██████████| 175/175 [00:19<00:00,  8.94it/s]
+embedding tensor shape: (5597, 4, 384)
+embedding cache MB: 16.4
+
+[user coverage]
+train users=1685 | median interactions=20.0
+val   users= 361 | median interactions=20.0
+test  users= 361 | median interactions=20.0
+fixed val users: 361
+fixed test users: 361
+
+[model]
+frozen semantic dimension: 384
+pre-metric dimensionality reduction: NO
+g dimension: 32
+g storage/user float32: 128 bytes
+metric rank: 8
+trainable parameters: 349,154
+epoch 01 | trainQ=1.3771 | trainS=1.3776 | val NLL=1.3645 | person_scale=0.102
+epoch 02 | trainQ=1.3513 | trainS=1.3496 | val NLL=1.3264 | person_scale=0.105
+epoch 03 | trainQ=1.3079 | trainS=1.3076 | val NLL=1.2779 | person_scale=0.108
+epoch 04 | trainQ=1.2639 | trainS=1.2719 | val NLL=1.2421 | person_scale=0.110
+epoch 05 | trainQ=1.2455 | trainS=1.2518 | val NLL=1.2268 | person_scale=0.111
+epoch 06 | trainQ=1.2471 | trainS=1.2394 | val NLL=1.2217 | person_scale=0.112
+epoch 07 | trainQ=1.2303 | trainS=1.2350 | val NLL=1.2176 | person_scale=0.112
+epoch 08 | trainQ=1.2282 | trainS=1.2302 | val NLL=1.2150 | person_scale=0.112
+epoch 09 | trainQ=1.2231 | trainS=1.2320 | val NLL=1.2132 | person_scale=0.113
+epoch 10 | trainQ=1.2184 | trainS=1.2320 | val NLL=1.2110 | person_scale=0.114
+epoch 11 | trainQ=1.2139 | trainS=1.2307 | val NLL=1.2091 | person_scale=0.115
+epoch 12 | trainQ=1.2411 | trainS=1.2197 | val NLL=1.2075 | person_scale=0.117
+epoch 13 | trainQ=1.2180 | trainS=1.2250 | val NLL=1.2058 | person_scale=0.119
+epoch 14 | trainQ=1.2238 | trainS=1.2245 | val NLL=1.2045 | person_scale=0.121
+epoch 15 | trainQ=1.2029 | trainS=1.2217 | val NLL=1.2036 | person_scale=0.123
+epoch 16 | trainQ=1.2245 | trainS=1.2151 | val NLL=1.2020 | person_scale=0.125
+epoch 17 | trainQ=1.2231 | trainS=1.2202 | val NLL=1.2011 | person_scale=0.128
+epoch 18 | trainQ=1.2162 | trainS=1.2132 | val NLL=1.2005 | person_scale=0.131
+epoch 19 | trainQ=1.2186 | trainS=1.2141 | val NLL=1.1995 | person_scale=0.133
+epoch 20 | trainQ=1.2128 | trainS=1.2129 | val NLL=1.1989 | person_scale=0.136
+epoch 21 | trainQ=1.2262 | trainS=1.2162 | val NLL=1.1986 | person_scale=0.139
+epoch 22 | trainQ=1.2148 | trainS=1.2152 | val NLL=1.1977 | person_scale=0.142
+epoch 23 | trainQ=1.2145 | trainS=1.2116 | val NLL=1.1979 | person_scale=0.145
+epoch 24 | trainQ=1.2081 | trainS=1.2116 | val NLL=1.1967 | person_scale=0.148
+epoch 25 | trainQ=1.2159 | trainS=1.2121 | val NLL=1.1965 | person_scale=0.152
+epoch 26 | trainQ=1.2108 | trainS=1.2127 | val NLL=1.1960 | person_scale=0.155
+epoch 27 | trainQ=1.2101 | trainS=1.2070 | val NLL=1.1950 | person_scale=0.158
+epoch 28 | trainQ=1.2019 | trainS=1.2086 | val NLL=1.1946 | person_scale=0.162
+epoch 29 | trainQ=1.1891 | trainS=1.2025 | val NLL=1.1937 | person_scale=0.166
+epoch 30 | trainQ=1.2080 | trainS=1.2125 | val NLL=1.1937 | person_scale=0.169
+epoch 31 | trainQ=1.2127 | trainS=1.2050 | val NLL=1.1935 | person_scale=0.173
+epoch 32 | trainQ=1.1978 | trainS=1.2092 | val NLL=1.1927 | person_scale=0.177
+epoch 33 | trainQ=1.2097 | trainS=1.2019 | val NLL=1.1921 | person_scale=0.181
+epoch 34 | trainQ=1.2054 | trainS=1.2035 | val NLL=1.1919 | person_scale=0.185
+epoch 35 | trainQ=1.2046 | trainS=1.2117 | val NLL=1.1915 | person_scale=0.189
+epoch 36 | trainQ=1.2303 | trainS=1.2047 | val NLL=1.1921 | person_scale=0.193
+epoch 37 | trainQ=1.1978 | trainS=1.2097 | val NLL=1.1912 | person_scale=0.198
+epoch 38 | trainQ=1.1866 | trainS=1.2043 | val NLL=1.1907 | person_scale=0.202
+epoch 39 | trainQ=1.2057 | trainS=1.2040 | val NLL=1.1902 | person_scale=0.206
+epoch 40 | trainQ=1.2012 | trainS=1.2000 | val NLL=1.1906 | person_scale=0.211
+epoch 41 | trainQ=1.2029 | trainS=1.2000 | val NLL=1.1893 | person_scale=0.216
+epoch 42 | trainQ=1.1895 | trainS=1.2033 | val NLL=1.1891 | person_scale=0.220
+epoch 43 | trainQ=1.1866 | trainS=1.2012 | val NLL=1.1889 | person_scale=0.225
+epoch 44 | trainQ=1.2020 | trainS=1.2046 | val NLL=1.1883 | person_scale=0.231
+epoch 45 | trainQ=1.2077 | trainS=1.2050 | val NLL=1.1890 | person_scale=0.235
+epoch 46 | trainQ=1.1925 | trainS=1.2047 | val NLL=1.1875 | person_scale=0.239
+epoch 47 | trainQ=1.2067 | trainS=1.1977 | val NLL=1.1877 | person_scale=0.244
+epoch 48 | trainQ=1.1956 | trainS=1.1980 | val NLL=1.1871 | person_scale=0.249
+epoch 49 | trainQ=1.2041 | trainS=1.2041 | val NLL=1.1869 | person_scale=0.254
+epoch 50 | trainQ=1.1883 | trainS=1.2018 | val NLL=1.1865 | person_scale=0.258
+epoch 51 | trainQ=1.1935 | trainS=1.2025 | val NLL=1.1856 | person_scale=0.264
+epoch 52 | trainQ=1.1949 | trainS=1.1953 | val NLL=1.1862 | person_scale=0.270
+epoch 53 | trainQ=1.1879 | trainS=1.1958 | val NLL=1.1854 | person_scale=0.274
+epoch 54 | trainQ=1.2092 | trainS=1.1927 | val NLL=1.1854 | person_scale=0.280
+epoch 55 | trainQ=1.1980 | trainS=1.1922 | val NLL=1.1852 | person_scale=0.286
+epoch 56 | trainQ=1.1752 | trainS=1.2035 | val NLL=1.1841 | person_scale=0.291
+epoch 57 | trainQ=1.2030 | trainS=1.1960 | val NLL=1.1850 | person_scale=0.298
+epoch 58 | trainQ=1.1851 | trainS=1.1980 | val NLL=1.1838 | person_scale=0.304
+epoch 59 | trainQ=1.1915 | trainS=1.1888 | val NLL=1.1837 | person_scale=0.310
+epoch 60 | trainQ=1.1972 | trainS=1.1938 | val NLL=1.1826 | person_scale=0.316
+epoch 61 | trainQ=1.1971 | trainS=1.1940 | val NLL=1.1831 | person_scale=0.322
+epoch 62 | trainQ=1.2110 | trainS=1.1893 | val NLL=1.1824 | person_scale=0.327
+epoch 63 | trainQ=1.1856 | trainS=1.1934 | val NLL=1.1813 | person_scale=0.332
+epoch 64 | trainQ=1.1933 | trainS=1.1966 | val NLL=1.1819 | person_scale=0.338
+epoch 65 | trainQ=1.1882 | trainS=1.1939 | val NLL=1.1809 | person_scale=0.344
+epoch 66 | trainQ=1.1744 | trainS=1.1884 | val NLL=1.1801 | person_scale=0.350
+epoch 67 | trainQ=1.1896 | trainS=1.1937 | val NLL=1.1809 | person_scale=0.356
+epoch 68 | trainQ=1.1791 | trainS=1.1902 | val NLL=1.1814 | person_scale=0.361
+epoch 69 | trainQ=1.1947 | trainS=1.1846 | val NLL=1.1791 | person_scale=0.367
+epoch 70 | trainQ=1.1938 | trainS=1.1864 | val NLL=1.1796 | person_scale=0.374
+epoch 71 | trainQ=1.1935 | trainS=1.1949 | val NLL=1.1790 | person_scale=0.380
+epoch 72 | trainQ=1.1912 | trainS=1.1878 | val NLL=1.1778 | person_scale=0.386
+epoch 73 | trainQ=1.1915 | trainS=1.1913 | val NLL=1.1769 | person_scale=0.392
+epoch 74 | trainQ=1.1926 | trainS=1.1932 | val NLL=1.1766 | person_scale=0.398
+epoch 75 | trainQ=1.1842 | trainS=1.1860 | val NLL=1.1762 | person_scale=0.405
+epoch 76 | trainQ=1.1718 | trainS=1.1861 | val NLL=1.1751 | person_scale=0.412
+epoch 77 | trainQ=1.1954 | trainS=1.1902 | val NLL=1.1765 | person_scale=0.419
+epoch 78 | trainQ=1.1820 | trainS=1.1892 | val NLL=1.1765 | person_scale=0.426
+epoch 79 | trainQ=1.1876 | trainS=1.1856 | val NLL=1.1748 | person_scale=0.432
+epoch 80 | trainQ=1.1663 | trainS=1.1846 | val NLL=1.1739 | person_scale=0.440
+epoch 81 | trainQ=1.1647 | trainS=1.1905 | val NLL=1.1742 | person_scale=0.449
+epoch 82 | trainQ=1.1860 | trainS=1.1859 | val NLL=1.1728 | person_scale=0.458
+epoch 83 | trainQ=1.1865 | trainS=1.1882 | val NLL=1.1737 | person_scale=0.465
+epoch 84 | trainQ=1.1666 | trainS=1.1873 | val NLL=1.1729 | person_scale=0.471
+epoch 85 | trainQ=1.1857 | trainS=1.1859 | val NLL=1.1719 | person_scale=0.478
+epoch 86 | trainQ=1.1858 | trainS=1.1844 | val NLL=1.1709 | person_scale=0.485
+epoch 87 | trainQ=1.1898 | trainS=1.1857 | val NLL=1.1711 | person_scale=0.492
+epoch 88 | trainQ=1.1745 | trainS=1.1876 | val NLL=1.1714 | person_scale=0.499
+epoch 89 | trainQ=1.1824 | trainS=1.1830 | val NLL=1.1704 | person_scale=0.506
+epoch 90 | trainQ=1.1842 | trainS=1.1820 | val NLL=1.1701 | person_scale=0.514
+epoch 91 | trainQ=1.1913 | trainS=1.1830 | val NLL=1.1701 | person_scale=0.522
+epoch 92 | trainQ=1.1732 | trainS=1.1859 | val NLL=1.1698 | person_scale=0.529
+epoch 93 | trainQ=1.1991 | trainS=1.1803 | val NLL=1.1709 | person_scale=0.536
+epoch 94 | trainQ=1.1894 | trainS=1.1788 | val NLL=1.1705 | person_scale=0.542
+epoch 95 | trainQ=1.1793 | trainS=1.1840 | val NLL=1.1688 | person_scale=0.549
+epoch 96 | trainQ=1.1905 | trainS=1.1783 | val NLL=1.1689 | person_scale=0.557
+epoch 97 | trainQ=1.1681 | trainS=1.1792 | val NLL=1.1692 | person_scale=0.564
+epoch 98 | trainQ=1.1822 | trainS=1.1808 | val NLL=1.1696 | person_scale=0.571
+epoch 99 | trainQ=1.2003 | trainS=1.1770 | val NLL=1.1686 | person_scale=0.578
+epoch 100 | trainQ=1.1695 | trainS=1.1753 | val NLL=1.1674 | person_scale=0.586
+epoch 101 | trainQ=1.1725 | trainS=1.1871 | val NLL=1.1672 | person_scale=0.592
+epoch 102 | trainQ=1.1724 | trainS=1.1826 | val NLL=1.1673 | person_scale=0.599
+epoch 103 | trainQ=1.1728 | trainS=1.1812 | val NLL=1.1666 | person_scale=0.607
+epoch 104 | trainQ=1.1564 | trainS=1.1845 | val NLL=1.1669 | person_scale=0.615
+epoch 105 | trainQ=1.1684 | trainS=1.1823 | val NLL=1.1654 | person_scale=0.621
+epoch 106 | trainQ=1.1867 | trainS=1.1736 | val NLL=1.1637 | person_scale=0.627
+epoch 107 | trainQ=1.1736 | trainS=1.1761 | val NLL=1.1645 | person_scale=0.635
+epoch 108 | trainQ=1.1727 | trainS=1.1794 | val NLL=1.1642 | person_scale=0.641
+epoch 109 | trainQ=1.1877 | trainS=1.1778 | val NLL=1.1637 | person_scale=0.648
+epoch 110 | trainQ=1.1762 | trainS=1.1811 | val NLL=1.1645 | person_scale=0.653
+epoch 111 | trainQ=1.1734 | trainS=1.1778 | val NLL=1.1641 | person_scale=0.661
+epoch 112 | trainQ=1.1785 | trainS=1.1840 | val NLL=1.1649 | person_scale=0.668
+epoch 113 | trainQ=1.1541 | trainS=1.1778 | val NLL=1.1649 | person_scale=0.673
+epoch 114 | trainQ=1.1703 | trainS=1.1739 | val NLL=1.1646 | person_scale=0.680
+epoch 115 | trainQ=1.1850 | trainS=1.1757 | val NLL=1.1642 | person_scale=0.688
+epoch 116 | trainQ=1.1622 | trainS=1.1767 | val NLL=1.1635 | person_scale=0.693
+epoch 117 | trainQ=1.1532 | trainS=1.1762 | val NLL=1.1652 | person_scale=0.702
+epoch 118 | trainQ=1.1650 | trainS=1.1778 | val NLL=1.1643 | person_scale=0.707
+epoch 119 | trainQ=1.1895 | trainS=1.1717 | val NLL=1.1637 | person_scale=0.712
+epoch 120 | trainQ=1.1713 | trainS=1.1838 | val NLL=1.1629 | person_scale=0.717
+epoch 121 | trainQ=1.1796 | trainS=1.1690 | val NLL=1.1627 | person_scale=0.723
+epoch 122 | trainQ=1.1749 | trainS=1.1711 | val NLL=1.1627 | person_scale=0.731
+epoch 123 | trainQ=1.1563 | trainS=1.1743 | val NLL=1.1627 | person_scale=0.738
+epoch 124 | trainQ=1.1645 | trainS=1.1764 | val NLL=1.1620 | person_scale=0.748
+epoch 125 | trainQ=1.1521 | trainS=1.1760 | val NLL=1.1634 | person_scale=0.755
+epoch 126 | trainQ=1.1843 | trainS=1.1689 | val NLL=1.1622 | person_scale=0.762
+epoch 127 | trainQ=1.1518 | trainS=1.1812 | val NLL=1.1624 | person_scale=0.768
+epoch 128 | trainQ=1.1723 | trainS=1.1788 | val NLL=1.1619 | person_scale=0.774
+epoch 129 | trainQ=1.1667 | trainS=1.1683 | val NLL=1.1631 | person_scale=0.780
+epoch 130 | trainQ=1.1873 | trainS=1.1718 | val NLL=1.1614 | person_scale=0.784
+epoch 131 | trainQ=1.1601 | trainS=1.1749 | val NLL=1.1615 | person_scale=0.792
+epoch 132 | trainQ=1.1615 | trainS=1.1745 | val NLL=1.1620 | person_scale=0.796
+epoch 133 | trainQ=1.1634 | trainS=1.1726 | val NLL=1.1617 | person_scale=0.803
+epoch 134 | trainQ=1.1845 | trainS=1.1703 | val NLL=1.1600 | person_scale=0.807
+epoch 135 | trainQ=1.1636 | trainS=1.1749 | val NLL=1.1587 | person_scale=0.812
+epoch 136 | trainQ=1.1547 | trainS=1.1681 | val NLL=1.1590 | person_scale=0.818
+epoch 137 | trainQ=1.1800 | trainS=1.1729 | val NLL=1.1599 | person_scale=0.824
+epoch 138 | trainQ=1.1531 | trainS=1.1696 | val NLL=1.1597 | person_scale=0.832
+epoch 139 | trainQ=1.1732 | trainS=1.1725 | val NLL=1.1608 | person_scale=0.837
+epoch 140 | trainQ=1.1508 | trainS=1.1720 | val NLL=1.1603 | person_scale=0.843
+epoch 141 | trainQ=1.1657 | trainS=1.1703 | val NLL=1.1605 | person_scale=0.848
+epoch 142 | trainQ=1.1674 | trainS=1.1644 | val NLL=1.1606 | person_scale=0.852
+epoch 143 | trainQ=1.1543 | trainS=1.1754 | val NLL=1.1643 | person_scale=0.860
+epoch 144 | trainQ=1.1624 | trainS=1.1609 | val NLL=1.1595 | person_scale=0.865
+epoch 145 | trainQ=1.1588 | trainS=1.1767 | val NLL=1.1592 | person_scale=0.871
+epoch 146 | trainQ=1.1439 | trainS=1.1693 | val NLL=1.1595 | person_scale=0.878
+epoch 147 | trainQ=1.1569 | trainS=1.1761 | val NLL=1.1602 | person_scale=0.884
+epoch 148 | trainQ=1.1645 | trainS=1.1726 | val NLL=1.1595 | person_scale=0.890
+epoch 149 | trainQ=1.1677 | trainS=1.1699 | val NLL=1.1590 | person_scale=0.895
+epoch 150 | trainQ=1.1636 | trainS=1.1716 | val NLL=1.1612 | person_scale=0.897
+epoch 151 | trainQ=1.1562 | trainS=1.1738 | val NLL=1.1603 | person_scale=0.902
+epoch 152 | trainQ=1.1419 | trainS=1.1721 | val NLL=1.1597 | person_scale=0.910
+epoch 153 | trainQ=1.1481 | trainS=1.1690 | val NLL=1.1582 | person_scale=0.916
+epoch 154 | trainQ=1.1561 | trainS=1.1703 | val NLL=1.1599 | person_scale=0.921
+epoch 155 | trainQ=1.1529 | trainS=1.1716 | val NLL=1.1582 | person_scale=0.925
+epoch 156 | trainQ=1.1488 | trainS=1.1708 | val NLL=1.1604 | person_scale=0.930
+epoch 157 | trainQ=1.1641 | trainS=1.1690 | val NLL=1.1602 | person_scale=0.934
+epoch 158 | trainQ=1.1614 | trainS=1.1741 | val NLL=1.1585 | person_scale=0.938
+epoch 159 | trainQ=1.1491 | trainS=1.1713 | val NLL=1.1581 | person_scale=0.943
+epoch 160 | trainQ=1.1608 | trainS=1.1697 | val NLL=1.1575 | person_scale=0.949
+epoch 161 | trainQ=1.1544 | trainS=1.1687 | val NLL=1.1582 | person_scale=0.957
+epoch 162 | trainQ=1.1706 | trainS=1.1627 | val NLL=1.1597 | person_scale=0.963
+epoch 163 | trainQ=1.1465 | trainS=1.1700 | val NLL=1.1612 | person_scale=0.968
+epoch 164 | trainQ=1.1689 | trainS=1.1614 | val NLL=1.1586 | person_scale=0.969
+epoch 165 | trainQ=1.1522 | trainS=1.1706 | val NLL=1.1595 | person_scale=0.976
+epoch 166 | trainQ=1.1619 | trainS=1.1693 | val NLL=1.1591 | person_scale=0.981
+epoch 167 | trainQ=1.1657 | trainS=1.1677 | val NLL=1.1588 | person_scale=0.984
+epoch 168 | trainQ=1.1467 | trainS=1.1661 | val NLL=1.1598 | person_scale=0.988
+epoch 169 | trainQ=1.1572 | trainS=1.1639 | val NLL=1.1595 | person_scale=0.993
+epoch 170 | trainQ=1.1621 | trainS=1.1623 | val NLL=1.1591 | person_scale=0.996
+epoch 171 | trainQ=1.1555 | trainS=1.1604 | val NLL=1.1576 | person_scale=0.997
+epoch 172 | trainQ=1.1550 | trainS=1.1650 | val NLL=1.1597 | person_scale=1.004
+epoch 173 | trainQ=1.1391 | trainS=1.1711 | val NLL=1.1576 | person_scale=1.008
+epoch 174 | trainQ=1.1432 | trainS=1.1586 | val NLL=1.1596 | person_scale=1.014
+epoch 175 | trainQ=1.1503 | trainS=1.1696 | val NLL=1.1575 | person_scale=1.018
+epoch 176 | trainQ=1.1502 | trainS=1.1590 | val NLL=1.1572 | person_scale=1.025
+epoch 177 | trainQ=1.1391 | trainS=1.1658 | val NLL=1.1592 | person_scale=1.031
+epoch 178 | trainQ=1.1610 | trainS=1.1613 | val NLL=1.1591 | person_scale=1.036
+epoch 179 | trainQ=1.1677 | trainS=1.1615 | val NLL=1.1615 | person_scale=1.040
+epoch 180 | trainQ=1.1601 | trainS=1.1619 | val NLL=1.1598 | person_scale=1.045
+epoch 181 | trainQ=1.1599 | trainS=1.1657 | val NLL=1.1596 | person_scale=1.050
+epoch 182 | trainQ=1.1487 | trainS=1.1636 | val NLL=1.1597 | person_scale=1.055
+epoch 183 | trainQ=1.1594 | trainS=1.1582 | val NLL=1.1593 | person_scale=1.065
+epoch 184 | trainQ=1.1561 | trainS=1.1649 | val NLL=1.1597 | person_scale=1.070
+epoch 185 | trainQ=1.1661 | trainS=1.1579 | val NLL=1.1601 | person_scale=1.075
+epoch 186 | trainQ=1.1526 | trainS=1.1614 | val NLL=1.1583 | person_scale=1.080
+epoch 187 | trainQ=1.1472 | trainS=1.1585 | val NLL=1.1603 | person_scale=1.086
+epoch 188 | trainQ=1.1316 | trainS=1.1623 | val NLL=1.1570 | person_scale=1.092
+epoch 189 | trainQ=1.1243 | trainS=1.1654 | val NLL=1.1565 | person_scale=1.095
+epoch 190 | trainQ=1.1460 | trainS=1.1582 | val NLL=1.1567 | person_scale=1.101
+epoch 191 | trainQ=1.1618 | trainS=1.1531 | val NLL=1.1566 | person_scale=1.105
+epoch 192 | trainQ=1.1397 | trainS=1.1595 | val NLL=1.1560 | person_scale=1.111
+epoch 193 | trainQ=1.1499 | trainS=1.1605 | val NLL=1.1552 | person_scale=1.114
+epoch 194 | trainQ=1.1289 | trainS=1.1625 | val NLL=1.1562 | person_scale=1.120
+epoch 195 | trainQ=1.1495 | trainS=1.1621 | val NLL=1.1581 | person_scale=1.127
+epoch 196 | trainQ=1.1607 | trainS=1.1629 | val NLL=1.1573 | person_scale=1.132
+epoch 197 | trainQ=1.1538 | trainS=1.1578 | val NLL=1.1604 | person_scale=1.139
+epoch 198 | trainQ=1.1578 | trainS=1.1582 | val NLL=1.1558 | person_scale=1.146
+epoch 199 | trainQ=1.1403 | trainS=1.1598 | val NLL=1.1566 | person_scale=1.150
+epoch 200 | trainQ=1.1678 | trainS=1.1556 | val NLL=1.1591 | person_scale=1.156
+epoch 201 | trainQ=1.1461 | trainS=1.1599 | val NLL=1.1564 | person_scale=1.161
+epoch 202 | trainQ=1.1492 | trainS=1.1596 | val NLL=1.1554 | person_scale=1.167
+epoch 203 | trainQ=1.1416 | trainS=1.1623 | val NLL=1.1544 | person_scale=1.173
+epoch 204 | trainQ=1.1491 | trainS=1.1557 | val NLL=1.1553 | person_scale=1.178
+epoch 205 | trainQ=1.1436 | trainS=1.1591 | val NLL=1.1559 | person_scale=1.184
+epoch 206 | trainQ=1.1330 | trainS=1.1594 | val NLL=1.1543 | person_scale=1.193
+epoch 207 | trainQ=1.1435 | trainS=1.1593 | val NLL=1.1527 | person_scale=1.198
+epoch 208 | trainQ=1.1431 | trainS=1.1610 | val NLL=1.1541 | person_scale=1.202
+epoch 209 | trainQ=1.1414 | trainS=1.1593 | val NLL=1.1569 | person_scale=1.207
+epoch 210 | trainQ=1.1370 | trainS=1.1636 | val NLL=1.1538 | person_scale=1.215
+epoch 211 | trainQ=1.1420 | trainS=1.1615 | val NLL=1.1564 | person_scale=1.220
+epoch 212 | trainQ=1.1434 | trainS=1.1549 | val NLL=1.1552 | person_scale=1.231
+epoch 213 | trainQ=1.1418 | trainS=1.1577 | val NLL=1.1549 | person_scale=1.237
+epoch 214 | trainQ=1.1361 | trainS=1.1549 | val NLL=1.1534 | person_scale=1.245
+epoch 215 | trainQ=1.1537 | trainS=1.1580 | val NLL=1.1567 | person_scale=1.251
+epoch 216 | trainQ=1.1338 | trainS=1.1595 | val NLL=1.1528 | person_scale=1.256
+epoch 217 | trainQ=1.1280 | trainS=1.1578 | val NLL=1.1534 | person_scale=1.263
+epoch 218 | trainQ=1.1395 | trainS=1.1559 | val NLL=1.1549 | person_scale=1.266
+epoch 219 | trainQ=1.1561 | trainS=1.1540 | val NLL=1.1536 | person_scale=1.272
+epoch 220 | trainQ=1.1461 | trainS=1.1613 | val NLL=1.1529 | person_scale=1.273
+epoch 221 | trainQ=1.1175 | trainS=1.1575 | val NLL=1.1522 | person_scale=1.282
+epoch 222 | trainQ=1.1308 | trainS=1.1556 | val NLL=1.1532 | person_scale=1.287
+epoch 223 | trainQ=1.1383 | trainS=1.1511 | val NLL=1.1540 | person_scale=1.296
+epoch 224 | trainQ=1.1340 | trainS=1.1559 | val NLL=1.1528 | person_scale=1.299
+epoch 225 | trainQ=1.1429 | trainS=1.1517 | val NLL=1.1547 | person_scale=1.307
+epoch 226 | trainQ=1.1380 | trainS=1.1562 | val NLL=1.1559 | person_scale=1.311
+epoch 227 | trainQ=1.1431 | trainS=1.1556 | val NLL=1.1560 | person_scale=1.317
+epoch 228 | trainQ=1.1286 | trainS=1.1564 | val NLL=1.1540 | person_scale=1.323
+epoch 229 | trainQ=1.1270 | trainS=1.1546 | val NLL=1.1540 | person_scale=1.333
+epoch 230 | trainQ=1.1440 | trainS=1.1504 | val NLL=1.1528 | person_scale=1.342
+epoch 231 | trainQ=1.1446 | trainS=1.1473 | val NLL=1.1541 | person_scale=1.348
+epoch 232 | trainQ=1.1220 | trainS=1.1624 | val NLL=1.1534 | person_scale=1.351
+epoch 233 | trainQ=1.1346 | trainS=1.1597 | val NLL=1.1526 | person_scale=1.359
+epoch 234 | trainQ=1.1378 | trainS=1.1536 | val NLL=1.1532 | person_scale=1.368
+epoch 235 | trainQ=1.1413 | trainS=1.1533 | val NLL=1.1531 | person_scale=1.378
+epoch 236 | trainQ=1.1512 | trainS=1.1560 | val NLL=1.1530 | person_scale=1.385
+epoch 237 | trainQ=1.1393 | trainS=1.1547 | val NLL=1.1531 | person_scale=1.392
+epoch 238 | trainQ=1.1508 | trainS=1.1567 | val NLL=1.1530 | person_scale=1.401
+epoch 239 | trainQ=1.1306 | trainS=1.1594 | val NLL=1.1539 | person_scale=1.406
+epoch 240 | trainQ=1.1329 | trainS=1.1527 | val NLL=1.1532 | person_scale=1.414
+epoch 241 | trainQ=1.1392 | trainS=1.1547 | val NLL=1.1535 | person_scale=1.421
+epoch 242 | trainQ=1.1478 | trainS=1.1532 | val NLL=1.1550 | person_scale=1.428
+epoch 243 | trainQ=1.1326 | trainS=1.1500 | val NLL=1.1532 | person_scale=1.434
+epoch 244 | trainQ=1.1545 | trainS=1.1486 | val NLL=1.1516 | person_scale=1.439
+epoch 245 | trainQ=1.1462 | trainS=1.1535 | val NLL=1.1510 | person_scale=1.446
+epoch 246 | trainQ=1.1424 | trainS=1.1472 | val NLL=1.1535 | person_scale=1.452
+epoch 247 | trainQ=1.1396 | trainS=1.1446 | val NLL=1.1538 | person_scale=1.457
+epoch 248 | trainQ=1.1299 | trainS=1.1496 | val NLL=1.1525 | person_scale=1.468
+epoch 249 | trainQ=1.1212 | trainS=1.1545 | val NLL=1.1518 | person_scale=1.474
+epoch 250 | trainQ=1.1197 | trainS=1.1527 | val NLL=1.1523 | person_scale=1.478
+epoch 251 | trainQ=1.1470 | trainS=1.1439 | val NLL=1.1535 | person_scale=1.487
+epoch 252 | trainQ=1.1240 | trainS=1.1492 | val NLL=1.1535 | person_scale=1.495
+epoch 253 | trainQ=1.1208 | trainS=1.1553 | val NLL=1.1521 | person_scale=1.499
+epoch 254 | trainQ=1.1294 | trainS=1.1464 | val NLL=1.1519 | person_scale=1.507
+epoch 255 | trainQ=1.1441 | trainS=1.1494 | val NLL=1.1562 | person_scale=1.517
+epoch 256 | trainQ=1.1272 | trainS=1.1528 | val NLL=1.1544 | person_scale=1.530
+epoch 257 | trainQ=1.1322 | trainS=1.1443 | val NLL=1.1585 | person_scale=1.538
+epoch 258 | trainQ=1.1239 | trainS=1.1504 | val NLL=1.1562 | person_scale=1.547
+epoch 259 | trainQ=1.1329 | trainS=1.1457 | val NLL=1.1522 | person_scale=1.554
+epoch 260 | trainQ=1.1323 | trainS=1.1482 | val NLL=1.1527 | person_scale=1.565
+epoch 261 | trainQ=1.1396 | trainS=1.1456 | val NLL=1.1515 | person_scale=1.568
+epoch 262 | trainQ=1.1101 | trainS=1.1532 | val NLL=1.1538 | person_scale=1.579
+epoch 263 | trainQ=1.1374 | trainS=1.1527 | val NLL=1.1533 | person_scale=1.586
+epoch 264 | trainQ=1.1299 | trainS=1.1453 | val NLL=1.1538 | person_scale=1.594
+epoch 265 | trainQ=1.1202 | trainS=1.1530 | val NLL=1.1517 | person_scale=1.605
+epoch 266 | trainQ=1.1290 | trainS=1.1444 | val NLL=1.1497 | person_scale=1.619
+epoch 267 | trainQ=1.1397 | trainS=1.1504 | val NLL=1.1512 | person_scale=1.629
+epoch 268 | trainQ=1.1441 | trainS=1.1471 | val NLL=1.1518 | person_scale=1.632
+epoch 269 | trainQ=1.1135 | trainS=1.1485 | val NLL=1.1581 | person_scale=1.647
+epoch 270 | trainQ=1.1220 | trainS=1.1417 | val NLL=1.1538 | person_scale=1.657
+epoch 271 | trainQ=1.1233 | trainS=1.1477 | val NLL=1.1566 | person_scale=1.664
+epoch 272 | trainQ=1.1222 | trainS=1.1455 | val NLL=1.1563 | person_scale=1.668
+epoch 273 | trainQ=1.1279 | trainS=1.1444 | val NLL=1.1537 | person_scale=1.678
+epoch 274 | trainQ=1.1261 | trainS=1.1463 | val NLL=1.1515 | person_scale=1.684
+epoch 275 | trainQ=1.1086 | trainS=1.1474 | val NLL=1.1554 | person_scale=1.694
+epoch 276 | trainQ=1.1068 | trainS=1.1413 | val NLL=1.1547 | person_scale=1.703
+epoch 277 | trainQ=1.1160 | trainS=1.1431 | val NLL=1.1566 | person_scale=1.715
+epoch 278 | trainQ=1.1212 | trainS=1.1436 | val NLL=1.1548 | person_scale=1.726
+epoch 279 | trainQ=1.1133 | trainS=1.1479 | val NLL=1.1543 | person_scale=1.738
+epoch 280 | trainQ=1.1229 | trainS=1.1432 | val NLL=1.1518 | person_scale=1.745
+epoch 281 | trainQ=1.1247 | trainS=1.1411 | val NLL=1.1543 | person_scale=1.753
+epoch 282 | trainQ=1.1160 | trainS=1.1405 | val NLL=1.1544 | person_scale=1.757
+epoch 283 | trainQ=1.1110 | trainS=1.1464 | val NLL=1.1522 | person_scale=1.761
+epoch 284 | trainQ=1.1355 | trainS=1.1440 | val NLL=1.1553 | person_scale=1.773
+epoch 285 | trainQ=1.1266 | trainS=1.1483 | val NLL=1.1514 | person_scale=1.785
+epoch 286 | trainQ=1.1311 | trainS=1.1434 | val NLL=1.1502 | person_scale=1.797
+epoch 287 | trainQ=1.1165 | trainS=1.1421 | val NLL=1.1492 | person_scale=1.806
+epoch 288 | trainQ=1.1161 | trainS=1.1372 | val NLL=1.1523 | person_scale=1.815
+epoch 289 | trainQ=1.1034 | trainS=1.1438 | val NLL=1.1518 | person_scale=1.822
+epoch 290 | trainQ=1.1163 | trainS=1.1386 | val NLL=1.1532 | person_scale=1.837
+epoch 291 | trainQ=1.1126 | trainS=1.1410 | val NLL=1.1540 | person_scale=1.848
+epoch 292 | trainQ=1.1201 | trainS=1.1409 | val NLL=1.1536 | person_scale=1.851
+epoch 293 | trainQ=1.1164 | trainS=1.1377 | val NLL=1.1523 | person_scale=1.862
+epoch 294 | trainQ=1.1167 | trainS=1.1360 | val NLL=1.1523 | person_scale=1.871
+epoch 295 | trainQ=1.1069 | trainS=1.1450 | val NLL=1.1558 | person_scale=1.881
+epoch 296 | trainQ=1.1266 | trainS=1.1303 | val NLL=1.1533 | person_scale=1.888
+epoch 297 | trainQ=1.1396 | trainS=1.1366 | val NLL=1.1540 | person_scale=1.897
+epoch 298 | trainQ=1.1099 | trainS=1.1367 | val NLL=1.1542 | person_scale=1.909
+epoch 299 | trainQ=1.1067 | trainS=1.1399 | val NLL=1.1565 | person_scale=1.922
+epoch 300 | trainQ=1.1177 | trainS=1.1358 | val NLL=1.1579 | person_scale=1.932
+
+====================================================================================
+ATS 06 — CEAR-STYLE RECURRENT g — TEST
+====================================================================================
+ n_query  n_users  accuracy      nll    brier  mean_p_true                   model
+    2474      361  0.495554 1.177621 0.627195     0.370572               g_learned
+    2474      361  0.489086 1.195067 0.638404     0.357263 g_swapped_same_language
+    2474      361  0.483428 1.203893 0.641685     0.362865      g_reset_query_only
+
+[user-cluster bootstrap deltas: model_a - model_b]
+  model_a                 model_b   metric  n_users     delta    ci_low   ci_high
+g_learned      g_reset_query_only accuracy      361  0.010069 -0.002835  0.023356
+g_learned g_swapped_same_language accuracy      361  0.004066 -0.007922  0.016606
+g_learned      g_reset_query_only      nll      361 -0.027960 -0.040725 -0.015990
+g_learned g_swapped_same_language      nll      361 -0.016126 -0.027106 -0.005526
+g_learned      g_reset_query_only    brier      361 -0.015845 -0.022865 -0.009403
+g_learned g_swapped_same_language    brier      361 -0.010952 -0.017106 -0.004682
+
+[support-order robustness]
+median cosine(g_perm, mean_g): 0.9479
+median minimum cosine:         0.9049
+
+[adaptive plasticity]
+mean alpha: 0.2362
+mean within-user alpha SD: 0.0925
+
+Interpretation:
+  Accuracy: positive g_learned - baseline is good.
+  NLL/Brier: negative g_learned - baseline is good.
+  learned < reset NLL => accumulated state adds predictive value.
+  learned < swapped NLL => RIGHT-person state matters.
+  Order-stability is a CA-specific diagnostic, not a temporal claim.
+
+Wrote: /workspace/results/ATS/cear_g_ca/longrun_20260923_211809
