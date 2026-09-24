@@ -1,0 +1,30 @@
+REPO_ROOT:   /workspace
+CACHE_ROOT:  /workspace/data/ATS/cache/ca_cear_g
+RESULT_ROOT: /workspace/results/ATS/cear_g_ca/longrun_20260924_024630
+DEVICE:      cuda
+GPU:         NVIDIA GeForce RTX 5060 Ti
+torch CUDA:  13.0
+COUPLER:     metric
+SEED:        20260923
+EPOCHS:      300
+BATCH users: 32
+DEBUG:       False
+HF auth:     no (public streaming)
+
+Loading cached compact CA table...
+Loading cached frozen pair embeddings...
+
+[user coverage]
+train users=1685 | median interactions=20.0
+val   users= 361 | median interactions=20.0
+test  users= 361 | median interactions=20.0
+fixed val users: 361
+fixed test users: 361
+
+[model]
+frozen semantic dimension: 384
+pre-metric dimensionality reduction: NO
+g dimension: 32
+g storage/user float32: 128 bytes
+metric rank: 8
+trainable parameters: 349,154

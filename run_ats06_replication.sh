@@ -11,7 +11,7 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$REPO_ROOT"
 
-SCRIPT="ATS/models/ats_06_cear_g_ca.py"
+SCRIPT="ATS/models/ats_06_cear_g_ca_replication.py"
 if [[ ! -f "$SCRIPT" ]]; then
     echo "[ATS06] ERROR: missing $REPO_ROOT/$SCRIPT"
     exit 1
