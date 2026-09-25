@@ -1,0 +1,14 @@
+{
+  "runner": "ats_09a_actual_rag_history_budget_spyder.py",
+  "original_experiment": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\ATS\\models\\ats_09a_actual_rag_history_budget.py",
+  "model": "gpt-5-mini",
+  "device": "cpu",
+  "smoke_test": false,
+  "max_queries": 392,
+  "workers": 4,
+  "seed": 0,
+  "reasoning_effort": "minimal",
+  "max_output_tokens": 1200,
+  "ATS08c_dir": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\results\\ATS\\personamem_adaptation\\seed0_20260924_201431",
+  "api_transport": "OpenAI Responses API + strict Structured Outputs"
+}

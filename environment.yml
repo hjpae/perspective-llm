@@ -28,6 +28,7 @@ dependencies:
       - openai
       - pydantic
       - python-dotenv
+      - sentence-transformers
 
 # later (RAG)
 # qdrant-client

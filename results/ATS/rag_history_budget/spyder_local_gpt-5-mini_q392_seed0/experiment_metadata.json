@@ -1,0 +1,24 @@
+{
+  "experiment": "ATS09a actual LLM+RAG history-budget baseline",
+  "model": "gpt-5-mini",
+  "selected_queries": 392,
+  "benchmark_episode_users": 196,
+  "budgets": [
+    "query_only",
+    "rag_1",
+    "rag_3",
+    "rag_5",
+    "rag_10",
+    "rag_all_support"
+  ],
+  "retrieval": "cosine similarity using frozen sentence encoder",
+  "memory_document": "past query + observed user-preferred response",
+  "ats_used": false,
+  "probability_note": "NLL/Brier use elicited JSON probabilities, not token log-probabilities. Accuracy is primary.",
+  "ats08c_dir": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\results\\ATS\\personamem_adaptation\\seed0_20260924_201431",
+  "local_runner": "ats_09a_actual_rag_history_budget_spyder.py",
+  "api_transport": "OpenAI Responses API + strict Structured Outputs",
+  "reasoning_effort": "minimal",
+  "max_output_tokens": 1200,
+  "retrieval_device": "cpu"
+}
