@@ -1,0 +1,52 @@
+{
+  "experiment": "ATS09b actual LLM/RAG + persistent ATS-g",
+  "primary_fusion": "symmetric logarithmic opinion pool: P_fuse proportional to P_ats_g^(1-lambda) * P_rag^lambda",
+  "lambda_interpretation": {
+    "0": "pure ATS-g",
+    "1": "pure actual LLM/RAG"
+  },
+  "selection_protocol": "5-fold user-disjoint cross-fitting on the benchmark cohort; for each held-out fold, RAG budget and lambda are chosen by mean per-user NLL on the other folds only",
+  "important_scope": "This is an out-of-fold cross-validated estimate on benchmark users, not a single pristine benchmark evaluation with hyperparameters selected on an external validation LLM/RAG run.",
+  "ats09a_dir": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\results\\ATS\\rag_history_budget\\spyder_local_gpt-5-mini_q392_seed0",
+  "ats08c_dir": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\results\\ATS\\personamem_adaptation\\seed0_20260924_201431",
+  "ats06_dir": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\results\\ATS\\cear_g_ca\\rep_seed0_20260924_024922",
+  "device": "cpu",
+  "n_queries": 392,
+  "n_users": 196,
+  "n_folds": 5,
+  "rag_candidates": [
+    "rag_1",
+    "rag_3",
+    "rag_5",
+    "rag_10",
+    "rag_all_support"
+  ],
+  "lambda_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "ats_permutations": 8,
+  "bootstrap": 5000,
+  "semantic_encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "g_dim": 32,
+  "api_calls_in_09b": false
+}
