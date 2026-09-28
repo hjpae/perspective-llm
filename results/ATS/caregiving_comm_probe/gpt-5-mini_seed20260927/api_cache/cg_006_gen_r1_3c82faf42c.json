@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_006",
+  "round": 1,
+  "candidates": [
+    "One event on your weekly calendar changed time, so two activities now overlap; would you like to review the two plans together?",
+    "I noticed one event moved and now it overlaps with another on your schedule—do you want to look over both plans with me?",
+    "There’s an overlap on your calendar because one event changed time; would you like to go through the two activities together?",
+    "One of your events changed its time and now conflicts with another—shall we review the two plans together?",
+    "Your weekly calendar shows two activities at the same time after one event changed time; do you want to go over them?",
+    "Because one event shifted, two things on your schedule are overlapping—would you like me to sit with you and review them?",
+    "One appointment changed time and now overlaps another on your calendar; do you want to review those plans together?",
+    "I see two activities now overlap since one event changed time—would you like to look at both plans together?",
+    "Two items on your weekly schedule are overlapping because one event moved; do you want to review them with me?",
+    "One event was rescheduled and now overlaps a different activity—would you like to review the two plans together?",
+    "There’s a time change on one event that makes it overlap with another; would you like to go over both plans together?",
+    "One event changed its time and now two activities overlap on your calendar—want to review them together?",
+    "Your calendar shows an overlap after one event changed time; shall we review the two plans together?",
+    "I noticed a time change for one event that creates an overlap with another—do you want to review both plans with me?",
+    "One event moved to a new time and it's overlapping another activity on your weekly calendar; would you like to go over the two plans?",
+    "Because one event changed time, two activities are scheduled at the same time—do you want to review them together?",
+    "One of the events on your weekly schedule shifted and now overlaps another—would you like to check the two plans together?",
+    "There’s been a time change for one of your events so two activities overlap now—do you want to review both plans with me?",
+    "I saw that one event changed time and now overlaps another on your schedule; would you like to go through the plans together?",
+    "One event changed time, creating an overlap with another activity on your calendar—shall we look over the two plans together?",
+    "Your schedule now has two overlapping activities because one event changed time; would you like to review them together?",
+    "One event's time was changed and now it overlaps with another on your weekly calendar—do you want to look at the two plans together?",
+    "A time change to one event has caused an overlap with another activity—would you like to review those two plans with me?",
+    "I noticed a change in one event’s time that makes it overlap with another—do you want to go over the two plans together?"
+  ],
+  "usage": {
+    "input_tokens": 327,
+    "output_tokens": 1378,
+    "total_tokens": 1705
+  }
+}

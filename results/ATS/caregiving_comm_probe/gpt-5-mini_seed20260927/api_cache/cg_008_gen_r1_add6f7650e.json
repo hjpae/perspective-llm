@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_008",
+  "round": 1,
+  "candidates": [
+    "Would you be comfortable moving this week's usual evening call to the morning?",
+    "Can we move our regular weekly call this week from the evening to the morning?",
+    "Is it all right with you if we switch this week's evening call to the morning?",
+    "Would you mind if we rescheduled this week's usual call to the morning instead of the evening?",
+    "Are you okay with having this week's weekly call in the morning rather than in the evening?",
+    "Would it be okay to have our regular call in the morning this week?",
+    "Do you feel comfortable if we shift our usual evening call this week to the morning?",
+    "I'd like to move our weekly call to the morning this week—would that be fine with you?",
+    "Would switching this week's regular call from the evening to the morning work for you?",
+    "Would you prefer we keep the call in the evening, or would morning work for this week's call?",
+    "Is switching our usual weekly call to the morning for this week acceptable to you?",
+    "How would you feel about having this week's usual call in the morning instead of the evening?",
+    "If it's okay with you, can we take this week's regular call in the morning?",
+    "Would you be alright if our weekly call happened in the morning just for this week?",
+    "Would moving our regular evening call to the morning for this week suit you?",
+    "Are you comfortable with changing this week's scheduled call from evening to morning?",
+    "Would it be all right with you to have our usual weekly call in the morning this week?",
+    "Would morning work for our regular call this week, or would you rather keep the evening?",
+    "Could we have this week's usual call in the morning instead of the evening?",
+    "Would you be okay if we rescheduled our weekly evening call to the morning for this week?",
+    "Would switching to a morning time for this week's regular call be fine with you?",
+    "Is it okay if we move our regular weekly call to the morning this week?",
+    "Would you be comfortable taking our weekly call in the morning this week?",
+    "Would you agree to move this week's regular evening call to the morning?"
+  ],
+  "usage": {
+    "input_tokens": 329,
+    "output_tokens": 1584,
+    "total_tokens": 1913
+  }
+}

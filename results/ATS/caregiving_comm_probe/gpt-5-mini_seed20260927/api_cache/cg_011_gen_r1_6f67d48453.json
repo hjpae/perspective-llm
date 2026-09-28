@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_011",
+  "round": 1,
+  "candidates": [
+    "There's an optional social event at the community center this weekend; would you be interested in going?",
+    "I wanted to let you know there's an optional social event at the community center this weekend—are you interested in attending?",
+    "The community center is holding an optional social event this weekend; do you want to go?",
+    "Would you like to go to the optional social event at the community center this weekend?",
+    "There's an optional social event at the community center this weekend—would you be up for going?",
+    "Are you interested in attending the community center's optional social event this weekend?",
+    "Just so you know, the community center has an optional social event this weekend; would you be interested in going?",
+    "This weekend the community center is hosting an optional social event; do you think you'd like to go?",
+    "The community center will have an optional social event this weekend; would you want to go?",
+    "Did you know there's an optional social event at the community center this weekend—would you like to go?",
+    "There's an optional social event at the community center this weekend; how do you feel about going?",
+    "If you're free, would you be interested in the optional social event at the community center this weekend?",
+    "The community center is holding an optional social event this weekend; are you interested in attending?",
+    "I wanted to tell you about an optional social event at the community center this weekend—would you want to go?",
+    "There's an optional social event at the community center this weekend; would going to it interest you?",
+    "A reminder: the community center has an optional social event this weekend—would you like to go?",
+    "The community center's having an optional social event this weekend; would that be something you'd be interested in?",
+    "This weekend the community center is hosting an optional social event; do you want to attend?",
+    "There's an optional social event at the community center this weekend—want to go?",
+    "The community center will host an optional social event this weekend; are you up for attending?",
+    "There's an optional social event at the community center this weekend; would you be interested in joining?",
+    "There's an optional social event at the community center this weekend; would you like to go to it?",
+    "I wanted to mention an optional social event at the community center this weekend—are you interested in going?",
+    "The community center has an optional social event this weekend; would you be interested in going?"
+  ],
+  "usage": {
+    "input_tokens": 334,
+    "output_tokens": 1942,
+    "total_tokens": 2276
+  }
+}

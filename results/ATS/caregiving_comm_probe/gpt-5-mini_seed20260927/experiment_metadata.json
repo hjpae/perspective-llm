@@ -1,0 +1,26 @@
+{
+  "experiment": "ATS10a recipient-conditioned caregiving communication probe builder",
+  "seed": 20260927,
+  "model": "gpt-5-mini",
+  "text_encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "device": "cpu",
+  "scenario_csv": "C:\\Users\\Kardien\\Documents\\python\\perspective-llm\\data\\ATS\\ats10a_caregiving_scenarios.csv",
+  "n_scenarios": 12,
+  "generate_per_round": 24,
+  "max_generation_rounds": 2,
+  "landscape_k_target": 16,
+  "probe_k": 4,
+  "dedup_cosine": 0.985,
+  "generation_prompt_version": "ats10a_gen_v1",
+  "qc_prompt_version": "ats10a_qc_v1",
+  "strategy_labels_used_for_generation_or_training": false,
+  "qc_is_heuristic_not_target": true,
+  "selection_method": "LLM semantic/factual QC -> conservative near-duplicate removal -> cosine farthest-point coverage",
+  "generation_stop_rule": "continue generation until post-QC, post-dedup pool reaches LANDSCAPE_K or MAX_GENERATION_ROUNDS",
+  "raw_geometry_centering": "subtract each scenario candidate centroid before global PCA",
+  "api_usage": {
+    "input_tokens": 16147,
+    "output_tokens": 52451,
+    "total_tokens": 68598
+  }
+}

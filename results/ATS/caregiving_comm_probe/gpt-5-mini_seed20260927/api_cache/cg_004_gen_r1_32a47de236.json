@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_004",
+  "round": 1,
+  "candidates": [
+    "A relative would like to have a video call later this week—would you like help setting it up?",
+    "A relative would like to have a video call later this week; do you want me to help you set it up?",
+    "A relative would like to have a video call later this week—would you prefer help setting it up or would you like to do it yourself?",
+    "A relative would like to have a video call later this week; would you like some assistance getting it started?",
+    "A relative would like to have a video call later this week; want me to walk you through the setup?",
+    "A relative would like to have a video call later this week—do you need any help setting it up?",
+    "A relative would like to have a video call later this week; shall I help you set it up when you're ready?",
+    "A relative would like to have a video call later this week—would you like me to show you how to set it up?",
+    "A relative would like to have a video call later this week; would you like help configuring it?",
+    "A relative would like to have a video call later this week—do you want assistance with the video call setup?",
+    "A relative would like to have a video call later this week; would it help if I helped set it up with you?",
+    "A relative would like to have a video call later this week—would you like my help getting it set up?",
+    "A relative would like to have a video call later this week; would you like help connecting to the call?",
+    "A relative would like to have a video call later this week—do you want me to help set up the call?",
+    "A relative would like to have a video call later this week; do you want assistance preparing for that call?",
+    "A relative would like to have a video call later this week—would you like support with the setup?",
+    "A relative would like to have a video call later this week; would you like me to help you prepare the video call?",
+    "A relative would like to have a video call later this week—should I help you set it up or would you rather handle it?",
+    "A relative would like to have a video call later this week; would you like help with the technical setup?",
+    "A relative would like to have a video call later this week—do you want me to help get it ready?",
+    "A relative would like to have a video call later this week; would you like me to assist with setting it up?",
+    "A relative would like to have a video call later this week—would you prefer my help setting it up?",
+    "A relative would like to have a video call later this week; do you want help arranging the video call setup?",
+    "A relative would like to have a video call later this week—would you like help setting things up for it?"
+  ],
+  "usage": {
+    "input_tokens": 342,
+    "output_tokens": 1751,
+    "total_tokens": 2093
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_001",
+  "round": 1,
+  "candidates": [
+    "The family dinner that was planned for Saturday has been moved to Sunday because the host's schedule changed; does Sunday work for you?",
+    "Just so you know, Saturday's family dinner was rescheduled to Sunday due to the host's schedule—can you make it on Sunday?",
+    "The host had to change their schedule, so the family dinner is now on Sunday instead of Saturday; would Sunday be okay for you?",
+    "We moved the Saturday dinner to Sunday because the host's schedule changed—are you free on Sunday?",
+    "Heads up: the family dinner originally set for Saturday is now Sunday because the host's schedule changed; will Sunday work for you?",
+    "The family dinner's been pushed from Saturday to Sunday since the host's schedule changed—does Sunday suit you?",
+    "Because the host's schedule changed, the dinner is now on Sunday rather than Saturday; would that day work for you?",
+    "I wanted to tell you the family dinner was changed from Saturday to Sunday due to the host's schedule—are you good for Sunday?",
+    "The host changed their schedule, so our family dinner moved to Sunday; can you attend on Sunday?",
+    "FYI: family dinner moved from Saturday to Sunday because of the host's schedule change—is Sunday okay with you?",
+    "The family dinner that had been planned for Saturday is now Sunday because the host's schedule changed; do you want to come on Sunday?",
+    "They had to move the family dinner from Saturday to Sunday because the host's schedule changed—will Sunday work for you?",
+    "The dinner's been rescheduled from Saturday to Sunday due to the host's schedule—would Sunday fit your plans?",
+    "Just a quick update: Saturday's family dinner is now on Sunday because the host's schedule changed—can you make Sunday?",
+    "The host's schedule changed, so the family dinner's been shifted to Sunday; would you be able to come Sunday?",
+    "Family dinner isn't on Saturday anymore—it's been moved to Sunday because the host's schedule changed; does that day work for you?",
+    "The plan changed: dinner that was for Saturday is now Sunday due to the host's schedule—would Sunday be all right for you?",
+    "Wanted to let you know the family dinner was moved to Sunday from Saturday since the host's schedule changed; are you available that day?",
+    "The host changed their schedule, so the dinner's now Sunday instead of Saturday—are you okay with Sunday?",
+    "The Saturday family dinner has been moved to Sunday because the host's schedule changed; would Sunday work for you, or do you have a conflict?",
+    "Because the host's schedule changed, the family dinner originally for Saturday will be on Sunday—does Sunday work for you?",
+    "The family dinner was rescheduled to Sunday from Saturday because the host's schedule changed; can you be there on Sunday?",
+    "I just heard the host changed their schedule, so the family dinner is now Sunday instead of Saturday—would that day work for you?",
+    "The dinner we planned for Saturday has been moved to Sunday because the host's schedule changed—are you free Sunday?"
+  ],
+  "usage": {
+    "input_tokens": 333,
+    "output_tokens": 1885,
+    "total_tokens": 2218
+  }
+}

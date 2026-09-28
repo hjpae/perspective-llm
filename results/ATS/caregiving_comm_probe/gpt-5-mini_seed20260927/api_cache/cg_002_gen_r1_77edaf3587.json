@@ -1,0 +1,36 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_002",
+  "round": 1,
+  "candidates": [
+    "I wanted to let you know I'll be about an hour later than usual this afternoon because of an unavoidable delay; is arriving an hour later okay with you?",
+    "I'm running an hour late this afternoon due to an unavoidable delay—will it be all right if I come an hour later than normal?",
+    "There's an unavoidable delay, so I won't make my usual time this afternoon; I'll arrive about an hour later, does that work?",
+    "Sorry, I have an unavoidable delay and will be roughly one hour later than usual this afternoon—are you okay with that updated time?",
+    "I'm going to be about an hour later than my usual time today because of a delay; would you like me to come an hour later this afternoon?",
+    "Just a heads up: an unavoidable delay means I'll get there about an hour later than usual this afternoon—does that fit your plans?",
+    "I can't make my usual time today due to an unavoidable delay; I should be there an hour later—will that be alright?",
+    "Unavoidable delay this afternoon—I'll arrive about one hour later than usual; does arriving an hour later work for you?",
+    "I wanted to tell you I'm delayed and will be about an hour later than usual this afternoon; can we move my arrival time forward by an hour?",
+    "I'm delayed and will come roughly an hour later than normal this afternoon; please let me know if that is okay with you.",
+    "Because of an unavoidable delay, I'll be about one hour late this afternoon; is coming an hour later acceptable?",
+    "I'll be roughly an hour later than my usual time this afternoon due to a delay—would arriving an hour later be fine?",
+    "There’s an unavoidable delay, so I won't arrive at my usual time today; I expect to be there one hour later—does that work?",
+    "I need to shift my arrival this afternoon by one hour because of an unavoidable delay; is that okay with you?",
+    "I'm sorry, but an unavoidable delay means I'll be about an hour later than usual this afternoon—can we make the arrival time one hour later?",
+    "Due to an unavoidable delay, I'll arrive about an hour later than usual this afternoon—would that be okay?",
+    "I'm delayed and will be about one hour later than normal this afternoon; please tell me if arriving an hour later is a problem for you.",
+    "I'll be arriving roughly an hour later than my usual time this afternoon because of an unavoidable delay—does that updated time work?",
+    "Unavoidable delay today—I'll be about an hour later than usual this afternoon; are you okay with me coming an hour later?",
+    "I won't be able to make my usual time this afternoon because of a delay and will be about one hour later—does that suit you?",
+    "Just to let you know, I have an unavoidable delay and will come an hour later than normal this afternoon; is that acceptable?",
+    "I'm delayed and need to shift my arrival this afternoon by one hour—will arriving an hour late be alright?",
+    "Because of an unavoidable delay, I will get there about an hour later than usual this afternoon; please let me know if that timing is okay."
+  ],
+  "usage": {
+    "input_tokens": 325,
+    "output_tokens": 1391,
+    "total_tokens": 1716
+  }
+}

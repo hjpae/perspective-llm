@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_012",
+  "round": 1,
+  "candidates": [
+    "I found a simpler way to organize that recurring household task; would you like to talk about possibly changing our current arrangement?",
+    "There's a simpler way I came across to organize that task, and the way we do it now still works—do you want to consider switching to the new method?",
+    "I discovered a simpler approach for organizing the recurring task; would you be open to discussing whether you'd like to change the current setup?",
+    "I have a simpler idea for organizing that task, but the current arrangement is fine—would you like to talk about trying the new approach?",
+    "I found a simpler way to handle that routine task; would you like to discuss whether we should change how we do it now?",
+    "I came up with a simpler way to organize the recurring task; do you want to consider changing the current arrangement and talk it over?",
+    "There’s a simpler option for organizing that task; would you be interested in discussing whether to change from our current setup?",
+    "I noticed a simpler way to organize that recurring chore—would you like to chat about possibly changing how we do it?",
+    "I found a simpler method for organizing that task; the current arrangement still works, but would you like to consider a change?",
+    "I have an idea for a simpler way to organize that regular task; would you like to discuss whether it’s worth changing our current arrangement?",
+    "I found a simpler way to organize that recurring task; if you want, we can talk about whether to change the current setup. Would you like that?",
+    "I came across a simpler way to handle the recurring task, and our current system is still okay—do you want to talk about changing it?",
+    "I discovered a simpler organization for that task; would you be open to discussing whether you want to switch from the current arrangement?",
+    "I found a simpler approach to our recurring task—would you like to go over it and decide if you want to change the current arrangement?",
+    "I have a simpler idea for organizing that task; would you like to consider changing how we do it and talk it through?",
+    "I found a simpler way to organize that regular task; the present arrangement still works—would you want to discuss changing it?",
+    "I came across a simpler way to organize that household task; would you be willing to discuss whether you'd like to change our current arrangement?",
+    "I have a simpler suggestion for organizing that recurring task; would you like to discuss whether to change the way we currently do it?",
+    "I found a simpler method for that recurring task; are you interested in discussing whether we should change the current arrangement?",
+    "I discovered a simpler way to organize that task; would you like to talk about whether you'd prefer to change the current setup?",
+    "I found a simpler way to organize that routine task, though the current arrangement still works—do you want to discuss possibly switching?",
+    "I came up with a simpler organizational idea for that task; would you like to discuss if you want to change our current arrangement?",
+    "I have a simpler way to organize that recurring task; would you like to hear about it and consider changing the current setup?",
+    "I found a simpler approach to organizing that task; would you like to discuss whether you want to change how we currently do it?"
+  ],
+  "usage": {
+    "input_tokens": 336,
+    "output_tokens": 1426,
+    "total_tokens": 1762
+  }
+}

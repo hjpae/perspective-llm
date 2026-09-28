@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_009",
+  "round": 1,
+  "candidates": [
+    "There's a kitchen repair that will need access for about two hours; which of the available time slots would you prefer?",
+    "They need to come into the kitchen for roughly two hours—do any of the offered time slots work for you?",
+    "A repair visit will take about two hours in the kitchen; tell me which of the several time slots you'd like.",
+    "We need to schedule a two-hour kitchen repair—which of the available slots fits your day?",
+    "Someone needs access to the kitchen for about two hours; do you have a preferred time among the options?",
+    "The repair will require the kitchen for around two hours—what time slot would you like to pick?",
+    "There’s a repair that will take about two hours in your kitchen; which time slot from the options suits you?",
+    "I need you to choose a time for a two-hour kitchen visit; which of the several ordinary slots do you prefer?",
+    "The kitchen will be in use for approximately two hours for a repair—when among the available slots is best for you?",
+    "A two-hour repair visit is planned for the kitchen; please let me know which of the offered time slots you'd like.",
+    "They can come for a kitchen repair that lasts about two hours—are any of the available times good for you?",
+    "The repair requires about two hours in the kitchen; which of the time slots would you like us to pick?",
+    "There's a scheduled kitchen repair requiring roughly two hours—what time slot from the options works for you?",
+    "I need to coordinate a two-hour kitchen repair—which of the several ordinary time slots would you prefer?",
+    "Please choose a time slot for a kitchen repair that will take about two hours; which option suits you?",
+    "We have to fit in a two-hour kitchen repair—do any of the offered time slots work for you today?",
+    "A repair will use the kitchen for about two hours; which of the available time slots would you like to set?",
+    "They need about two hours in the kitchen for repairs—which time slot from the options do you prefer?",
+    "There's going to be a two-hour visit for kitchen repairs; tell me which of the available slots you want.",
+    "A repair visit that will take roughly two hours needs scheduling for the kitchen; which time slot would you like?",
+    "The kitchen needs to be available for about two hours for a repair—which of the several time slots should we choose?",
+    "We need to pick a time for a two-hour kitchen repair—which of the available slots do you prefer?",
+    "I'm checking in about a two-hour kitchen repair; which of the offered time slots would you like to pick?",
+    "A repair will require access to the kitchen for about two hours; which of the available time slots works best for you?"
+  ],
+  "usage": {
+    "input_tokens": 338,
+    "output_tokens": 1918,
+    "total_tokens": 2256
+  }
+}

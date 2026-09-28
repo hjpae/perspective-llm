@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_003",
+  "round": 1,
+  "candidates": [
+    "Would you like me to help carry those grocery bags inside?",
+    "Do you want a hand with those bags?",
+    "I can carry some of the groceries in for you—do you want me to?",
+    "Can I help bring those bags inside?",
+    "Want me to take a couple of those bags inside for you?",
+    "If you'd like, I can help with the grocery bags—do you want that?",
+    "Would you prefer me to carry any of those bags inside?",
+    "Do you want me to come and help with those bags?",
+    "Shall I help you bring those groceries inside?",
+    "Do you want some help carrying the bags?",
+    "I'm available to help—do you want me to carry any of those in?",
+    "Would you like a hand with those grocery bags?",
+    "Do you want me to grab a few of those bags and bring them inside?",
+    "Can I give you a hand with the bags?",
+    "Do you want help bringing the groceries inside?",
+    "Would it help if I carried some of those bags—do you want me to?",
+    "I can help carry the bags if you want—shall I?",
+    "Do you want me to help you with those grocery bags?",
+    "Would you like me to take some of those inside for you?",
+    "If you want, I can carry some of the groceries in—do you want me to do that?",
+    "Want help with the grocery bags?",
+    "Do you want me to bring those inside for you?",
+    "Would you like me to assist with carrying the bags?",
+    "I’m here if you want help with those groceries—do you want me to carry any?"
+  ],
+  "usage": {
+    "input_tokens": 333,
+    "output_tokens": 1602,
+    "total_tokens": 1935
+  }
+}

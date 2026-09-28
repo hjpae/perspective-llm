@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_010",
+  "round": 1,
+  "candidates": [
+    "They can't come this week; would you like to pick another day for their visit?",
+    "I'm letting you know they won't be visiting this week, and they'd like to set up another day—do you want to choose one?",
+    "They can't make it this week, but they'd like to arrange another day—would you like to pick a day?",
+    "They won't be here this week; do you want to pick a different day for their visit?",
+    "This week won't work for their visit; they'd like to find another day—would you like to choose when?",
+    "They can't visit this week and want to schedule another day; is there a day you'd prefer?",
+    "They can't come by this week, but they'd like to come another day—would you like to choose which day?",
+    "Just so you know, they can't visit this week; would you like to pick an alternative day?",
+    "They won't be able to come this week; would you like to decide on another day for them to visit?",
+    "They can't make it this week and are hoping to arrange a different day—do you want to choose one?",
+    "They aren't coming this week, but they'd like to reschedule—would you like to choose a new day?",
+    "They can't visit this week; do you want to choose another day for their visit instead?",
+    "They can't come this week, and they'd like to pick another day—what day would you prefer?",
+    "They're not able to visit this week; would you like to pick an alternate day for the visit?",
+    "They won't make it this week; would you like to tell them which other day works for you?",
+    "They can't come this week but want to arrange another day—do you want to select one now?",
+    "They can't come by this week; would you like to choose another day for them to come?",
+    "They won't be here this week, but they'd like to come another day—do you want to pick the day?",
+    "They can't visit this week and would like to set a different day—do you want to choose when?",
+    "They can't make it this week; would you like to pick a different day that works for you?",
+    "They won't be visiting this week; would you like to choose another day for their visit?",
+    "They can't come this week; would you like to pick a new day for them to visit?",
+    "They won't be able to visit this week, and they'd like to arrange another day—would you like to choose one?",
+    "They can't make it this week but want to arrange another day—would you like to decide on a day?"
+  ],
+  "usage": {
+    "input_tokens": 335,
+    "output_tokens": 1860,
+    "total_tokens": 2195
+  }
+}

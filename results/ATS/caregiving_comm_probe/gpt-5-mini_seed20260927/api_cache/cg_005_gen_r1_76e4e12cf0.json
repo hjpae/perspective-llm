@@ -1,0 +1,37 @@
+{
+  "prompt_version": "ats10a_gen_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_005",
+  "round": 1,
+  "candidates": [
+    "The repair person needs access to the house to inspect the heater; there are two arrival windows that day—which one do you prefer?",
+    "We need to schedule the heater inspection and the company gave two possible arrival windows on the same day; which would you like?",
+    "They need to come by to inspect the heater and they can arrive in one of two windows that day—do you have a preference?",
+    "The heater inspection requires access to your home and there are two time windows available that day; which one works better for you?",
+    "I need to set up the heater inspection; the crew offered two arrival windows that day—which would you prefer?",
+    "The repair person must inspect the heater and can come during one of two windows that day—which do you want me to choose for you?",
+    "There are two possible arrival windows on the same day for the heater inspection; which one do you prefer for access to the house?",
+    "To arrange the heater inspection they need access to your home and have two windows that day—would you rather the first or the second?",
+    "We have to pick one of two arrival windows that day for the heater inspection—do you have a preference?",
+    "The company needs to inspect the heater and gave two time windows on that day; which one do you prefer?",
+    "They need access to the house to inspect the heater and can come during either of two windows on the same day—which would you like?",
+    "I’m arranging the heater inspection and they offered two arrival windows on that day—which one should I book?",
+    "The heater inspection needs to be scheduled and the repair person can arrive in one of two windows that day—which one do you want?",
+    "They need access to inspect the heater and there are two available windows that day—do you prefer the earlier or the later one?",
+    "We need to set a time for the heater inspection; the company gave two windows that day—which do you prefer?",
+    "The repair person must inspect the heater and can come during one of two arrival windows the same day—which would you choose?",
+    "I need you to pick between two arrival windows on that day for the heater inspection—which do you prefer?",
+    "There are two slots available that day for the heater inspection and the repair person will need access to the house—which slot do you prefer?",
+    "The heater inspection has to be scheduled and they offered two arrival windows that day—do you have a preference?",
+    "They can come on that day in one of two arrival windows to inspect the heater; which one would you rather?",
+    "We’ve got two possible arrival windows that day for the heater inspection and they’ll need access to your home—do you prefer the first or second?",
+    "The repair service needs to inspect the heater and gave two windows on the same day—which window would you like me to pick?",
+    "They need access to your home to inspect the heater and can come in one of two windows that day—what’s your preference?",
+    "The heater inspector is available in two arrival windows on that day and will need access to the home—which one do you prefer?"
+  ],
+  "usage": {
+    "input_tokens": 335,
+    "output_tokens": 1103,
+    "total_tokens": 1438
+  }
+}
