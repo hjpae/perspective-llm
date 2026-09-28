@@ -1,0 +1,396 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_001",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States move to Sunday, cites host schedule, asks if Sunday works; natural and no new facts."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys reschedule to Sunday because of host, asks if Sunday is okay; no added facts."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes dinner moved to Sunday due to host, asks if they can make it; preserves intent."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces reschedule to Sunday because of host, asks if Sunday is good; natural and faithful."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Quick notice of move to Sunday citing host schedule, asks if Sunday works; no new material."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explains host changed schedule and dinner is now Sunday, asks if that works; preserves intent."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States dinner moved to Sunday due to host, asks if they can attend; no added facts."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Heads-up about reschedule to Sunday because of host, asks about availability; natural phrasing."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says dinner moved to Sunday citing host schedule, asks if Sunday would work; faithful to intent."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notifies move to Sunday because of host and asks if Sunday is okay; no new material facts."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States host schedule changed and dinner is now Sunday, asks if that day works; preserves intent."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Indicates dinner being moved to Sunday due to host change, asks if Sunday suits them; natural and accurate."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says dinner moved from Saturday to Sunday because of host and asks if they can attend; no added facts."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces Saturday dinner rescheduled to Sunday due to host, asks if Sunday works; faithful and natural."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explains move to Sunday because of host and asks if they're free that day; preserves core intent."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notifies dinner moved to Sunday due to host and asks if Sunday is alright; natural and accurate."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States host changed schedule, dinner now Sunday, asks if they can come; no new material facts."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes reschedule to Sunday due to host and asks if Sunday will be okay; preserves intent."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States dinner is now Sunday because of host, asks if that day works; natural and faithful."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Quick heads-up about move to Sunday citing host schedule, asks if they can make Sunday; no added facts."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says dinner moved to Sunday due to host and asks if Sunday works; clear and natural."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explains host had schedule change so dinner moved to Sunday, asks if that's okay; no new facts."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says family dinner pushed to Sunday due to host and asks if they can be there; preserves intent."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States Saturday dinner is now Sunday because of host change, asks if Sunday will work; natural phrasing."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Heads up that dinner is now Sunday due to host schedule, asks if that fits their plans; faithful."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explains host's schedule change moved dinner to Sunday and asks if they can attend; no added facts."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notifies move from Saturday to Sunday due to host and asks if they're okay with Sunday; preserves intent."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says host changed schedule so dinner is now Sunday, asks if Sunday would work; natural and accurate."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States reschedule to Sunday due to host and asks if that works for them; keeps core intent intact."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Informs Saturday dinner moved to Sunday because of host, asks if that's alright; natural and faithful."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says host's schedule change means dinner is on Sunday now, asks if they can make it; no new facts."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes dinner moved to Sunday due to host, asks if Sunday is convenient; preserves meaning and natural."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States dinner shifted to Sunday because of host schedule change, asks if Sunday suits them; faithful."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Quick note that dinner is now Sunday due to host, asks if they're free Sunday; natural and accurate."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explains host changed schedule so they moved dinner to Sunday, asks if that day works; preserves intent."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Refers to family get-together moved to Sunday due to host and asks if they can make Sunday; natural and faithful."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States Saturday dinner now takes place Sunday because of host, asks if that's okay; preserves core info."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes move to Sunday due to host and asks if they are able to attend; no added material facts."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says dinner moved to Sunday from Saturday because host's schedule changed, asks if Sunday works; natural."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States host had to change schedule so dinner is on Sunday now, asks if day is good for them; faithful."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Informs dinner was moved to Sunday because of host, asks if Sunday would work; natural and accurate."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says family dinner rescheduled to Sunday due to host and asks if they can join; preserves intent and facts."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explains host schedule change moved dinner to Sunday and asks if day fits their schedule; natural and faithful."
+    },
+    {
+      "candidate_id": "c043",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States move from Saturday to Sunday due to host and asks if they're alright with Sunday; preserves core intent."
+    },
+    {
+      "candidate_id": "c044",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Quick update that dinner is now Sunday because of host change, asks if they can make it; no added facts."
+    },
+    {
+      "candidate_id": "c045",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notifies move to Sunday due to host and asks if Sunday works; natural and retains intent."
+    },
+    {
+      "candidate_id": "c046",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "FYI about host schedule change moving dinner to Sunday, asks if Sunday would be okay; faithful and natural."
+    },
+    {
+      "candidate_id": "c047",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States dinner moved to Sunday from Saturday due to host and asks if they can come; preserves core intent."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1699,
+    "output_tokens": 4211,
+    "total_tokens": 5910
+  }
+}

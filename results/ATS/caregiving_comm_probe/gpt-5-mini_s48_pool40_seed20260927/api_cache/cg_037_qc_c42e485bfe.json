@@ -1,0 +1,356 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_037",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Directly offers a ride and asks if they want it; no new facts or removed intent; phrasing is natural."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Clearly offers to drive and asks for a decision; no added facts; natural wording."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want a ride to the errand—same offer/ask intent; natural."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Casual offer of a ride and request for choice; no new facts; plausible utterance."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a lift and asks preference; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicit offer to drive to the errand and asks if they want it; no new material added; natural."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they prefer being given a ride—still an offer plus request for decision; natural."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a lift to where they need to go and asks if they want it; no added facts; natural phrasing."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a ride and explicitly presents the alternative of going alone; intent preserved and natural."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States willingness to drive and asks for their opinion—same practical intent; natural."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to take them along to run the errand and asks if they want that; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to drop them off for the errand (a form of giving a ride) and asks; no new facts; natural."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional offer of a ride with an explicit question—same intent and natural phrasing."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Invites them to come in the car (offer of a ride) and asks if they want to—preserves intent; natural."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Presents choice between being driven or going alone—still offering a ride and asking preference; natural."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to come along and drive them to the errand and asks if they'd like that; intent intact and natural."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to drive or gives alternative of walking/going alone—preserves offer and ask; natural."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a lift to run the errand and asks if they want it; same intent and natural phrasing."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want to be taken out for the errand (offer of transport) and elicits a decision; natural."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to take them to where they need to go and asks if they'd like that; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Directly asks if they want a ride to that place—same offer/ask and natural."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to give a ride over there and asks if they want it; no new facts; natural."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to drive and mentions alternative ways—still the same offer and request for preference; natural."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional offer phrased politely with a question—keeps intent intact and sounds natural."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want to be brought along to run the errand—an offer of transport/companionship; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Specifically references the store/errand but still offers to drive and asks if they'd like that; no new facts and natural."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a lift for the errand and asks if they want it; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Invites them to come in the car to run the errand—an offer plus question; natural."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to take them with you to do the errand and asks if they want that; intent preserved and natural."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a drive and explicitly notes it's their choice—same practical intent and natural."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Presents choice between a ride or going by themselves—remains an offer and request for preference; natural."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to take them or lets them choose to go alone—same intent and natural phrasing."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want to be driven or prefer to go on their own—preserves the offer and is natural."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a ride from the speaker to the errand and asks if they want it; intent intact and natural."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to drop them off there for the errand (a form of providing a ride) and asks if they want that; natural."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers a lift to the errand and asks if they'd like it; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want the speaker to come and drive them—an offer and decision request; natural."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to take them to run the errand and asks if they'd like that; same intent and natural."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to take them to where they're going for the errand and asks; intent preserved and natural."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to drive them over for the errand and asks if they'd like that; no new facts and natural."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want a ride with the speaker to run the errand—offer and question preserved; natural."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to bring them along for the errand and asks if they want that; preserves intent and sounds natural."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to give a ride there and asks if they'd like it; no new facts; natural phrasing."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1159,
+    "output_tokens": 3505,
+    "total_tokens": 4664
+  }
+}

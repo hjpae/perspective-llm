@@ -1,0 +1,396 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_040",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States photos could be albumed and asks to look through together now/later; no new facts introduced; natural phrasing."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps intent but adds the fact 'I found the box' which is not in the source context."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says box is here, notes no need to do now, and asks to look through sometime; faithful and natural."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers organizing into an album and asks to start looking through together when they want; no added facts."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Directly conveys album option and invites looking through together; plain, natural wording."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States album option and that there's no need to hurry, then asks to look through together; faithful and natural."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional invitation preserving both parts of the intent; no new facts introduced."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers album option and asks about timing for looking through together; consistent with source."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says the box is available/ready and invites shared looking-through; aligns with the context."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes the box is here, says no need to act now, and asks to look at pictures together; faithful and natural."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Uses 'stack' instead of 'box' but preserves offer to album and invitation to look through together; natural."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps both elements (organize into album and ask to go through box together); natural phrasing."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers albuming and invites sitting to look through together; preserves core intent and is natural."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Casual invitation that retains both the album option and the shared looking-through ask; no added facts."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Preserves intent but introduces 'I have the box' which is a new factual claim about possession."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says box is available and asks to look through now--keeps both elements and is natural."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers albuming and invites looking through sometime; faithful to source intent and natural."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States ability to arrange photos whenever and asks to look through together; preserves intent."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps the offer but adds 'I can bring out that box' (a new offered action/promise), so a new material fact."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes the box is here and that there's no need to act now, then asks about looking through together; faithful and natural."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Simple statement that box could go into album and an invitation to go through together; clear and natural."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional offer and direct question to look through together; preserves intent without new facts."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions album option and asks about timing for looking through together; faithful and natural."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos could be albumed 'at some point' and invites looking through the box together; preserves core intent."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States album possibility and asks to spend time looking through together; aligns with source intent."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Preserves offer and invitation but adds 'I have the family photo box' which is an extra factual claim."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States availability and asks about going through them now; keeps both parts of the intent and is natural."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers sorting into an album and asks to look through it together; simple, faithful, and natural."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says they could start whenever and asks to look through together; preserves intent without new facts."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys album option and invites looking through together sometime; faithful and natural."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly links going through box with sorting into album and asks to do that together; preserves core intent."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says box is here to be sorted and asks to look through together; slightly formal phrasing but faithful."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Preserves intent but adds that the older adult 'mentioned' the box, which is a new factual claim not in source."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers albuming if they feel like it and invites looking through together; preserves core intent and is natural."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Invites sitting together to go through photos and mentions albuming possibility; faithful and natural."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional offer to organize and direct question to look through the box together; aligns with source."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps intent but introduces an offer/promise 'would you like me to bring it over', which is a new proposed action."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers albuming and asks about timing for looking through together; faithful and natural."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says sorting can wait until they're ready and asks to look through together; preserves core intent with natural wording."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes box is here and no hurry, then invites looking through together sometime; faithful and natural."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks permission-like 'if it sounds good' and invites going through together; keeps both elements."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States box could be albumed and asks to look through it together; concise and faithful."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Preserves intent but adds 'I found the box' which is an extra factual claim not in the source."
+    },
+    {
+      "candidate_id": "c043",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers sorting whenever and asks about looking through now; keeps both components and is natural."
+    },
+    {
+      "candidate_id": "c044",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos can be put into an album and asks to sit together to look through them; faithful and natural."
+    },
+    {
+      "candidate_id": "c045",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Direct restatement of album option and invitation to go through them together; aligns with source."
+    },
+    {
+      "candidate_id": "c046",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to start sorting together and asks about timing to look through; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c047",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps offer and invitation but asserts 'I have the box' which is a new factual claim beyond the source."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1791,
+    "output_tokens": 6504,
+    "total_tokens": 8295
+  }
+}

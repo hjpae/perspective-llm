@@ -1,0 +1,380 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_036",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States ingredient unavailable and asks whether to change recipe or pick another familiar option; no new facts added; natural phrasing."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Adds the fact 'I found' (speaker discovered), which is an extra factual detail beyond the source intent."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps the unavailable-ingredient message and offers tweak or alternate dish; natural and no new material facts."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys unavailability and asks whether to alter meal or use usual alternatives; faithful and natural."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Directly states unavailability and asks what to do (change recipe or switch to familiar option); no added facts."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Communicates unavailability and offers modify or different familiar meal; natural and no new material facts."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States ingredient unavailable and asks how to handle—adjust or pick another familiar option; faithful and natural."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says ingredient unavailable and offers to change recipe or serve a familiar alternative; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys unavailability and asks whether to adjust dish or use another familiar option; natural phrasing."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says 'I couldn't get the ingredient,' which adds a new factual claim about attempting to procure it."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Maintains the unavailable message and asks how to proceed (alter meal or different familiar dish); natural and no extra facts."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States unavailability and offers the two options, asking preference; faithful and natural."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Communicates the missing item and asks whether to tweak recipe or pick different familiar meal; preserves intent."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Simple, natural statement of missing ingredient and choice between changing meal or using a familiar alternative."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Accurately conveys unavailability and asks whether to adjust recipe or choose another familiar option; natural."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says ingredient unavailable and asks how they'd like to change the meal or choose a familiar alternative; preserves core intent."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States unavailability and asks whether to change the dish or pick a usual meal; natural and contains no new facts."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys ingredient unavailable and asks preference to alter meal or have a familiar substitute; faithful and natural."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Directly states unavailability and offers changing recipe or switching to a familiar dish; preserves intent."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says expected ingredient isn't available and asks whether to change meal or pick another known option; natural and unchanged in substance."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States unavailability this evening and asks to adjust meal or choose a familiar alternative; faithful and natural."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes ingredient for dinner isn't available and asks how they want to handle it; natural and preserves intent."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers omitting the ingredient and changing the dish or choosing a familiar alternative—still conveys the same decision and is natural."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says 'I couldn't find the ingredient,' which adds a procurement/discovery detail beyond the source intent."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says the ingredient 'we counted on' isn't available—still conveys unavailability and asks whether to alter recipe or use a familiar meal; no substantive new fact."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the planned item is unavailable and offers change or alternative; natural and preserves meaning."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Natural phrasing that communicates unavailability and asks whether to revise the meal or have another familiar option."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says planned ingredient isn't available and asks how to proceed—adjust or pick a familiar standby; preserves intent and natural."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys unavailability and asks whether to change the plan or select a familiar meal; faithful and natural."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States planned ingredient is unavailable and offers modifying the meal or choosing familiar alternative; natural and unchanged."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says ingredient for tonight's recipe isn't available and asks preference between changing dish or using a familiar option; preserves intent."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Uses 'We don't have' to state unavailability and asks about changing meal or picking a familiar alternative; natural and faithful."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Clear statement of unavailability and asks whether to change recipe or pick another familiar meal; natural."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says planned ingredient is unavailable for dinner and asks what they'd like—adjust or choose familiar alternative; preserves intent."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States intended ingredient isn't available and asks whether to alter meal or have a familiar substitute; faithful and natural."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys unavailability and asks whether to change recipe or pick usual options; natural and no added facts."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Redundant phrasing ('we're missing ... is unavailable') but still communicates the same choice and contains no new material facts."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States ingredient unavailable and asks preference between changing meal or choosing a familiar option; natural and faithful."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Clear, natural statement of unavailability with the offer to change meal or use a familiar choice; preserves intent."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says planned ingredient isn't available and offers tweaking or choosing a familiar alternative; natural and unchanged in substance."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Adds 'I discovered' which introduces a discovery fact about the speaker's action—an extra factual detail beyond the source intent."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks how they'd like to change the meal or prefer a familiar alternative; preserves the unavailable-ingredient message and is natural."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Direct statement of unavailability and asks whether to adjust meal or switch to a familiar dish; faithful and natural."
+    },
+    {
+      "candidate_id": "c043",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States ingredient planned for dinner is unavailable and offers changing the recipe or selecting a familiar alternative; natural and unchanged."
+    },
+    {
+      "candidate_id": "c044",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Communicates unavailability and asks whether to change what’s being cooked or opt for a familiar meal; preserves intent and is natural."
+    },
+    {
+      "candidate_id": "c045",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says ingredient planned is unavailable and asks how to proceed—alter meal or choose a familiar option; clear and natural."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1666,
+    "output_tokens": 5115,
+    "total_tokens": 6781
+  }
+}

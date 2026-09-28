@@ -1,0 +1,396 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_019",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat exists, says joining is optional, asks if they want to join or help—no new facts; natural phrasing."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the same information and offers help/options without adding facts; natural wording."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Informs about the chat, notes joining is optional, asks about joining or assistance; no added material facts."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps the announcement and both options (join or get help); phrasing is natural and adds no new facts."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, clarifies optional join, asks about joining or help—no new material content."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to add or help set up while informing about the chat; no new factual claims, retains core intent."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat and optional nature, asks about joining or help—natural and no added facts."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys same info and asks if they want to join or need help; phrasing is natural."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the group chat, notes optional joining, offers help—no new facts and natural phrasing."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps the announcement and both options (join or get help); no new material facts and natural wording."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the same intent with 'no pressure' added as softening language only; no new facts and natural."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat exists, optional to join, asks if they want to join and want help—retains intent and is natural."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces chat, notes optional joining, asks about joining and offers help—no new factual claims."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Clearly presents the chat and both choices (join or get help); natural phrasing and no added facts."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to join or 'walk you through' setup while informing about optional chat; no new material facts and natural."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps the core information and both options; phrasing is natural and doesn't add facts."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, clarifies optional joining, asks about joining or help—natural and faithful to intent."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the same announcement and offers both choices without adding material facts; natural phrasing."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat and optional nature, asks if they want to join or assistance—retains intent and is natural."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps announcement and both questions (join and help); no new factual claims and natural wording."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces optional chat, asks about interest in joining or help—faithful to source and natural."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat exists, joining optional, asks about inclusion or help—no added facts; natural."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, notes optional joining, asks about joining and help—retains core intent and natural phrasing."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the same information and offers help; no new facts and natural utterance."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States optional family chat and offers to help set up—retains intent, no new factual claims."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces chat, clarifies optional status, asks about joining or help—faithful and natural."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the announcement and both options without introducing new material facts; natural phrasing."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States chat exists and optional join, asks about joining and setup help—retains intent and is natural."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, notes optional joining, asks about interest and offers help—no added facts."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Keeps the same announcement and choices with casual phrasing—natural and no new facts."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat and optional joining, asks about joining or help with setup—faithful to source."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces optional family updates chat, offers to help set up—retains intent and natural wording."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys same information and asks about joining or help; natural and no added facts."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to add or help set up while informing about the chat; keeps core intent and no new facts."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces chat is live, optional to join, asks about joining or assistance—retains intent and natural phrasing."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the chat exists, optional join, offers help to set up with you—natural and no new factual claims."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the chat and optional joining, asks if they want help—retains core intent and is natural."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces chat, notes optional joining, offers to help—no added facts and natural phrasing."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States new family chat and optional join, asks if they want to join or help—faithful and natural."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the chat and optional nature, asks about joining or help—natural phrasing and no new facts."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks if they want to join and offers to help set up if so; retains core intent though frames help conditionally—still natural and no new facts."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, clarifies optional join, asks about joining or help—retains intent and is natural."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States optional family chat and asks if they'd like to be in it or need help getting set up—faithful and natural."
+    },
+    {
+      "candidate_id": "c043",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, notes optional joining, asks about joining or help—natural and no new facts."
+    },
+    {
+      "candidate_id": "c044",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conveys the chat and optional join, offers help to set it up—retains core intent and natural phrasing."
+    },
+    {
+      "candidate_id": "c045",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States new chat and optional join, asks about joining or help—faithful to source and natural."
+    },
+    {
+      "candidate_id": "c046",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Announces the chat, clarifies optional joining, asks about being part of it or wanting help—retains intent and is natural."
+    },
+    {
+      "candidate_id": "c047",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States new family group chat, notes optional joining, asks if they'd like to join or need help—natural and no added facts."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1970,
+    "output_tokens": 3791,
+    "total_tokens": 5761
+  }
+}

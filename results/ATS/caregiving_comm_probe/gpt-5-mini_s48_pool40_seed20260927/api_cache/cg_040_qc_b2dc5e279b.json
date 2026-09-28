@@ -1,0 +1,380 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_040",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States photos could be sorted into an album and asks if they want to look through them now or later; natural phrasing."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions organizing into an album and asks to go through them together; wording is natural."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks to look through photos together and notes timing, but does not mention organizing into an album."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly offers to sort into an album and asks to start looking through them together."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says box is available to sort into an album and asks to look through them together; natural."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers album organization, notes no rush, and asks to look through them together."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional offer to organize into an album and asks to look through the box together; preserves intent."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos could be arranged into an album and asks about looking through them now or later."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States box is ready to sort into an album and asks to look through them together."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Invites looking at pictures together and notes no rush but does not mention organizing them into an album."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers sorting into an album and asks to look through the photos together; natural phrasing."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers starting to organize into an album and asks to look through the box together."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos could be put into an album and asks to sit and look through them together."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional \"if you feel like it\" framing but includes album organization and an invitation to look through them together."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Offers to go through the box together and notes no rush but does not mention organizing into an album."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the box is available to sort into an album and asks if they want to look through them now."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers organizing into an album and asks to look through them sometime together."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos could be arranged into an album when they want and asks to look through the box together."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers to bring out the box if they want to organize into an album and asks to look through them together—keeps original intent."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Notes box is here and timing but only invites looking through photos; does not mention organizing into an album."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says the pictures could go into an album and asks to go through them together."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Conditional offer to sort into an album and asks whether they want to look through them together."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions album organization and asks about looking through them now or later."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers putting photos into an album at some point and invites looking through the box together."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Notes photos could be organized into an album and invites spending time looking through them together."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Says they have the box and there's no rush but only invites looking through them; omits album organization."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States box is available to sort into an album and asks if they want to go through them now."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers sorting into an album and asks to look through the box together; natural."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers starting to put photos into an album whenever they want and invites looking through them together."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says the box could be organized into an album and asks to look through them sometime together."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers going through the box and sorting into an album and asks if they want to do that together."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States the box is here to be sorted into an album and asks to look through them together."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Refers to the box and timing but only invites looking through them; does not mention organizing into an album."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers arranging into an album if they feel like it and invites looking through the box together."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos could be put into an album and asks to sit together and go through them."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers organizing the photos into an album and asks to look through the box together."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States photos are available to sort into an album and offers to bring the box over to look through them together."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers organizing into an album and asks whether to look through them now or later."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says photos could be sorted into an album when ready and invites looking through the box together."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Notes the box is here and no hurry but only invites looking through them; omits album organization."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers organizing into an album if agreeable and asks to go through them together."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says the box could be organized into an album and asks to look through it with the speaker."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Says they found the box and no rush but only asks to look through them sometime; does not mention organizing into an album."
+    },
+    {
+      "candidate_id": "c043",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers sorting into an album whenever they want and asks if they'd like to look through the box now."
+    },
+    {
+      "candidate_id": "c044",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Says the box can be put into an album and invites sitting together to look through the photos."
+    },
+    {
+      "candidate_id": "c045",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions the box is available to sort into an album and asks to go through the photos together."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1720,
+    "output_tokens": 5073,
+    "total_tokens": 6793
+  }
+}

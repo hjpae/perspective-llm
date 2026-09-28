@@ -1,0 +1,372 @@
+{
+  "prompt_version": "ats10a_qc_v1",
+  "model": "gpt-5-mini",
+  "scenario_id": "cg_021",
+  "checks": [
+    {
+      "candidate_id": "c000",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks preference but does not explicitly offer the possibility of neither; otherwise natural and adds no new facts."
+    },
+    {
+      "candidate_id": "c001",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States there are two times and explicitly asks earlier/later or neither; preserves intent and adds no new facts."
+    },
+    {
+      "candidate_id": "c002",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which they prefer but does not explicitly offer the option of neither."
+    },
+    {
+      "candidate_id": "c003",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions two times and explicitly allows 'if any' (neither); preserves intent and adds no facts."
+    },
+    {
+      "candidate_id": "c004",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Gives two time options and includes neither, but adds the specific labels 'morning'/'afternoon' not present in source."
+    },
+    {
+      "candidate_id": "c005",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which time they prefer but does not explicitly allow for neither."
+    },
+    {
+      "candidate_id": "c006",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Offers first or second session but does not explicitly include the option of neither."
+    },
+    {
+      "candidate_id": "c007",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States two session times and explicitly asks which works better, 'if either'—preserves intent."
+    },
+    {
+      "candidate_id": "c008",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks for a preference for one of them but does not explicitly offer neither."
+    },
+    {
+      "candidate_id": "c009",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions two scheduled times and explicitly asks 'if either'—preserves intent without adding facts."
+    },
+    {
+      "candidate_id": "c010",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Offers earlier or later but does not explicitly include the option of neither."
+    },
+    {
+      "candidate_id": "c011",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Makes clear there are two offerings and explicitly gives the option of not attending; preserves intent."
+    },
+    {
+      "candidate_id": "c012",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if either time suits better but does not explicitly present 'neither' as an option."
+    },
+    {
+      "candidate_id": "c013",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks preference between times but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c014",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "States two times and asks which they'd choose but does not explicitly allow neither."
+    },
+    {
+      "candidate_id": "c015",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Offers first/second or neither explicitly; preserves intent and adds no facts."
+    },
+    {
+      "candidate_id": "c016",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly asks earlier, later, or neither—matches source intent without adding facts."
+    },
+    {
+      "candidate_id": "c017",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which session they'd prefer but does not explicitly include the possibility of neither."
+    },
+    {
+      "candidate_id": "c018",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which they prefer but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c019",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Inquires about a preference between times but does not explicitly offer 'neither'."
+    },
+    {
+      "candidate_id": "c020",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly asks which one they'd prefer 'if any'—preserves intent and adds no facts."
+    },
+    {
+      "candidate_id": "c021",
+      "meaning_preserved": true,
+      "no_new_material_fact": false,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Gives two labeled options (morning/afternoon) and includes neither; labeling as morning/afternoon adds a material assumption."
+    },
+    {
+      "candidate_id": "c022",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if they prefer one of the times but does not explicitly allow for neither."
+    },
+    {
+      "candidate_id": "c023",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which time they'd like to attend but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c024",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Mentions two offerings and explicitly asks which they'd prefer to sign up for 'if any'—preserves intent without adding facts."
+    },
+    {
+      "candidate_id": "c025",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if they have a preference but doesn't explicitly include the possibility of neither."
+    },
+    {
+      "candidate_id": "c026",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly asks which they prefer 'if either'—matches source intent and adds no new facts."
+    },
+    {
+      "candidate_id": "c027",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Offers earlier or later but does not explicitly include neither."
+    },
+    {
+      "candidate_id": "c028",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Asks which time suits best 'if either'—explicitly preserves the option of neither and adds no facts."
+    },
+    {
+      "candidate_id": "c029",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if they prefer one of the times but does not explicitly offer neither."
+    },
+    {
+      "candidate_id": "c030",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which time they'd choose but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c031",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States two sessions and explicitly includes 'or neither'—preserves intent without adding facts."
+    },
+    {
+      "candidate_id": "c032",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if they have a preference but does not explicitly include neither."
+    },
+    {
+      "candidate_id": "c033",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which slot they'd prefer but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c034",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which time would work but does not explicitly allow for neither."
+    },
+    {
+      "candidate_id": "c035",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if they prefer one over the other but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c036",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which they'd like to attend but does not explicitly include the possibility of neither."
+    },
+    {
+      "candidate_id": "c037",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly offers earlier, later, or neither—matches source intent and adds no facts."
+    },
+    {
+      "candidate_id": "c038",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks if they have a preference between the two but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c039",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which time they'd prefer to go to but does not explicitly offer neither."
+    },
+    {
+      "candidate_id": "c040",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "States two sessions and asks which they prefer 'if any'—preserves intent and adds no new facts."
+    },
+    {
+      "candidate_id": "c041",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks earlier or later but does not explicitly include neither."
+    },
+    {
+      "candidate_id": "c042",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Gives two time options and explicitly offers the choice to not attend—matches source intent without adding facts."
+    },
+    {
+      "candidate_id": "c043",
+      "meaning_preserved": false,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": false,
+      "natural_utterance": true,
+      "short_reason": "Asks which time they'd prefer to come to but omits an explicit neither option."
+    },
+    {
+      "candidate_id": "c044",
+      "meaning_preserved": true,
+      "no_new_material_fact": true,
+      "no_core_intent_removed": true,
+      "natural_utterance": true,
+      "short_reason": "Explicitly asks which time they'd prefer 'if either'—preserves the original intent and adds no facts."
+    }
+  ],
+  "usage": {
+    "input_tokens": 1511,
+    "output_tokens": 5257,
+    "total_tokens": 6768
+  }
+}
